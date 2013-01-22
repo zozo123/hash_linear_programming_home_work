@@ -112,7 +112,7 @@ used_coco_mix_a_cook_q_3 : u4abcfd2
 used_coco_mix_a_cook_q_4 : u0e7d2ad
 stored_coco_mix_b_q_1 : sc5e72df
 stored_coco_mix_b_q_2 : s008a45c
-stored_coco_mix_b_q_3 : s740efb7
+stored_coco_mix_b_q_3 : stored_coco_mix_b_q_3
 stored_coco_mix_b_q_4 : sef28ae4
 stored_sugar_mix_b_q_1 : sf02005d
 stored_sugar_mix_b_q_2 : sa8bfb50

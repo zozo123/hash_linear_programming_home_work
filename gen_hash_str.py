@@ -1,4 +1,4 @@
-import hashlib
+import hashlib,os
 
 f_in = open('./inputfile.txt', 'r')
 f_out = open('./outputfile.txt', 'r+')
@@ -13,18 +13,20 @@ for line in lines:
         print "error " + string.split(':')[-1].strip() + " already exists"
     dic[str(line).strip()] = str(line[0].strip()) + \
     str(hashlib.md5(str(line.strip())).hexdigest()[0:7])
-    f_out.write(string)
+    f_out.write(string + '\n')
     
 
 f_in.close()
 f_out.close()
 
 for key in dic.keys():
-    print key
+    #print key , dic[key]
     with open("out.txt", "wt") as out:
-    for line in open("outputfile.txt"):
-        out.write(line.replace('A', 'Orange'))
-
+        for line in open("./outputfile.txt"):
+            print line
+            out.write(line.replace(dic[key] , key))
+            line1 =line.replace(str(dic[key]).strip() , key.strip())
+            print str(dic[key]).strip() , key.strip()
     
 
 # replace the file
