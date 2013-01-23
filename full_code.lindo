@@ -1,0 +1,209 @@
+se costs constant--
+-826600.0 -702600.0 -567700.0 -621200.0 = -2718100 
+
+--machines fixed cost--
+25200bin_grind_a_q1 + 36750bin_grind_b_q1 + 63000bin_clean_q1 +
+46200bin_mix_a_q1 + 52500bin_mix_b_q1 + 105000bin_cook_q1 +
+73500bin_pack_super_q1 + 94500bin_pack_store_q1 +
+25200bin_grind_a_q2 + 36750bin_grind_b_q2 + 63000bin_clean_q2 +
+46200bin_mix_a_q2 + 52500bin_mix_b_q2 + 105000bin_cook_q2 +
+73500bin_pack_super_q2 + 94500bin_pack_store_q2 +
+25200bin_grind_a_q3 + 36750bin_grind_b_q3 + 63000bin_clean_q3 +
+46200bin_mix_a_q3 + 52500bin_mix_b_q3 + 105000bin_cook_q3 +
+73500bin_pack_super_q3 + 94500bin_pack_store_q3 +
+25200bin_grind_a_q4 + 36750bin_grind_b_q4 + 63000bin_clean_q4 +
+46200bin_mix_a_q4 + 52500bin_mix_b_q4 + 105000bin_cook_q4 +
+73500bin_pack_super_q4 + 94500bin_pack_store_q4
+
+--machines variable costs--
+2.4(used_sugar_raw_grind_a_q_i + used_coco_raw_grind_a_q_i) +
+2.9(used_coco_raw_grind_b_q_i) +
+1.6(used_coco_grind_a_clean_q_i + used_sugar_grind_a_clean_q_i + used_coco_grind_b_clean_q_i) +
+1.4(used_sugar_clean_mix_a_q_i + used_coco_clean_mix_a_q_i) +
+1.4(used_sugar_clean_mix_b_q_i + used_coco_clean_mix_b_q_i) +
+2.6(used_coco_clean_cook_q_i + used_coco_mix_a_cook_q_i) +
+1.8(used_sugar_mix_a_pack_super_q_i + used_coco_mix_a_pack_super_q_i +
+used_sugar_mix_b_pack_super_q_i + used_coco_mix_b_pack_super_q_i+
+used_coco_cook_pack_super_q_i) +
+1.6(used_sugar_mix_a_pack_store_q_i + used_coco_mix_a_pack_store_q_i +
+used_sugar_mix_b_pack_store_q_i + used_coco_mix_b_pack_store_q_i +
+used_coco_cook_pack_store_q_i)
+
+**
+max { 84chook + 60chim + 72afia -2718100 - (machines fixed cost) - (machines variable cost) + 20sold_coco_mix_a_q_i - 27bought_sugar_mix_b_q_i }
+**
+
+**
+constraints
+
+--demand--
+final_chook_q_1 <= 9000
+final_chim_q_1 <= 8000
+final_afia_q_1 <= 5000
+final_chook_q_2 <= 9000
+final_chim_q_2 <= 8000
+final_afia_q_2 <= 6000
+final_chook_q_3 <= 8000
+final_chim_q_3 <= 8000
+final_afia_q_3 <= 5000
+final_chook_q_4 <= 7500
+final_chim_q_4 <= 6000
+final_afia_q_4 <= 7000
+
+--possible purchase of processed sugar--
+bought_sugar_mix_b_q_1 + bought_sugar_mix_b_q_2 + bought_sugar_mix_b_q_3 + bought_sugar_mix_b_q_4 <= 2000
+
+--capacity--
+used_sugar_raw_grind_a_q_1 + used_coco_raw_grind_a_q_1 <= 15000bin_grind_a_q1
+used_sugar_raw_grind_a_q_2 + used_coco_raw_grind_a_q_2 <= 15000bin_grind_a_q2
+used_sugar_raw_grind_a_q_3 + used_coco_raw_grind_a_q_3 <= 15000bin_grind_a_q3
+used_sugar_raw_grind_a_q_4 + used_coco_raw_grind_a_q_4 <= 15000bin_grind_a_q4
+
+used_coco_raw_grind_b_q_1 <= 20000bin_grind_b_q1
+used_coco_raw_grind_b_q_2 <= 20000bin_grind_b_q2
+used_coco_raw_grind_b_q_3 <= 20000bin_grind_b_q3
+used_coco_raw_grind_b_q_4 <= 20000bin_grind_b_q4
+
+used_coco_grind_b_clean_q_1 <= 1000000000bin_clean_q1
+
+used_coco_grind_a_clean_q_1 + used_sugar_grind_a_clean_q_1 <= 40000bin_clean_q1
+used_coco_grind_a_clean_q_2 + used_sugar_grind_a_clean_q_2 <= 40000bin_clean_q2
+used_coco_grind_a_clean_q_3 + used_sugar_grind_a_clean_q_3 <= 40000bin_clean_q3
+used_coco_grind_a_clean_q_4 + used_sugar_grind_a_clean_q_4 <= 40000bin_clean_q4
+
+used_sugar_clean_mix_a_q_1 + used_coco_clean_mix_a_q_1 <= 15000bin_mix_a_q1
+used_sugar_clean_mix_a_q_2 + used_coco_clean_mix_a_q_2 <= 15000bin_mix_a_q2
+used_sugar_clean_mix_a_q_3 + used_coco_clean_mix_a_q_3 <= 15000bin_mix_a_q3
+used_sugar_clean_mix_a_q_4 + used_coco_clean_mix_a_q_4 <= 15000bin_mix_a_q4
+
+used_sugar_clean_mix_b_q_1 + used_coco_clean_mix_b_q_1 <= 14000bin_mix_b_q1
+used_sugar_clean_mix_b_q_2 + used_coco_clean_mix_b_q_2 <= 14000bin_mix_b_q2
+used_sugar_clean_mix_b_q_3 + used_coco_clean_mix_b_q_3 <= 14000bin_mix_b_q3
+used_sugar_clean_mix_b_q_4 + used_coco_clean_mix_b_q_4 <= 14000bin_mix_b_q4
+
+used_coco_clean_cook_q_1 + used_coco_mix_a_cook_q_1 <= 3000bin_cook_q1
+used_coco_clean_cook_q_2 + used_coco_mix_a_cook_q_2 <= 3000bin_cook_q2
+used_coco_clean_cook_q_3 + used_coco_mix_a_cook_q_3 <= 3000bin_cook_q3
+used_coco_clean_cook_q_4 + used_coco_mix_a_cook_q_4 <= 3000bin_cook_q4
+
+used_sugar_mix_a_pack_super_q_1 + used_coco_mix_a_pack_super_q_1 + 
+used_sugar_mix_b_pack_super_q_1 + used_coco_mix_b_pack_super_q_1 + 
+used_coco_cook_pack_super_q_1 <= 13000bin_pack_super_q1
+used_sugar_mix_a_pack_super_q_2 + used_coco_mix_a_pack_super_q_2 + 
+used_sugar_mix_b_pack_super_q_2 + used_coco_mix_b_pack_super_q_2 + 
+used_coco_cook_pack_super_q_2 <= 13000bin_pack_super_q2
+used_sugar_mix_a_pack_super_q_3 + used_coco_mix_a_pack_super_q_3 + 
+used_sugar_mix_b_pack_super_q_3 + used_coco_mix_b_pack_super_q_3 + 
+used_coco_cook_pack_super_q_3 <= 13000bin_pack_super_q3
+used_sugar_mix_a_pack_super_q_4 + used_coco_mix_a_pack_super_q_4 + 
+used_sugar_mix_b_pack_super_q_4 + used_coco_mix_b_pack_super_q_4 + 
+used_coco_cook_pack_super_q_4 <= 13000bin_pack_super_q4
+
+used_sugar_mix_a_pack_store_q_1 + used_coco_mix_a_pack_store_q_1 + 
+used_sugar_mix_b_pack_store_q_1 + used_coco_mix_b_pack_store_q_1 + 
+used_coco_cook_pack_store_q_1 <= 15000bin_pack_store_q1
+used_sugar_mix_a_pack_store_q_2 + used_coco_mix_a_pack_store_q_2 + 
+used_sugar_mix_b_pack_store_q_2 + used_coco_mix_b_pack_store_q_2 + 
+used_coco_cook_pack_store_q_2 <= 15000bin_pack_store_q2
+used_sugar_mix_a_pack_store_q_3 + used_coco_mix_a_pack_store_q_3 + 
+used_sugar_mix_b_pack_store_q_3 + used_coco_mix_b_pack_store_q_3 + 
+used_coco_cook_pack_store_q_3 <= 15000bin_pack_store_q3
+used_sugar_mix_a_pack_store_q_4 + used_coco_mix_a_pack_store_q_4 + 
+used_sugar_mix_b_pack_store_q_4 + used_coco_mix_b_pack_store_q_4 + 
+used_coco_cook_pack_store_q_4 <= 15000bin_pack_store_q4
+
+--final products ingredients--
+0.3final_chook_q_1 <= 
+used_sugar_mix_a_pack_store_q_1 + used_coco_mix_a_pack_store_q_1 + used_sugar_mix_a_pack_super_q_1 + used_coco_mix_a_pack_super_q_1
+0.3final_chook_q_2 <= 
+used_sugar_mix_a_pack_store_q_2 + used_coco_mix_a_pack_store_q_2 + used_sugar_mix_a_pack_super_q_2 + used_coco_mix_a_pack_super_q_2
+0.3final_chook_q_3 <= 
+used_sugar_mix_a_pack_store_q_3 + used_coco_mix_a_pack_store_q_3+ used_sugar_mix_a_pack_super_q_3 + used_coco_mix_a_pack_super_q_3
+0.3final_chook_q_4 <= 
+used_sugar_mix_a_pack_store_q_4 + used_coco_mix_a_pack_store_q_4 + used_sugar_mix_a_pack_super_q_4+ used_coco_mix_a_pack_super_q_4
+
+0.1final_chim_q_1 <= 
+used_sugar_mix_a_pack_store_q_1 + used_coco_mix_a_pack_store_q_1 + used_sugar_mix_a_pack_super_q_1 + used_coco_mix_a_pack_super_q_1
+0.1final_chim_q_2 <= 
+used_sugar_mix_a_pack_store_q_2 + used_coco_mix_a_pack_store_q_2 + used_sugar_mix_a_pack_super_q_2 + used_coco_mix_a_pack_super_q_2
+0.1final_chim_q_3 <= 
+used_sugar_mix_a_pack_store_q_3 + used_coco_mix_a_pack_store_q_3+ used_sugar_mix_a_pack_super_q_3 + used_coco_mix_a_pack_super_q_3
+0.1final_chim_q_4 <= 
+used_sugar_mix_a_pack_store_q_4 + used_coco_mix_a_pack_store_q_4 + used_sugar_mix_a_pack_super_q_4+ used_coco_mix_a_pack_super_q_4
+
+0.15final_afia_q_1 <= 
+used_sugar_mix_a_pack_store_q_1 + used_coco_mix_a_pack_store_q_1 + used_sugar_mix_a_pack_super_q_1 + used_coco_mix_a_pack_super_q_1
+0.15final_afia_q_2 <= 
+used_sugar_mix_a_pack_store_q_2 + used_coco_mix_a_pack_store_q_2 + used_sugar_mix_a_pack_super_q_2 + used_coco_mix_a_pack_super_q_2
+0.15final_afia_q_3 <= 
+used_sugar_mix_a_pack_store_q_3 + used_coco_mix_a_pack_store_q_3+ used_sugar_mix_a_pack_super_q_3 + used_coco_mix_a_pack_super_q_3
+0.15final_afia_q_4 <= 
+used_sugar_mix_a_pack_store_q_4 + used_coco_mix_a_pack_store_q_4 + used_sugar_mix_a_pack_super_q_4+ used_coco_mix_a_pack_super_q_4
+
+0.2final_chook_q_1 <= 
+used_coco_cook_pack_store_q_1 + used_coco_cook_pack_super_q_1
+0.2final_chook_q_2 <= 
+used_coco_cook_pack_store_q_2 + used_coco_cook_pack_super_q_2
+0.2final_chook_q_3 <= 
+used_coco_cook_pack_store_q_3 + used_coco_cook_pack_super_q_3
+0.2final_chook_q_4 <= 
+used_coco_cook_pack_store_q_4 + used_coco_cook_pack_super_q_4
+
+0.08final_chim_q_1<= 
+used_coco_cook_pack_store_q_1 + used_coco_cook_pack_super_q_1
+0.08final_chim_q_2 <= 
+used_coco_cook_pack_store_q_2 + used_coco_cook_pack_super_q_2
+0.08final_chim_q_3 <= 
+used_coco_cook_pack_store_q_3 + used_coco_cook_pack_super_q_3
+0.08final_chim_q_4 <= 
+used_coco_cook_pack_store_q_4 + used_coco_cook_pack_super_q_4
+
+0.12final_afia_q_1 <= 
+used_coco_cook_pack_store_q_1 + used_coco_cook_pack_super_q_1
+0.12final_afia_q_2 <= 
+used_coco_cook_pack_store_q_2 + used_coco_cook_pack_super_q_2
+0.12final_afia_q_3 <= 
+used_coco_cook_pack_store_q_3 + used_coco_cook_pack_super_q_3
+0.12final_afia_q_4 <= 
+used_coco_cook_pack_store_q_4 + used_coco_cook_pack_super_q_4
+
+(1-0.6)final_chook_q_1 + (1-0.24)final_chim_q_1 + (1-0.36)final_afia_q_1 <=
+(used_sugar_mix_b_pack_store_q_1 + used_coco_mix_b_pack_store_q_1 + used_sugar_mix_b_pack_super_q_1 + used_coco_mix_b_pack_super_q_1) +
+(1-(0.3+0.1+0.15))(used_sugar_mix_a_pack_store_q_1 + used_coco_mix_a_pack_store_q_1 + used_sugar_mix_a_pack_super_q_1 + used_coco_mix_a_pack_super_q_1) +
+(1-(0.2+0.08+0.12)(used_coco_cook_pack_store_q_1 + used_coco_cook_pack_super_q_1)
+(1-0.6)final_chook_q_2 + (1-0.24)final_chim_q_2 + (1-0.36)final_afia_q_2 <=
+(used_sugar_mix_b_pack_store_q_2 + used_coco_mix_b_pack_store_q_2 + used_sugar_mix_b_pack_super_q_2 + used_coco_mix_b_pack_super_q_2) +
+(1-(0.3+0.1+0.15))(used_sugar_mix_a_pack_store_q_2 + used_coco_mix_a_pack_store_q_2 + used_sugar_mix_a_pack_super_q_2 + used_coco_mix_a_pack_super_q_2) +
+(1-(0.2+0.08+0.12)(used_coco_cook_pack_store_q_2 + used_coco_cook_pack_super_q_2)
+(1-0.6)final_chook_q_3 + (1-0.24)final_chim_q_3 + (1-0.36)final_afia_q_3 <=
+(used_sugar_mix_b_pack_store_q_3 + used_coco_mix_b_pack_store_q_3 + used_sugar_mix_b_pack_super_q_3 + used_coco_mix_b_pack_super_q_3) +
+(1-(0.3+0.1+0.15))(used_sugar_mix_a_pack_store_q_3 + used_coco_mix_a_pack_store_q_3 + used_sugar_mix_a_pack_super_q_3 + used_coco_mix_a_pack_super_q_3) +
+(1-(0.2+0.08+0.12)(used_coco_cook_pack_store_q_3 + used_coco_cook_pack_super_q_3)
+(1-0.6)final_chook_q_4+ (1-0.24)final_chim_q_4 + (1-0.36)final_afia_q_4 <=
+(used_sugar_mix_b_pack_store_q_4 + used_coco_mix_b_pack_store_q_4 + used_sugar_mix_b_pack_super_q_4 + used_coco_mix_b_pack_super_q_4) +
+(1-(0.3+0.1+0.15))(used_sugar_mix_a_pack_store_q_4 + used_coco_mix_a_pack_store_q_4 + used_sugar_mix_a_pack_super_q_4 + used_coco_mix_a_pack_super_q_4) +
+(1-(0.2+0.08+0.12)(used_coco_cook_pack_store_q_4 + used_coco_cook_pack_super_q_4)
+
+--input to output--
+stored_coco_raw_q_1 = 25000 - (used_coco_raw_grind_a_q_1 + used_coco_raw_grind_b_q_1)
+stored_sugar_raw_q_1 = 40000 - used_sugar_raw_grind_a_q_1
+
+0.91used_coco_raw_grind_a_q_1 + 0.95used_coco_raw_grind_b_q_1 = used_coco_grind_a_clean_q_1 + used_coco_grind_b_clean_q_1 + stored_coco_grind_a_q_1
+0.95used_sugar_raw_grind_a_q_1 = used_sugar_grind_a_clean_q_1 + stored_sugar_grind_a_q_1
+
+0.895used_coco_grind_a_clean_q_1 + 0.925used_coco_grind_b_clean_q_1 = 
+used_coco_clean_mix_a_q_1 + used_coco_clean_mix_b_q_1 + used_coco_clean_cook_q_1 + stored_coco_clean_q_1
+0.75used_sugar_grind_a_clean_q_1 = used_sugar_clean_mix_a_q_1 + used_sugar_clean_mix_b_q_1 + stored_sugar_clean_q_1
+
+0.925used_coco_clean_mix_a_q_1 = used_coco_mix_a_pack_store_q_1 + used_coco_mix_a_pack_super_q_1 + used_coco_mix_a_cook_q_1 +
+stored_coco_mix_a_q_1
+0.925used_sugar_clean_mix_a_q_1 = used_sugar_mix_a_pack_store_q_1 + used_sugar_mix_a_pack_super_q_1 + stored_sugar_mix_a_q_1
+
+0.941used_coco_clean_mix_b_q_1 = used_coco_mix_b_pack_store_q_1 + used_coco_mix_b_pack_super_q_1 + stored_coco_mix_b_q_1
+0.941used_sugar_clean_mix_b_q_1 = used_sugar_mix_b_pack_store_q_1 + used_sugar_mix_b_pack_super_q_1 + stored_sugar_mix_b_q_1
+
+0.8(used_coco_clean_cook_q_1 + used_coco_mix_a_cook_q_1) = used_coco_cook_pack_store_q_1 + used_coco_cook_pack_super_q_1 + stored_coco_cook_q_1
+
+
+
+
