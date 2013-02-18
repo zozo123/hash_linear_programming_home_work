@@ -40,7 +40,7 @@ with open("./solve.txt","w+") as out:
 with open("./sense.txt","w+") as out:
     for line in open("./Solve_Lindo_Sense.txt","r"):
         for key in dic.keys():
-            line = line.replace(dic[key].upper(),':<40'.format(key))
+            line = line.replace(dic[key].upper(),'{:<40}'.format(key))
         print line,
         out.write(line)
 
