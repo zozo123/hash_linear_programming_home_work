@@ -1,0 +1,2231 @@
+
+ LP OPTIMUM FOUND AT STEP    262
+ OBJECTIVE VALUE =  -742045.562
+
+ FIX ALL VARS.(    3)  WITH RC >   41757.6
+ SET bin_clean_q3                             TO <=     0 AT    1, BND= -0.8451E+06 TWIN=-0.7823E+06    567
+ DELETE bin_clean_q4                             AT LEVEL     2
+ FLIP bin_clean_q3                             TO >=         1 AT    1 WITH BND=   -782349.38
+ DELETE bin_clean_q4                             AT LEVEL     2
+ DELETE bin_clean_q3                             AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ DELETE bin_clean_q2                             AT LEVEL     1
+ ENUMERATION COMPLETE. BRANCHES=     4 PIVOTS=     691
+
+ LP OPTIMUM FOUND AT STEP    808
+ OBJECTIVE VALUE =  -742045.562
+
+ FIX ALL VARS.(    3)  WITH RC >   41757.6
+ SET bin_clean_q3                             TO <=     0 AT    1, BND= -0.8451E+06 TWIN=-0.7823E+06    915
+ DELETE bin_clean_q4                             AT LEVEL     2
+ FLIP bin_clean_q3                             TO >=         1 AT    1 WITH BND=   -782349.38
+ DELETE bin_clean_q4                             AT LEVEL     2
+ DELETE bin_clean_q3                             AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ DELETE bin_clean_q4                             AT LEVEL     1
+ ENUMERATION COMPLETE. BRANCHES=     8 PIVOTS=    1016
+
+ LP OPTIMUM FOUND AT STEP   1064
+ OBJECTIVE VALUE =  -742045.562
+
+ FIX ALL VARS.(    3)  WITH RC >   41757.6
+ SET bin_clean_q3                             TO <=     0 AT    1, BND= -0.8451E+06 TWIN=-0.7823E+06   1356
+ DELETE bin_clean_q4                             AT LEVEL     2
+ FLIP bin_clean_q3                             TO >=         1 AT    1 WITH BND=   -782349.38
+ DELETE bin_clean_q4                             AT LEVEL     2
+ DELETE bin_clean_q3                             AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ SET bin_clean_q4                             TO <=     0 AT    1, BND= -0.8724E+06 TWIN=-0.8485E+06   1470
+ DELETE bin_clean_q3                             AT LEVEL     2
+ FLIP bin_clean_q4                             TO >=         1 AT    1 WITH BND=   -848460.81
+ DELETE bin_clean_q2                             AT LEVEL     2
+ DELETE bin_clean_q4                             AT LEVEL     1
+ ENUMERATION COMPLETE. BRANCHES=    14 PIVOTS=    1578
+
+ LP OPTIMUM FOUND AT STEP    281
+ OBJECTIVE VALUE =   753024.000
+
+ SET bin_clean_q3                             TO <=     0 AT    1, BND=  0.6392E+06 TWIN= 0.6969E+06    759
+ DELETE bin_clean_q4                             AT LEVEL     2
+ FLIP bin_clean_q3                             TO >=         1 AT    1 WITH BND=    696896.81
+ SET bin_clean_q4                             TO <=     0 AT    2, BND=  0.5868E+06 TWIN= 0.6563E+06    832
+ SET bin_clean_q2                             TO >=     1 AT    3, BND=  0.5362E+06 TWIN= 0.4546E+06    877
+ SET bin_mix_a_q2                             TO >=     1 AT    4, BND=  0.5362E+06 TWIN= 0.5322E+06    931
+ SET bin_mix_a_q1                             TO <=     0 AT    5, BND= -0.1720E+06 TWIN= 0.5055E+06    971
+ SET bin_pack_store_q2                        TO <=     0 AT    6, BND= -0.2739E+06 TWIN=-0.1774E+06    986
+ SET bin_grind_b_q1                           TO >=     1 AT    7, BND= -0.2739E+06 TWIN=-0.3422E+06   1057
+ SET bin_grind_b_q2                           TO >=     1 AT    8, BND= -0.2739E+06 TWIN=-0.3422E+06   1082
+ SET bin_grind_b_q3                           TO >=     1 AT    9, BND= -0.2755E+06 TWIN=-0.3422E+06   1112
+ SET bin_grind_a_q1                           TO >=     1 AT   10, BND= -0.2755E+06 TWIN=-0.3243E+06   1128
+ SET bin_grind_a_q2                           TO >=     1 AT   11, BND= -0.2755E+06 TWIN=-0.3243E+06   1136
+ SET bin_grind_a_q3                           TO >=     1 AT   12, BND= -0.2807E+06 TWIN=-0.3243E+06   1144
+ SET bin_pack_store_q3                        TO >=     1 AT   13, BND= -0.2900E+06 TWIN=-0.3387E+06   1155
+ SET bin_pack_store_q4                        TO >=     1 AT   14, BND= -0.3029E+06 TWIN=-0.3254E+06   1167
+ SET bin_mix_b_q4                             TO <=     0 AT   15, BND= -0.3029E+06 TWIN=-0.3151E+06   1190
+ DELETE bin_clean_q1                             AT LEVEL    16
+ FLIP bin_mix_b_q4                             TO >=         1 AT   15 WITH BND=   -315055.38
+ SET bin_mix_b_q2                             TO >=     1 AT   16, BND= -0.3151E+06 TWIN=-0.3151E+06   1209
+ SET bin_mix_b_q3                             TO >=     1 AT   17, BND= -0.3446E+06 TWIN=-0.3151E+06   1226
+ SET bin_cook_q4                              TO <=     0 AT   18, BND= -0.3446E+06 TWIN=-0.3840E+06   1236
+ SET bin_cook_q1                              TO <=     0 AT   19, BND= -0.3507E+06 TWIN=-0.3446E+06   1243
+
+ NEW INTEGER SOLUTION OF   -350660.719     AT BRANCH     21 PIVOT    1243
+ BOUND ON OPTIMUM:  656340.6
+ FLIP bin_cook_q1                              TO >=         1 AT   19 WITH BND=   -344579.19
+ SET bin_mix_a_q3                             TO >=     1 AT   20, BND= -0.3446E+06 TWIN=-0.1000E+31   1243
+ SET bin_mix_a_q4                             TO >=     1 AT   21, BND= -0.3446E+06 TWIN=-0.1000E+31   1243
+ SET bin_pack_super_q2                        TO >=     1 AT   22, BND= -0.3446E+06 TWIN=-0.1000E+31   1243
+ DELETE bin_clean_q1                             AT LEVEL    23
+ DELETE bin_pack_super_q2                        AT LEVEL    22
+ DELETE bin_mix_a_q4                             AT LEVEL    21
+ DELETE bin_mix_a_q3                             AT LEVEL    20
+ DELETE bin_cook_q1                              AT LEVEL    19
+ DELETE bin_cook_q4                              AT LEVEL    18
+ FLIP bin_mix_b_q3                             TO <=         0 AT   17 WITH BND=   -315059.53
+ SET bin_mix_a_q3                             TO >=     1 AT   18, BND= -0.3151E+06 TWIN=-0.1000E+31   1293
+ SET bin_mix_a_q4                             TO >=     1 AT   19, BND= -0.3151E+06 TWIN=-0.1000E+31   1293
+ SET bin_pack_super_q2                        TO >=     1 AT   20, BND= -0.3151E+06 TWIN=-0.1000E+31   1293
+ DELETE bin_clean_q1                             AT LEVEL    21
+ DELETE bin_pack_super_q2                        AT LEVEL    20
+ DELETE bin_mix_a_q4                             AT LEVEL    19
+ DELETE bin_mix_a_q3                             AT LEVEL    18
+ DELETE bin_mix_b_q3                             AT LEVEL    17
+ FLIP bin_mix_b_q2                             TO <=         0 AT   16 WITH BND=   -315061.53
+ SET bin_mix_a_q3                             TO >=     1 AT   17, BND= -0.3151E+06 TWIN=-0.1000E+31   1335
+ SET bin_mix_a_q4                             TO >=     1 AT   18, BND= -0.3151E+06 TWIN=-0.1000E+31   1335
+ SET bin_pack_super_q2                        TO >=     1 AT   19, BND= -0.3151E+06 TWIN=-0.1000E+31   1335
+ DELETE bin_clean_q1                             AT LEVEL    20
+ DELETE bin_pack_super_q2                        AT LEVEL    19
+ DELETE bin_mix_a_q4                             AT LEVEL    18
+ DELETE bin_mix_a_q3                             AT LEVEL    17
+ DELETE bin_mix_b_q2                             AT LEVEL    16
+ DELETE bin_mix_b_q4                             AT LEVEL    15
+ FLIP bin_pack_store_q4                        TO <=         0 AT   14 WITH BND=   -325379.28
+ SET bin_mix_a_q3                             TO >=     1 AT   15, BND= -0.3254E+06 TWIN=-0.1000E+31   1349
+ SET bin_mix_a_q4                             TO >=     1 AT   16, BND= -0.3254E+06 TWIN=-0.1000E+31   1349
+ SET bin_pack_super_q2                        TO >=     1 AT   17, BND= -0.3254E+06 TWIN=-0.1000E+31   1349
+ SET bin_pack_super_q4                        TO >=     1 AT   18, BND= -0.3254E+06 TWIN=-0.1000E+31   1349
+ SET bin_mix_b_q2                             TO >=     1 AT   19, BND= -0.3254E+06 TWIN=-0.3254E+06   1362
+ SET bin_mix_b_q3                             TO >=     1 AT   20, BND= -0.3254E+06 TWIN=-0.3254E+06   1371
+ SET bin_mix_b_q4                             TO <=     0 AT   21, BND= -0.3254E+06 TWIN=-0.3705E+06   1391
+ DELETE bin_clean_q1                             AT LEVEL    22
+ DELETE bin_mix_b_q4                             AT LEVEL    21
+ FLIP bin_mix_b_q3                             TO <=         0 AT   20 WITH BND=   -325383.47
+ DELETE bin_clean_q1                             AT LEVEL    21
+ DELETE bin_mix_b_q3                             AT LEVEL    20
+ FLIP bin_mix_b_q2                             TO <=         0 AT   19 WITH BND=   -325385.44
+ DELETE bin_clean_q1                             AT LEVEL    20
+ DELETE bin_mix_b_q2                             AT LEVEL    19
+ DELETE bin_pack_super_q4                        AT LEVEL    18
+ DELETE bin_pack_super_q2                        AT LEVEL    17
+ DELETE bin_mix_a_q4                             AT LEVEL    16
+ DELETE bin_mix_a_q3                             AT LEVEL    15
+ DELETE bin_pack_store_q4                        AT LEVEL    14
+ FLIP bin_pack_store_q3                        TO <=         0 AT   13 WITH BND=   -338702.78
+ SET bin_mix_a_q3                             TO >=     1 AT   14, BND= -0.3387E+06 TWIN=-0.1000E+31   1490
+ SET bin_mix_a_q4                             TO >=     1 AT   15, BND= -0.3387E+06 TWIN=-0.1000E+31   1490
+ SET bin_pack_super_q2                        TO >=     1 AT   16, BND= -0.3387E+06 TWIN=-0.1000E+31   1490
+ SET bin_pack_super_q3                        TO >=     1 AT   17, BND= -0.3387E+06 TWIN=-0.1000E+31   1490
+ SET bin_pack_store_q4                        TO <=     0 AT   18, BND= -0.3740E+06 TWIN=-0.3516E+06   1502
+ DELETE bin_pack_store_q4                        AT LEVEL    18
+ DELETE bin_pack_super_q3                        AT LEVEL    17
+ DELETE bin_pack_super_q2                        AT LEVEL    16
+ DELETE bin_mix_a_q4                             AT LEVEL    15
+ DELETE bin_mix_a_q3                             AT LEVEL    14
+ DELETE bin_pack_store_q3                        AT LEVEL    13
+ FLIP bin_grind_a_q3                           TO <=         0 AT   12 WITH BND=   -324270.25
+ SET bin_pack_super_q2                        TO >=     1 AT   13, BND= -0.3243E+06 TWIN=-0.1000E+31   1554
+ SET bin_mix_a_q4                             TO >=     1 AT   14, BND= -0.3243E+06 TWIN=-0.3812E+06   1566
+ SET bin_mix_a_q3                             TO >=     1 AT   15, BND= -0.3486E+06 TWIN=-0.3812E+06   1572
+ SET bin_pack_super_q3                        TO >=     1 AT   16, BND= -0.3486E+06 TWIN=-0.1000E+31   1572
+ SET bin_pack_super_q4                        TO >=     1 AT   17, BND= -0.3486E+06 TWIN=-0.1000E+31   1572
+ SET bin_pack_store_q3                        TO <=     0 AT   18, BND= -0.3896E+06 TWIN=-0.4315E+06   1588
+ DELETE bin_pack_store_q3                        AT LEVEL    18
+ DELETE bin_pack_super_q4                        AT LEVEL    17
+ DELETE bin_pack_super_q3                        AT LEVEL    16
+ DELETE bin_mix_a_q3                             AT LEVEL    15
+ DELETE bin_mix_a_q4                             AT LEVEL    14
+ DELETE bin_pack_super_q2                        AT LEVEL    13
+ DELETE bin_grind_a_q3                           AT LEVEL    12
+ FLIP bin_grind_a_q2                           TO <=         0 AT   11 WITH BND=   -324270.25
+ SET bin_grind_a_q3                           TO >=     1 AT   12, BND= -0.3243E+06 TWIN=-0.1000E+31   1657
+ SET bin_pack_super_q2                        TO >=     1 AT   13, BND= -0.3243E+06 TWIN=-0.1000E+31   1657
+ SET bin_mix_a_q4                             TO >=     1 AT   14, BND= -0.3243E+06 TWIN=-0.3812E+06   1666
+ SET bin_mix_a_q3                             TO >=     1 AT   15, BND= -0.3486E+06 TWIN=-0.3812E+06   1673
+ SET bin_pack_super_q3                        TO >=     1 AT   16, BND= -0.3486E+06 TWIN=-0.1000E+31   1673
+ SET bin_pack_super_q4                        TO >=     1 AT   17, BND= -0.3486E+06 TWIN=-0.1000E+31   1673
+ SET bin_pack_store_q3                        TO <=     0 AT   18, BND= -0.3896E+06 TWIN=-0.4315E+06   1686
+ DELETE bin_pack_store_q3                        AT LEVEL    18
+ DELETE bin_pack_super_q4                        AT LEVEL    17
+ DELETE bin_pack_super_q3                        AT LEVEL    16
+ DELETE bin_mix_a_q3                             AT LEVEL    15
+ DELETE bin_mix_a_q4                             AT LEVEL    14
+ DELETE bin_pack_super_q2                        AT LEVEL    13
+ DELETE bin_grind_a_q3                           AT LEVEL    12
+ DELETE bin_grind_a_q2                           AT LEVEL    11
+ FLIP bin_grind_a_q1                           TO <=         0 AT   10 WITH BND=   -324270.25
+ SET bin_grind_a_q2                           TO >=     1 AT   11, BND= -0.3243E+06 TWIN=-0.1000E+31   1752
+ SET bin_grind_a_q3                           TO >=     1 AT   12, BND= -0.3243E+06 TWIN=-0.1000E+31   1752
+ SET bin_pack_super_q2                        TO >=     1 AT   13, BND= -0.3243E+06 TWIN=-0.1000E+31   1752
+ SET bin_mix_a_q4                             TO >=     1 AT   14, BND= -0.3243E+06 TWIN=-0.3812E+06   1762
+ SET bin_mix_a_q3                             TO >=     1 AT   15, BND= -0.3486E+06 TWIN=-0.3812E+06   1785
+ SET bin_pack_super_q3                        TO >=     1 AT   16, BND= -0.3486E+06 TWIN=-0.1000E+31   1785
+ SET bin_pack_super_q4                        TO >=     1 AT   17, BND= -0.3486E+06 TWIN=-0.1000E+31   1785
+ SET bin_pack_store_q3                        TO <=     0 AT   18, BND= -0.3896E+06 TWIN=-0.4315E+06   1806
+ DELETE bin_pack_store_q3                        AT LEVEL    18
+ DELETE bin_pack_super_q4                        AT LEVEL    17
+ DELETE bin_pack_super_q3                        AT LEVEL    16
+ DELETE bin_mix_a_q3                             AT LEVEL    15
+ DELETE bin_mix_a_q4                             AT LEVEL    14
+ DELETE bin_pack_super_q2                        AT LEVEL    13
+ DELETE bin_grind_a_q3                           AT LEVEL    12
+ DELETE bin_grind_a_q2                           AT LEVEL    11
+ DELETE bin_grind_a_q1                           AT LEVEL    10
+ FLIP bin_grind_b_q3                           TO <=         0 AT    9 WITH BND=   -342161.28
+ SET bin_grind_a_q1                           TO >=     1 AT   10, BND= -0.3422E+06 TWIN=-0.1000E+31   1869
+ SET bin_grind_a_q2                           TO >=     1 AT   11, BND= -0.3422E+06 TWIN=-0.1000E+31   1869
+ SET bin_grind_a_q3                           TO >=     1 AT   12, BND= -0.3422E+06 TWIN=-0.1000E+31   1869
+ SET bin_pack_super_q2                        TO >=     1 AT   13, BND= -0.3422E+06 TWIN=-0.1000E+31   1869
+ SET bin_mix_a_q4                             TO >=     1 AT   14, BND= -0.3422E+06 TWIN=-0.3645E+06   1883
+ SET bin_mix_a_q3                             TO <=     0 AT   15, BND= -0.3645E+06 TWIN=-0.3798E+06   1897
+ DELETE bin_mix_a_q3                             AT LEVEL    15
+ DELETE bin_mix_a_q4                             AT LEVEL    14
+ DELETE bin_pack_super_q2                        AT LEVEL    13
+ DELETE bin_grind_a_q3                           AT LEVEL    12
+ DELETE bin_grind_a_q2                           AT LEVEL    11
+ DELETE bin_grind_a_q1                           AT LEVEL    10
+ DELETE bin_grind_b_q3                           AT LEVEL     9
+ FLIP bin_grind_b_q2                           TO <=         0 AT    8 WITH BND=   -342161.28
+ SET bin_grind_a_q1                           TO >=     1 AT    9, BND= -0.3422E+06 TWIN=-0.1000E+31   1936
+ SET bin_grind_a_q2                           TO >=     1 AT   10, BND= -0.3422E+06 TWIN=-0.1000E+31   1936
+ SET bin_grind_a_q3                           TO >=     1 AT   11, BND= -0.3422E+06 TWIN=-0.1000E+31   1936
+ SET bin_grind_b_q3                           TO >=     1 AT   12, BND= -0.3422E+06 TWIN=-0.1000E+31   1936
+ SET bin_pack_super_q2                        TO >=     1 AT   13, BND= -0.3422E+06 TWIN=-0.1000E+31   1936
+ SET bin_mix_a_q4                             TO >=     1 AT   14, BND= -0.3422E+06 TWIN=-0.3645E+06   1940
+ SET bin_mix_a_q3                             TO <=     0 AT   15, BND= -0.3645E+06 TWIN=-0.3798E+06   1954
+ DELETE bin_mix_a_q3                             AT LEVEL    15
+ DELETE bin_mix_a_q4                             AT LEVEL    14
+ DELETE bin_pack_super_q2                        AT LEVEL    13
+ DELETE bin_grind_b_q3                           AT LEVEL    12
+ DELETE bin_grind_a_q3                           AT LEVEL    11
+ DELETE bin_grind_a_q2                           AT LEVEL    10
+ DELETE bin_grind_a_q1                           AT LEVEL     9
+ DELETE bin_grind_b_q2                           AT LEVEL     8
+ FLIP bin_grind_b_q1                           TO <=         0 AT    7 WITH BND=   -342161.28
+ SET bin_grind_a_q1                           TO >=     1 AT    8, BND= -0.3422E+06 TWIN=-0.1000E+31   2008
+ SET bin_grind_a_q2                           TO >=     1 AT    9, BND= -0.3422E+06 TWIN=-0.1000E+31   2008
+ SET bin_grind_a_q3                           TO >=     1 AT   10, BND= -0.3422E+06 TWIN=-0.1000E+31   2008
+ SET bin_grind_b_q2                           TO >=     1 AT   11, BND= -0.3422E+06 TWIN=-0.1000E+31   2008
+ SET bin_grind_b_q3                           TO >=     1 AT   12, BND= -0.3422E+06 TWIN=-0.1000E+31   2008
+ SET bin_pack_super_q2                        TO >=     1 AT   13, BND= -0.3422E+06 TWIN=-0.1000E+31   2008
+ SET bin_mix_a_q3                             TO >=     1 AT   14, BND= -0.3422E+06 TWIN=-0.3645E+06   2023
+ SET bin_mix_a_q4                             TO <=     0 AT   15, BND= -0.3645E+06 TWIN=-0.3798E+06   2031
+ DELETE bin_mix_a_q4                             AT LEVEL    15
+ DELETE bin_mix_a_q3                             AT LEVEL    14
+ DELETE bin_pack_super_q2                        AT LEVEL    13
+ DELETE bin_grind_b_q3                           AT LEVEL    12
+ DELETE bin_grind_b_q2                           AT LEVEL    11
+ DELETE bin_grind_a_q3                           AT LEVEL    10
+ DELETE bin_grind_a_q2                           AT LEVEL     9
+ DELETE bin_grind_a_q1                           AT LEVEL     8
+ DELETE bin_grind_b_q1                           AT LEVEL     7
+ FLIP bin_pack_store_q2                        TO >=         1 AT    6 WITH BND=   -177449.08
+ SET bin_pack_store_q3                        TO >=     1 AT    7, BND= -0.1868E+06 TWIN=-0.2310E+06   2078
+ SET bin_pack_store_q4                        TO >=     1 AT    8, BND= -0.1996E+06 TWIN=-0.2191E+06   2092
+ SET bin_mix_a_q3                             TO >=     1 AT    9, BND= -0.1996E+06 TWIN=-0.2827E+06   2110
+ SET bin_mix_a_q4                             TO >=     1 AT   10, BND= -0.2000E+06 TWIN=-0.2827E+06   2140
+ SET bin_mix_b_q3                             TO >=     1 AT   11, BND= -0.2000E+06 TWIN=-0.2000E+06   2155
+ SET bin_mix_b_q4                             TO <=     0 AT   12, BND= -0.2000E+06 TWIN=-0.2231E+06   2167
+ DELETE bin_clean_q1                             AT LEVEL    13
+ FLIP bin_mix_b_q4                             TO >=         1 AT   12 WITH BND=   -223064.80
+ SET bin_mix_b_q2                             TO >=     1 AT   13, BND= -0.2308E+06 TWIN=-0.2364E+06   2211
+ SET bin_pack_super_q2                        TO <=     0 AT   14, BND= -0.2603E+06 TWIN=-0.3002E+06   2217
+ SET bin_grind_b_q3                           TO >=     1 AT   15, BND= -0.2603E+06 TWIN=-0.3846E+06   2256
+ SET bin_grind_b_q2                           TO >=     1 AT   16, BND= -0.2603E+06 TWIN=-0.3846E+06   2284
+ SET bin_grind_b_q1                           TO >=     1 AT   17, BND= -0.2607E+06 TWIN=-0.3846E+06   2346
+ SET bin_grind_a_q1                           TO >=     1 AT   18, BND= -0.2607E+06 TWIN=-0.3534E+06   2385
+ SET bin_grind_a_q2                           TO >=     1 AT   19, BND= -0.2607E+06 TWIN=-0.3534E+06   2415
+ SET bin_grind_a_q3                           TO >=     1 AT   20, BND= -0.2619E+06 TWIN=-0.3534E+06   2435
+ SET bin_cook_q4                              TO <=     0 AT   21, BND= -0.2619E+06 TWIN=-0.3012E+06   2447
+ SET bin_cook_q1                              TO <=     0 AT   22, BND= -0.2680E+06 TWIN=-0.2619E+06   2454
+
+ NEW INTEGER SOLUTION OF   -267951.781     AT BRANCH     63 PIVOT    2454
+ BOUND ON OPTIMUM:  656340.6
+ FLIP bin_cook_q1                              TO >=         1 AT   22 WITH BND=   -261870.28
+ DELETE bin_clean_q1                             AT LEVEL    23
+ DELETE bin_cook_q1                              AT LEVEL    22
+ DELETE bin_cook_q4                              AT LEVEL    21
+ DELETE bin_grind_a_q3                           AT LEVEL    20
+ DELETE bin_grind_a_q2                           AT LEVEL    19
+ DELETE bin_grind_a_q1                           AT LEVEL    18
+ DELETE bin_grind_b_q1                           AT LEVEL    17
+ DELETE bin_grind_b_q2                           AT LEVEL    16
+ DELETE bin_grind_b_q3                           AT LEVEL    15
+ DELETE bin_pack_super_q2                        AT LEVEL    14
+ FLIP bin_mix_b_q2                             TO <=         0 AT   13 WITH BND=   -236383.88
+ SET bin_grind_a_q1                           TO >=     1 AT   14, BND= -0.2364E+06 TWIN=-0.1000E+31   2500
+ SET bin_grind_a_q2                           TO >=     1 AT   15, BND= -0.2364E+06 TWIN=-0.1000E+31   2500
+ SET bin_grind_a_q3                           TO >=     1 AT   16, BND= -0.2364E+06 TWIN=-0.1000E+31   2500
+ SET bin_mix_b_q1                             TO >=     1 AT   17, BND= -0.2442E+06 TWIN=-0.6025E+06   2560
+ SET bin_pack_super_q2                        TO <=     0 AT   18, BND= -0.2700E+06 TWIN=-0.3136E+06   2566
+ DELETE bin_pack_super_q2                        AT LEVEL    18
+ DELETE bin_mix_b_q1                             AT LEVEL    17
+ DELETE bin_grind_a_q3                           AT LEVEL    16
+ DELETE bin_grind_a_q2                           AT LEVEL    15
+ DELETE bin_grind_a_q1                           AT LEVEL    14
+ DELETE bin_mix_b_q2                             AT LEVEL    13
+ DELETE bin_mix_b_q4                             AT LEVEL    12
+ FLIP bin_mix_b_q3                             TO <=         0 AT   11 WITH BND=   -200034.94
+ SET bin_grind_a_q1                           TO >=     1 AT   12, BND= -0.2000E+06 TWIN=-0.1000E+31   2607
+ SET bin_grind_a_q2                           TO >=     1 AT   13, BND= -0.2000E+06 TWIN=-0.1000E+31   2607
+ SET bin_grind_a_q3                           TO >=     1 AT   14, BND= -0.2000E+06 TWIN=-0.1000E+31   2607
+ DELETE bin_clean_q1                             AT LEVEL    15
+ DELETE bin_grind_a_q3                           AT LEVEL    14
+ DELETE bin_grind_a_q2                           AT LEVEL    13
+ DELETE bin_grind_a_q1                           AT LEVEL    12
+ DELETE bin_mix_b_q3                             AT LEVEL    11
+ DELETE bin_mix_a_q4                             AT LEVEL    10
+ DELETE bin_mix_a_q3                             AT LEVEL     9
+ FLIP bin_pack_store_q4                        TO <=         0 AT    8 WITH BND=   -219138.14
+ SET bin_mix_a_q3                             TO >=     1 AT    9, BND= -0.2191E+06 TWIN=-0.1000E+31   2683
+ SET bin_mix_a_q4                             TO >=     1 AT   10, BND= -0.2191E+06 TWIN=-0.1000E+31   2683
+ SET bin_pack_super_q4                        TO >=     1 AT   11, BND= -0.2191E+06 TWIN=-0.1000E+31   2683
+ SET bin_grind_b_q1                           TO >=     1 AT   12, BND= -0.2191E+06 TWIN=-0.3420E+06   2735
+ SET bin_grind_b_q2                           TO >=     1 AT   13, BND= -0.2191E+06 TWIN=-0.3420E+06   2762
+ SET bin_grind_b_q3                           TO >=     1 AT   14, BND= -0.2196E+06 TWIN=-0.3420E+06   2803
+ SET bin_grind_a_q3                           TO >=     1 AT   15, BND= -0.2196E+06 TWIN=-0.3109E+06   2820
+ SET bin_grind_a_q2                           TO >=     1 AT   16, BND= -0.2196E+06 TWIN=-0.3109E+06   2851
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND= -0.2211E+06 TWIN=-0.3109E+06   2882
+ SET bin_mix_b_q4                             TO <=     0 AT   18, BND= -0.2211E+06 TWIN=-0.2368E+06   2911
+ DELETE bin_clean_q1                             AT LEVEL    19
+ FLIP bin_mix_b_q4                             TO >=         1 AT   18 WITH BND=   -236759.52
+ SET bin_mix_b_q3                             TO <=     0 AT   19, BND= -0.2368E+06 TWIN=-0.2477E+06   2940
+ DELETE bin_clean_q1                             AT LEVEL    20
+ FLIP bin_mix_b_q3                             TO >=         1 AT   19 WITH BND=   -247654.83
+ SET bin_mix_b_q2                             TO >=     1 AT   20, BND= -0.2554E+06 TWIN=-0.2619E+06   2976
+ SET bin_pack_super_q2                        TO <=     0 AT   21, BND= -0.2878E+06 TWIN=-0.3248E+06   2979
+ DELETE bin_pack_super_q2                        AT LEVEL    21
+ FLIP bin_mix_b_q2                             TO <=         0 AT   20 WITH BND=   -261936.58
+ SET bin_mix_b_q1                             TO >=     1 AT   21, BND= -0.2697E+06 TWIN=-0.6575E+06   3061
+ DELETE bin_mix_b_q1                             AT LEVEL    21
+ DELETE bin_mix_b_q2                             AT LEVEL    20
+ DELETE bin_mix_b_q3                             AT LEVEL    19
+ DELETE bin_mix_b_q4                             AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ DELETE bin_grind_a_q2                           AT LEVEL    16
+ DELETE bin_grind_a_q3                           AT LEVEL    15
+ DELETE bin_grind_b_q3                           AT LEVEL    14
+ DELETE bin_grind_b_q2                           AT LEVEL    13
+ DELETE bin_grind_b_q1                           AT LEVEL    12
+ DELETE bin_pack_super_q4                        AT LEVEL    11
+ DELETE bin_mix_a_q4                             AT LEVEL    10
+ DELETE bin_mix_a_q3                             AT LEVEL     9
+ DELETE bin_pack_store_q4                        AT LEVEL     8
+ FLIP bin_pack_store_q3                        TO <=         0 AT    7 WITH BND=   -230996.14
+ SET bin_mix_a_q3                             TO >=     1 AT    8, BND= -0.2310E+06 TWIN=-0.1000E+31   3141
+ SET bin_mix_a_q4                             TO >=     1 AT    9, BND= -0.2310E+06 TWIN=-0.1000E+31   3141
+ SET bin_pack_super_q3                        TO >=     1 AT   10, BND= -0.2310E+06 TWIN=-0.1000E+31   3141
+ SET bin_grind_b_q2                           TO >=     1 AT   11, BND= -0.2310E+06 TWIN=-0.3487E+06   3161
+ SET bin_grind_b_q1                           TO >=     1 AT   12, BND= -0.2310E+06 TWIN=-0.3487E+06   3180
+ SET bin_grind_b_q3                           TO >=     1 AT   13, BND= -0.2318E+06 TWIN=-0.3487E+06   3210
+ SET bin_grind_a_q3                           TO >=     1 AT   14, BND= -0.2318E+06 TWIN=-0.3176E+06   3225
+ SET bin_grind_a_q1                           TO >=     1 AT   15, BND= -0.2318E+06 TWIN=-0.3176E+06   3253
+ SET bin_grind_a_q2                           TO >=     1 AT   16, BND= -0.2344E+06 TWIN=-0.3176E+06   3274
+ SET bin_pack_store_q4                        TO >=     1 AT   17, BND= -0.2473E+06 TWIN=-0.2698E+06   3286
+ SET bin_mix_b_q4                             TO <=     0 AT   18, BND= -0.2473E+06 TWIN=-0.2595E+06   3309
+ DELETE bin_clean_q1                             AT LEVEL    19
+ FLIP bin_mix_b_q4                             TO >=         1 AT   18 WITH BND=   -259457.81
+ SET bin_mix_b_q3                             TO <=     0 AT   19, BND= -0.2595E+06 TWIN=-0.2761E+06   3336
+ DELETE bin_clean_q1                             AT LEVEL    20
+ DELETE bin_mix_b_q3                             AT LEVEL    19
+ DELETE bin_mix_b_q4                             AT LEVEL    18
+ DELETE bin_pack_store_q4                        AT LEVEL    17
+ DELETE bin_grind_a_q2                           AT LEVEL    16
+ DELETE bin_grind_a_q1                           AT LEVEL    15
+ DELETE bin_grind_a_q3                           AT LEVEL    14
+ DELETE bin_grind_b_q3                           AT LEVEL    13
+ DELETE bin_grind_b_q1                           AT LEVEL    12
+ DELETE bin_grind_b_q2                           AT LEVEL    11
+ DELETE bin_pack_super_q3                        AT LEVEL    10
+ DELETE bin_mix_a_q4                             AT LEVEL     9
+ DELETE bin_mix_a_q3                             AT LEVEL     8
+ DELETE bin_pack_store_q3                        AT LEVEL     7
+ DELETE bin_pack_store_q2                        AT LEVEL     6
+ FLIP bin_mix_a_q1                             TO >=         1 AT    5 WITH BND=    505496.91
+ SET bin_mix_a_q3                             TO <=     0 AT    6, BND=  0.5055E+06 TWIN= 0.4969E+06   3468
+ SET bin_mix_a_q4                             TO >=     1 AT    7, BND=  0.4969E+06 TWIN= 0.4880E+06   3510
+ DELETE bin_clean_q1                             AT LEVEL     8
+ FLIP bin_mix_a_q4                             TO <=         0 AT    7 WITH BND=    487988.41
+ SET bin_grind_b_q3                           TO <=     0 AT    8, BND=  0.4132E+06 TWIN= 0.4827E+06   3576
+ DELETE bin_clean_q1                             AT LEVEL     9
+ FLIP bin_grind_b_q3                           TO >=         1 AT    8 WITH BND=    482697.16
+ SET bin_grind_b_q2                           TO >=     1 AT    9, BND=  0.4788E+06 TWIN= 0.3898E+06   3638
+ SET bin_pack_store_q2                        TO >=     1 AT   10, BND=  0.4733E+06 TWIN= 0.3825E+06   3652
+ SET bin_pack_store_q1                        TO >=     1 AT   11, BND=  0.4676E+06 TWIN= 0.4140E+06   3662
+ SET bin_pack_store_q3                        TO >=     1 AT   12, BND=  0.4582E+06 TWIN= 0.4176E+06   3674
+ SET bin_pack_store_q4                        TO >=     1 AT   13, BND=  0.4454E+06 TWIN= 0.4278E+06   3686
+ SET bin_mix_b_q4                             TO <=     0 AT   14, BND=  0.3650E+06 TWIN= 0.4332E+06   3753
+ SET bin_grind_a_q3                           TO >=     1 AT   15, BND=  0.3538E+06 TWIN= 0.3490E+06   3767
+ SET bin_pack_super_q2                        TO <=     0 AT   16, BND=  0.3493E+06 TWIN= 0.2844E+06   3770
+ SET bin_pack_super_q1                        TO <=     0 AT   17, BND=  0.3488E+06 TWIN= 0.2763E+06   3773
+ SET bin_cook_q4                              TO <=     0 AT   18, BND=  0.3435E+06 TWIN= 0.3147E+06   3791
+ SET bin_cook_q1                              TO >=     1 AT   19, BND=  0.3398E+06 TWIN=-0.4383E+06   3889
+ SET bin_cook_q2                              TO >=     1 AT   20, BND=  0.3365E+06 TWIN=-0.2045E+05   3913
+ SET bin_cook_q3                              TO >=     1 AT   21, BND=  0.3218E+06 TWIN=-0.3611E+05   3961
+ SET bin_clean_q1                             TO >=     1 AT   22, BND=  0.2788E+06 TWIN=-0.8145E+06   4026
+
+ NEW INTEGER SOLUTION OF    278780.281     AT BRANCH    110 PIVOT    4026
+ BOUND ON OPTIMUM:  656340.6
+ DELETE bin_clean_q1                             AT LEVEL    22
+ DELETE bin_cook_q3                              AT LEVEL    21
+ DELETE bin_cook_q2                              AT LEVEL    20
+ DELETE bin_cook_q1                              AT LEVEL    19
+ FLIP bin_cook_q4                              TO >=         1 AT   18 WITH BND=    314654.44
+ SET bin_grind_b_q1                           TO >=     1 AT   19, BND=  0.3147E+06 TWIN=-0.1000E+31   4048
+ SET bin_mix_b_q1                             TO >=     1 AT   20, BND=  0.3147E+06 TWIN=-0.1000E+31   4048
+ SET bin_mix_b_q2                             TO >=     1 AT   21, BND=  0.3147E+06 TWIN=-0.1000E+31   4048
+ SET bin_mix_b_q3                             TO >=     1 AT   22, BND=  0.3147E+06 TWIN=-0.1000E+31   4048
+ SET bin_cook_q3                              TO >=     1 AT   23, BND=  0.2835E+06 TWIN= 0.2433E+06   4094
+ SET bin_grind_a_q1                           TO >=     1 AT   24, BND=  0.2835E+06 TWIN=-0.1000E+31   4094
+ SET bin_grind_a_q2                           TO >=     1 AT   25, BND=  0.2835E+06 TWIN=-0.1000E+31   4094
+ SET bin_cook_q1                              TO >=     1 AT   26, BND=  0.2791E+06 TWIN=-0.5513E+06   4196
+ SET bin_cook_q2                              TO <=     0 AT   27, BND=  0.6038E+05 TWIN= 0.2310E+06   4207
+ DELETE bin_cook_q2                              AT LEVEL    27
+ DELETE bin_cook_q1                              AT LEVEL    26
+ DELETE bin_grind_a_q2                           AT LEVEL    25
+ DELETE bin_grind_a_q1                           AT LEVEL    24
+ DELETE bin_cook_q3                              AT LEVEL    23
+ DELETE bin_mix_b_q3                             AT LEVEL    22
+ DELETE bin_mix_b_q2                             AT LEVEL    21
+ DELETE bin_mix_b_q1                             AT LEVEL    20
+ DELETE bin_grind_b_q1                           AT LEVEL    19
+ DELETE bin_cook_q4                              AT LEVEL    18
+ DELETE bin_pack_super_q1                        AT LEVEL    17
+ FLIP bin_pack_super_q2                        TO >=         1 AT   16 WITH BND=    284375.66
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND=  0.2844E+06 TWIN=-0.1000E+31   4292
+ SET bin_grind_a_q2                           TO >=     1 AT   18, BND=  0.2844E+06 TWIN=-0.1000E+31   4292
+ SET bin_grind_b_q1                           TO >=     1 AT   19, BND=  0.2844E+06 TWIN=-0.1000E+31   4292
+ SET bin_mix_b_q1                             TO >=     1 AT   20, BND=  0.2844E+06 TWIN=-0.1000E+31   4292
+ SET bin_mix_b_q2                             TO >=     1 AT   21, BND=  0.2844E+06 TWIN=-0.1000E+31   4292
+ SET bin_mix_b_q3                             TO >=     1 AT   22, BND=  0.2844E+06 TWIN=-0.1000E+31   4292
+ SET bin_pack_super_q1                        TO <=     0 AT   23, BND=  0.2839E+06 TWIN= 0.2114E+06   4295
+ SET bin_cook_q4                              TO >=     1 AT   24, BND=  0.2593E+06 TWIN= 0.2785E+06   4318
+ DELETE bin_cook_q4                              AT LEVEL    24
+ DELETE bin_pack_super_q1                        AT LEVEL    23
+ DELETE bin_mix_b_q3                             AT LEVEL    22
+ DELETE bin_mix_b_q2                             AT LEVEL    21
+ DELETE bin_mix_b_q1                             AT LEVEL    20
+ DELETE bin_grind_b_q1                           AT LEVEL    19
+ DELETE bin_grind_a_q2                           AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ DELETE bin_pack_super_q2                        AT LEVEL    16
+ FLIP bin_grind_a_q3                           TO <=         0 AT   15 WITH BND=    348955.53
+ SET bin_mix_b_q1                             TO >=     1 AT   16, BND=  0.3490E+06 TWIN=-0.1000E+31   4416
+ SET bin_mix_b_q2                             TO >=     1 AT   17, BND=  0.3490E+06 TWIN=-0.1000E+31   4416
+ SET bin_mix_b_q3                             TO >=     1 AT   18, BND=  0.3490E+06 TWIN=-0.1000E+31   4416
+ DELETE bin_clean_q1                             AT LEVEL    19
+ DELETE bin_mix_b_q3                             AT LEVEL    18
+ DELETE bin_mix_b_q2                             AT LEVEL    17
+ DELETE bin_mix_b_q1                             AT LEVEL    16
+ DELETE bin_grind_a_q3                           AT LEVEL    15
+ FLIP bin_mix_b_q4                             TO >=         1 AT   14 WITH BND=    433221.84
+ SET bin_mix_b_q3                             TO >=     1 AT   15, BND=  0.4223E+06 TWIN= 0.2313E+06   4527
+ SET bin_mix_b_q1                             TO >=     1 AT   16, BND=  0.4120E+06 TWIN= 0.1198E+06   4577
+ SET bin_mix_b_q2                             TO >=     1 AT   17, BND=  0.4042E+06 TWIN= 0.1203E+06   4630
+ SET bin_pack_super_q2                        TO <=     0 AT   18, BND=  0.3759E+06 TWIN= 0.3348E+06   4633
+ SET bin_pack_super_q1                        TO <=     0 AT   19, BND=  0.3731E+06 TWIN= 0.3028E+06   4636
+ SET bin_cook_q4                              TO <=     0 AT   20, BND=  0.3723E+06 TWIN= 0.3337E+06   4645
+ SET bin_cook_q1                              TO >=     1 AT   21, BND=  0.3686E+06 TWIN=-0.4995E+06   4721
+ SET bin_cook_q3                              TO >=     1 AT   22, BND=  0.3686E+06 TWIN= -2210.       4738
+ SET bin_cook_q2                              TO >=     1 AT   23, BND=  0.3505E+06 TWIN= -238.9       4770
+ SET bin_clean_q1                             TO >=     1 AT   24, BND=  0.3285E+06 TWIN=-0.7417E+06   4814
+ SET bin_grind_a_q1                           TO >=     1 AT   25, BND=  0.3285E+06 TWIN=-0.1000E+31   4814
+ SET bin_grind_a_q2                           TO >=     1 AT   26, BND=  0.3285E+06 TWIN=-0.1000E+31   4814
+ SET bin_grind_b_q1                           TO >=     1 AT   27, BND=  0.3285E+06 TWIN=-0.1000E+31   4814
+ SET bin_grind_a_q3                           TO >=     1 AT   28, BND=  0.3277E+06 TWIN= 0.2613E+06   4839
+
+ NEW INTEGER SOLUTION OF    327715.500     AT BRANCH    127 PIVOT    4839
+ BOUND ON OPTIMUM:  656340.6
+ DELETE bin_grind_a_q3                           AT LEVEL    28
+ DELETE bin_grind_b_q1                           AT LEVEL    27
+ DELETE bin_grind_a_q2                           AT LEVEL    26
+ DELETE bin_grind_a_q1                           AT LEVEL    25
+ DELETE bin_clean_q1                             AT LEVEL    24
+ DELETE bin_cook_q2                              AT LEVEL    23
+ DELETE bin_cook_q3                              AT LEVEL    22
+ DELETE bin_cook_q1                              AT LEVEL    21
+ FLIP bin_cook_q4                              TO >=         1 AT   20 WITH BND=    333687.56
+ SET bin_grind_a_q1                           TO >=     1 AT   21, BND=  0.3337E+06 TWIN=-0.1000E+31   4896
+ SET bin_grind_a_q2                           TO >=     1 AT   22, BND=  0.3337E+06 TWIN=-0.1000E+31   4896
+ SET bin_grind_a_q3                           TO >=     1 AT   23, BND=  0.3337E+06 TWIN=-0.1000E+31   4896
+ SET bin_grind_b_q1                           TO >=     1 AT   24, BND=  0.3337E+06 TWIN=-0.1000E+31   4896
+ SET bin_cook_q3                              TO >=     1 AT   25, BND=  0.2987E+06 TWIN= 0.2799E+06   4933
+ DELETE bin_cook_q3                              AT LEVEL    25
+ DELETE bin_grind_b_q1                           AT LEVEL    24
+ DELETE bin_grind_a_q3                           AT LEVEL    23
+ DELETE bin_grind_a_q2                           AT LEVEL    22
+ DELETE bin_grind_a_q1                           AT LEVEL    21
+ DELETE bin_cook_q4                              AT LEVEL    20
+ DELETE bin_pack_super_q1                        AT LEVEL    19
+ FLIP bin_pack_super_q2                        TO >=         1 AT   18 WITH BND=    334841.09
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3348E+06 TWIN=-0.1000E+31   4998
+ SET bin_grind_a_q2                           TO >=     1 AT   20, BND=  0.3348E+06 TWIN=-0.1000E+31   4998
+ SET bin_grind_a_q3                           TO >=     1 AT   21, BND=  0.3348E+06 TWIN=-0.1000E+31   4998
+ SET bin_grind_b_q1                           TO >=     1 AT   22, BND=  0.3348E+06 TWIN=-0.1000E+31   4998
+ SET bin_pack_super_q1                        TO <=     0 AT   23, BND=  0.3320E+06 TWIN= 0.2618E+06   5001
+ SET bin_cook_q4                              TO <=     0 AT   24, BND=  0.3313E+06 TWIN= 0.2927E+06   5010
+ SET bin_cook_q2                              TO >=     1 AT   25, BND=  0.3313E+06 TWIN=-0.1000E+31   5010
+ SET bin_cook_q3                              TO >=     1 AT   26, BND=  0.3313E+06 TWIN=-0.1000E+31   5010
+ SET bin_cook_q1                              TO >=     1 AT   27, BND=  0.3094E+06 TWIN=-0.5888E+06   5098
+ DELETE bin_cook_q1                              AT LEVEL    27
+ DELETE bin_cook_q3                              AT LEVEL    26
+ DELETE bin_cook_q2                              AT LEVEL    25
+ DELETE bin_cook_q4                              AT LEVEL    24
+ DELETE bin_pack_super_q1                        AT LEVEL    23
+ DELETE bin_grind_b_q1                           AT LEVEL    22
+ DELETE bin_grind_a_q3                           AT LEVEL    21
+ DELETE bin_grind_a_q2                           AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ DELETE bin_pack_super_q2                        AT LEVEL    18
+ DELETE bin_mix_b_q2                             AT LEVEL    17
+ DELETE bin_mix_b_q1                             AT LEVEL    16
+ DELETE bin_mix_b_q3                             AT LEVEL    15
+ DELETE bin_mix_b_q4                             AT LEVEL    14
+ FLIP bin_pack_store_q4                        TO <=         0 AT   13 WITH BND=    427768.12
+ SET bin_pack_super_q4                        TO >=     1 AT   14, BND=  0.4278E+06 TWIN=-0.1000E+31   5158
+ SET bin_mix_b_q4                             TO <=     0 AT   15, BND=  0.3725E+06 TWIN= 0.4121E+06   5193
+ SET bin_grind_b_q1                           TO >=     1 AT   16, BND=  0.3725E+06 TWIN=-0.1000E+31   5193
+ SET bin_mix_b_q2                             TO >=     1 AT   17, BND=  0.3725E+06 TWIN=-0.1000E+31   5193
+ SET bin_mix_b_q3                             TO >=     1 AT   18, BND=  0.3725E+06 TWIN=-0.1000E+31   5193
+ SET bin_grind_a_q3                           TO >=     1 AT   19, BND=  0.3612E+06 TWIN= 0.3564E+06   5222
+ SET bin_grind_a_q1                           TO >=     1 AT   20, BND=  0.3612E+06 TWIN=-0.1000E+31   5222
+ SET bin_grind_a_q2                           TO >=     1 AT   21, BND=  0.3612E+06 TWIN=-0.1000E+31   5222
+ SET bin_mix_b_q1                             TO >=     1 AT   22, BND=  0.3612E+06 TWIN=-0.1000E+31   5222
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3427E+06 TWIN= 0.2918E+06   5226
+ SET bin_pack_super_q1                        TO <=     0 AT   24, BND=  0.3405E+06 TWIN= 0.2697E+06   5229
+ SET bin_cook_q4                              TO <=     0 AT   25, BND=  0.3352E+06 TWIN= 0.3012E+06   5249
+ SET bin_cook_q2                              TO >=     1 AT   26, BND=  0.3352E+06 TWIN=-0.1000E+31   5249
+ SET bin_cook_q3                              TO >=     1 AT   27, BND=  0.3352E+06 TWIN=-0.1000E+31   5249
+ SET bin_cook_q1                              TO >=     1 AT   28, BND=  0.3133E+06 TWIN=-0.5090E+06   5357
+ DELETE bin_cook_q1                              AT LEVEL    28
+ DELETE bin_cook_q3                              AT LEVEL    27
+ DELETE bin_cook_q2                              AT LEVEL    26
+ DELETE bin_cook_q4                              AT LEVEL    25
+ DELETE bin_pack_super_q1                        AT LEVEL    24
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_mix_b_q1                             AT LEVEL    22
+ DELETE bin_grind_a_q2                           AT LEVEL    21
+ DELETE bin_grind_a_q1                           AT LEVEL    20
+ FLIP bin_grind_a_q3                           TO <=         0 AT   19 WITH BND=    356398.75
+ SET bin_grind_a_q1                           TO >=     1 AT   20, BND=  0.3564E+06 TWIN=-0.1000E+31   5390
+ SET bin_grind_a_q2                           TO >=     1 AT   21, BND=  0.3564E+06 TWIN=-0.1000E+31   5390
+ SET bin_mix_b_q1                             TO >=     1 AT   22, BND=  0.3564E+06 TWIN=-0.1000E+31   5390
+ DELETE bin_clean_q1                             AT LEVEL    23
+ DELETE bin_mix_b_q1                             AT LEVEL    22
+ DELETE bin_grind_a_q2                           AT LEVEL    21
+ DELETE bin_grind_a_q1                           AT LEVEL    20
+ DELETE bin_grind_a_q3                           AT LEVEL    19
+ DELETE bin_mix_b_q3                             AT LEVEL    18
+ DELETE bin_mix_b_q2                             AT LEVEL    17
+ DELETE bin_grind_b_q1                           AT LEVEL    16
+ FLIP bin_mix_b_q4                             TO >=         1 AT   15 WITH BND=    412130.50
+ SET bin_mix_b_q3                             TO >=     1 AT   16, BND=  0.4012E+06 TWIN= 0.2071E+06   5495
+ SET bin_mix_b_q1                             TO >=     1 AT   17, BND=  0.3909E+06 TWIN= 0.9555E+05   5560
+ SET bin_mix_b_q2                             TO >=     1 AT   18, BND=  0.3832E+06 TWIN= 0.9605E+05   5598
+ SET bin_pack_super_q2                        TO <=     0 AT   19, BND=  0.3548E+06 TWIN= 0.3137E+06   5606
+ SET bin_grind_a_q1                           TO >=     1 AT   20, BND=  0.3548E+06 TWIN=-0.1000E+31   5606
+ SET bin_grind_a_q2                           TO >=     1 AT   21, BND=  0.3548E+06 TWIN=-0.1000E+31   5606
+ SET bin_grind_a_q3                           TO >=     1 AT   22, BND=  0.3548E+06 TWIN=-0.1000E+31   5606
+ SET bin_grind_b_q1                           TO >=     1 AT   23, BND=  0.3548E+06 TWIN=-0.1000E+31   5606
+ SET bin_pack_super_q1                        TO <=     0 AT   24, BND=  0.3520E+06 TWIN= 0.2817E+06   5609
+ SET bin_cook_q4                              TO <=     0 AT   25, BND=  0.3512E+06 TWIN= 0.3126E+06   5621
+ SET bin_cook_q1                              TO >=     1 AT   26, BND=  0.3476E+06 TWIN=-0.5615E+06   5733
+ SET bin_cook_q2                              TO >=     1 AT   27, BND=  0.3446E+06 TWIN= 0.1540E+05   5768
+ SET bin_cook_q3                              TO >=     1 AT   28, BND=  0.3294E+06 TWIN= 0.1132E+05   5796
+ DELETE bin_clean_q1                             AT LEVEL    29
+ DELETE bin_cook_q3                              AT LEVEL    28
+ DELETE bin_cook_q2                              AT LEVEL    27
+ DELETE bin_cook_q1                              AT LEVEL    26
+ DELETE bin_cook_q4                              AT LEVEL    25
+ DELETE bin_pack_super_q1                        AT LEVEL    24
+ DELETE bin_grind_b_q1                           AT LEVEL    23
+ DELETE bin_grind_a_q3                           AT LEVEL    22
+ DELETE bin_grind_a_q2                           AT LEVEL    21
+ DELETE bin_grind_a_q1                           AT LEVEL    20
+ DELETE bin_pack_super_q2                        AT LEVEL    19
+ DELETE bin_mix_b_q2                             AT LEVEL    18
+ DELETE bin_mix_b_q1                             AT LEVEL    17
+ DELETE bin_mix_b_q3                             AT LEVEL    16
+ DELETE bin_mix_b_q4                             AT LEVEL    15
+ DELETE bin_pack_super_q4                        AT LEVEL    14
+ DELETE bin_pack_store_q4                        AT LEVEL    13
+ FLIP bin_pack_store_q3                        TO <=         0 AT   12 WITH BND=    417566.53
+ SET bin_pack_super_q3                        TO >=     1 AT   13, BND=  0.4176E+06 TWIN=-0.1000E+31   5877
+ SET bin_pack_store_q4                        TO >=     1 AT   14, BND=  0.4047E+06 TWIN= 0.3851E+06   5898
+ SET bin_mix_b_q4                             TO <=     0 AT   15, BND=  0.3548E+06 TWIN= 0.3926E+06   5927
+ SET bin_grind_a_q1                           TO >=     1 AT   16, BND=  0.3548E+06 TWIN=-0.1000E+31   5927
+ SET bin_grind_a_q2                           TO >=     1 AT   17, BND=  0.3548E+06 TWIN=-0.1000E+31   5927
+ SET bin_grind_b_q1                           TO >=     1 AT   18, BND=  0.3548E+06 TWIN=-0.1000E+31   5927
+ SET bin_mix_b_q1                             TO >=     1 AT   19, BND=  0.3548E+06 TWIN=-0.1000E+31   5927
+ SET bin_mix_b_q2                             TO >=     1 AT   20, BND=  0.3548E+06 TWIN=-0.1000E+31   5927
+ SET bin_mix_b_q3                             TO >=     1 AT   21, BND=  0.3548E+06 TWIN=-0.1000E+31   5927
+ SET bin_grind_a_q3                           TO >=     1 AT   22, BND=  0.3436E+06 TWIN= 0.3387E+06   5938
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3250E+06 TWIN= 0.2742E+06   5941
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ FLIP bin_grind_a_q3                           TO <=         0 AT   22 WITH BND=    338736.25
+ DELETE bin_clean_q1                             AT LEVEL    23
+ DELETE bin_grind_a_q3                           AT LEVEL    22
+ DELETE bin_mix_b_q3                             AT LEVEL    21
+ DELETE bin_mix_b_q2                             AT LEVEL    20
+ DELETE bin_mix_b_q1                             AT LEVEL    19
+ DELETE bin_grind_b_q1                           AT LEVEL    18
+ DELETE bin_grind_a_q2                           AT LEVEL    17
+ DELETE bin_grind_a_q1                           AT LEVEL    16
+ FLIP bin_mix_b_q4                             TO >=         1 AT   15 WITH BND=    392554.09
+ SET bin_mix_b_q3                             TO >=     1 AT   16, BND=  0.3759E+06 TWIN= 0.2389E+06   6055
+ SET bin_mix_b_q1                             TO >=     1 AT   17, BND=  0.3656E+06 TWIN= 0.6824E+05   6109
+ SET bin_grind_b_q1                           TO >=     1 AT   18, BND=  0.3656E+06 TWIN=-0.1000E+31   6109
+ SET bin_mix_b_q2                             TO >=     1 AT   19, BND=  0.3578E+06 TWIN= 0.6873E+05   6161
+ SET bin_grind_a_q1                           TO >=     1 AT   20, BND=  0.3578E+06 TWIN=-0.1000E+31   6161
+ SET bin_grind_a_q2                           TO >=     1 AT   21, BND=  0.3578E+06 TWIN=-0.1000E+31   6161
+ SET bin_grind_a_q3                           TO >=     1 AT   22, BND=  0.3578E+06 TWIN=-0.1000E+31   6161
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3295E+06 TWIN= 0.2884E+06   6169
+ SET bin_pack_super_q1                        TO <=     0 AT   24, BND=  0.3265E+06 TWIN= 0.2564E+06   6175
+ DELETE bin_pack_super_q1                        AT LEVEL    24
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_grind_a_q3                           AT LEVEL    22
+ DELETE bin_grind_a_q2                           AT LEVEL    21
+ DELETE bin_grind_a_q1                           AT LEVEL    20
+ DELETE bin_mix_b_q2                             AT LEVEL    19
+ DELETE bin_grind_b_q1                           AT LEVEL    18
+ DELETE bin_mix_b_q1                             AT LEVEL    17
+ DELETE bin_mix_b_q3                             AT LEVEL    16
+ DELETE bin_mix_b_q4                             AT LEVEL    15
+ FLIP bin_pack_store_q4                        TO <=         0 AT   14 WITH BND=    385094.72
+ SET bin_pack_super_q4                        TO >=     1 AT   15, BND=  0.3851E+06 TWIN=-0.1000E+31   6239
+ SET bin_grind_a_q3                           TO >=     1 AT   16, BND=  0.3840E+06 TWIN= 0.3482E+06   6264
+ SET bin_mix_b_q4                             TO <=     0 AT   17, BND=  0.3344E+06 TWIN= 0.3683E+06   6303
+ SET bin_grind_a_q1                           TO >=     1 AT   18, BND=  0.3344E+06 TWIN=-0.1000E+31   6303
+ SET bin_grind_a_q2                           TO >=     1 AT   19, BND=  0.3344E+06 TWIN=-0.1000E+31   6303
+ SET bin_grind_b_q1                           TO >=     1 AT   20, BND=  0.3344E+06 TWIN=-0.1000E+31   6303
+ SET bin_mix_b_q1                             TO >=     1 AT   21, BND=  0.3344E+06 TWIN=-0.1000E+31   6303
+ SET bin_mix_b_q2                             TO >=     1 AT   22, BND=  0.3344E+06 TWIN=-0.1000E+31   6303
+ SET bin_mix_b_q3                             TO >=     1 AT   23, BND=  0.3344E+06 TWIN=-0.1000E+31   6303
+ SET bin_pack_super_q2                        TO <=     0 AT   24, BND=  0.3145E+06 TWIN= 0.2650E+06   6309
+ DELETE bin_pack_super_q2                        AT LEVEL    24
+ DELETE bin_mix_b_q3                             AT LEVEL    23
+ DELETE bin_mix_b_q2                             AT LEVEL    22
+ DELETE bin_mix_b_q1                             AT LEVEL    21
+ DELETE bin_grind_b_q1                           AT LEVEL    20
+ DELETE bin_grind_a_q2                           AT LEVEL    19
+ DELETE bin_grind_a_q1                           AT LEVEL    18
+ FLIP bin_mix_b_q4                             TO >=         1 AT   17 WITH BND=    368331.84
+ SET bin_grind_b_q1                           TO >=     1 AT   18, BND=  0.3683E+06 TWIN=-0.1000E+31   6372
+ SET bin_mix_b_q3                             TO >=     1 AT   19, BND=  0.3517E+06 TWIN= 0.1956E+06   6441
+ SET bin_grind_a_q1                           TO >=     1 AT   20, BND=  0.3517E+06 TWIN=-0.1000E+31   6441
+ SET bin_grind_a_q2                           TO >=     1 AT   21, BND=  0.3517E+06 TWIN=-0.1000E+31   6441
+ SET bin_mix_b_q1                             TO >=     1 AT   22, BND=  0.3414E+06 TWIN= 0.1017E+05   6507
+ SET bin_mix_b_q2                             TO >=     1 AT   23, BND=  0.3336E+06 TWIN= 0.2273E+05   6549
+ SET bin_pack_super_q2                        TO <=     0 AT   24, BND=  0.3038E+06 TWIN= 0.2642E+06   6554
+ DELETE bin_pack_super_q2                        AT LEVEL    24
+ DELETE bin_mix_b_q2                             AT LEVEL    23
+ DELETE bin_mix_b_q1                             AT LEVEL    22
+ DELETE bin_grind_a_q2                           AT LEVEL    21
+ DELETE bin_grind_a_q1                           AT LEVEL    20
+ DELETE bin_mix_b_q3                             AT LEVEL    19
+ DELETE bin_grind_b_q1                           AT LEVEL    18
+ DELETE bin_mix_b_q4                             AT LEVEL    17
+ FLIP bin_grind_a_q3                           TO <=         0 AT   16 WITH BND=    348160.66
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND=  0.3482E+06 TWIN=-0.1000E+31   6614
+ SET bin_grind_a_q2                           TO >=     1 AT   18, BND=  0.3482E+06 TWIN=-0.1000E+31   6614
+ SET bin_grind_b_q1                           TO >=     1 AT   19, BND=  0.3482E+06 TWIN=-0.1000E+31   6614
+ SET bin_mix_b_q4                             TO <=     0 AT   20, BND=  0.3293E+06 TWIN= 0.3325E+06   6638
+ SET bin_mix_b_q1                             TO >=     1 AT   21, BND=  0.3293E+06 TWIN=-0.1000E+31   6638
+ SET bin_mix_b_q2                             TO >=     1 AT   22, BND=  0.3293E+06 TWIN=-0.1000E+31   6638
+ SET bin_mix_b_q3                             TO >=     1 AT   23, BND=  0.3293E+06 TWIN=-0.1000E+31   6638
+ SET bin_pack_super_q2                        TO <=     0 AT   24, BND=  0.3091E+06 TWIN= 0.2599E+06   6646
+ DELETE bin_pack_super_q2                        AT LEVEL    24
+ DELETE bin_mix_b_q3                             AT LEVEL    23
+ DELETE bin_mix_b_q2                             AT LEVEL    22
+ DELETE bin_mix_b_q1                             AT LEVEL    21
+ FLIP bin_mix_b_q4                             TO >=         1 AT   20 WITH BND=    332523.03
+ SET bin_mix_b_q3                             TO >=     1 AT   21, BND=  0.3159E+06 TWIN= 0.2129E+06   6717
+ DELETE bin_mix_b_q3                             AT LEVEL    21
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_grind_b_q1                           AT LEVEL    19
+ DELETE bin_grind_a_q2                           AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ DELETE bin_grind_a_q3                           AT LEVEL    16
+ DELETE bin_pack_super_q4                        AT LEVEL    15
+ DELETE bin_pack_store_q4                        AT LEVEL    14
+ DELETE bin_pack_super_q3                        AT LEVEL    13
+ DELETE bin_pack_store_q3                        AT LEVEL    12
+ FLIP bin_pack_store_q1                        TO <=         0 AT   11 WITH BND=    413995.81
+ SET bin_pack_super_q1                        TO >=     1 AT   12, BND=  0.4140E+06 TWIN=-0.1000E+31   6795
+ SET bin_pack_store_q3                        TO >=     1 AT   13, BND=  0.4047E+06 TWIN= 0.3598E+06   6812
+ SET bin_pack_store_q4                        TO >=     1 AT   14, BND=  0.3918E+06 TWIN= 0.3718E+06   6830
+ SET bin_mix_b_q1                             TO >=     1 AT   15, BND=  0.3732E+06 TWIN= 0.1504E+06   6873
+ SET bin_grind_b_q1                           TO >=     1 AT   16, BND=  0.3732E+06 TWIN=-0.1000E+31   6873
+ SET bin_mix_b_q4                             TO >=     1 AT   17, BND=  0.3610E+06 TWIN= 0.3351E+06   6904
+ SET bin_grind_a_q1                           TO >=     1 AT   18, BND=  0.3610E+06 TWIN=-0.1000E+31   6904
+ SET bin_grind_a_q2                           TO >=     1 AT   19, BND=  0.3610E+06 TWIN=-0.1000E+31   6904
+ SET bin_grind_a_q3                           TO >=     1 AT   20, BND=  0.3610E+06 TWIN=-0.1000E+31   6904
+ SET bin_mix_b_q3                             TO >=     1 AT   21, BND=  0.3501E+06 TWIN= 0.2216E+06   6955
+ SET bin_mix_b_q2                             TO >=     1 AT   22, BND=  0.3424E+06 TWIN= 0.1107E+06   7029
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3108E+06 TWIN= 0.2730E+06   7035
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_mix_b_q2                             AT LEVEL    22
+ DELETE bin_mix_b_q3                             AT LEVEL    21
+ DELETE bin_grind_a_q3                           AT LEVEL    20
+ DELETE bin_grind_a_q2                           AT LEVEL    19
+ DELETE bin_grind_a_q1                           AT LEVEL    18
+ FLIP bin_mix_b_q4                             TO <=         0 AT   17 WITH BND=    335052.12
+ SET bin_grind_a_q1                           TO >=     1 AT   18, BND=  0.3351E+06 TWIN=-0.1000E+31   7059
+ SET bin_grind_a_q2                           TO >=     1 AT   19, BND=  0.3351E+06 TWIN=-0.1000E+31   7059
+ SET bin_mix_b_q2                             TO >=     1 AT   20, BND=  0.3351E+06 TWIN=-0.1000E+31   7059
+ SET bin_mix_b_q3                             TO >=     1 AT   21, BND=  0.3351E+06 TWIN=-0.1000E+31   7059
+ SET bin_grind_a_q3                           TO <=     0 AT   22, BND=  0.3189E+06 TWIN= 0.3238E+06   7072
+ DELETE bin_grind_a_q3                           AT LEVEL    22
+ DELETE bin_mix_b_q3                             AT LEVEL    21
+ DELETE bin_mix_b_q2                             AT LEVEL    20
+ DELETE bin_grind_a_q2                           AT LEVEL    19
+ DELETE bin_grind_a_q1                           AT LEVEL    18
+ DELETE bin_mix_b_q4                             AT LEVEL    17
+ DELETE bin_grind_b_q1                           AT LEVEL    16
+ DELETE bin_mix_b_q1                             AT LEVEL    15
+ FLIP bin_pack_store_q4                        TO <=         0 AT   14 WITH BND=    371817.25
+ SET bin_pack_super_q4                        TO >=     1 AT   15, BND=  0.3718E+06 TWIN=-0.1000E+31   7142
+ SET bin_grind_b_q1                           TO >=     1 AT   16, BND=  0.3716E+06 TWIN= 0.2801E+06   7192
+ SET bin_grind_a_q3                           TO >=     1 AT   17, BND=  0.3716E+06 TWIN= 0.3343E+06   7227
+ SET bin_grind_a_q2                           TO >=     1 AT   18, BND=  0.3716E+06 TWIN= 0.3124E+06   7256
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3701E+06 TWIN= 0.3124E+06   7274
+ SET bin_mix_b_q1                             TO >=     1 AT   20, BND=  0.3515E+06 TWIN= 0.9871E+05   7299
+ SET bin_mix_b_q4                             TO >=     1 AT   21, BND=  0.3359E+06 TWIN= 0.3139E+06   7348
+ SET bin_mix_b_q3                             TO >=     1 AT   22, BND=  0.3250E+06 TWIN= 0.1956E+06   7393
+ DELETE bin_mix_b_q3                             AT LEVEL    22
+ DELETE bin_mix_b_q4                             AT LEVEL    21
+ DELETE bin_mix_b_q1                             AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ DELETE bin_grind_a_q2                           AT LEVEL    18
+ FLIP bin_grind_a_q3                           TO <=         0 AT   17 WITH BND=    334254.50
+ SET bin_grind_a_q1                           TO >=     1 AT   18, BND=  0.3343E+06 TWIN=-0.1000E+31   7434
+ SET bin_grind_a_q2                           TO >=     1 AT   19, BND=  0.3343E+06 TWIN=-0.1000E+31   7434
+ SET bin_mix_b_q4                             TO <=     0 AT   20, BND=  0.3088E+06 TWIN= 0.3186E+06   7450
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_grind_a_q2                           AT LEVEL    19
+ DELETE bin_grind_a_q1                           AT LEVEL    18
+ DELETE bin_grind_a_q3                           AT LEVEL    17
+ DELETE bin_grind_b_q1                           AT LEVEL    16
+ DELETE bin_pack_super_q4                        AT LEVEL    15
+ DELETE bin_pack_store_q4                        AT LEVEL    14
+ FLIP bin_pack_store_q3                        TO <=         0 AT   13 WITH BND=    359785.31
+ SET bin_pack_super_q3                        TO >=     1 AT   14, BND=  0.3598E+06 TWIN=-0.1000E+31   7505
+ SET bin_grind_b_q1                           TO >=     1 AT   15, BND=  0.3594E+06 TWIN= 0.2679E+06   7542
+ SET bin_grind_a_q2                           TO >=     1 AT   16, BND=  0.3594E+06 TWIN= 0.3010E+06   7571
+ SET bin_grind_a_q3                           TO >=     1 AT   17, BND=  0.3594E+06 TWIN= 0.3244E+06   7609
+ SET bin_grind_a_q1                           TO >=     1 AT   18, BND=  0.3568E+06 TWIN= 0.3000E+06   7635
+ SET bin_pack_store_q4                        TO >=     1 AT   19, BND=  0.3439E+06 TWIN= 0.3215E+06   7649
+ SET bin_mix_b_q1                             TO >=     1 AT   20, BND=  0.3253E+06 TWIN= 0.7251E+05   7728
+ DELETE bin_mix_b_q1                             AT LEVEL    20
+ DELETE bin_pack_store_q4                        AT LEVEL    19
+ DELETE bin_grind_a_q1                           AT LEVEL    18
+ DELETE bin_grind_a_q3                           AT LEVEL    17
+ DELETE bin_grind_a_q2                           AT LEVEL    16
+ DELETE bin_grind_b_q1                           AT LEVEL    15
+ DELETE bin_pack_super_q3                        AT LEVEL    14
+ DELETE bin_pack_store_q3                        AT LEVEL    13
+ DELETE bin_pack_super_q1                        AT LEVEL    12
+ DELETE bin_pack_store_q1                        AT LEVEL    11
+ FLIP bin_pack_store_q2                        TO <=         0 AT   10 WITH BND=    382546.34
+ SET bin_pack_super_q2                        TO >=     1 AT   11, BND=  0.3825E+06 TWIN=-0.1000E+31   7848
+ SET bin_grind_b_q1                           TO >=     1 AT   12, BND=  0.3824E+06 TWIN= 0.2397E+06   7896
+ SET bin_pack_store_q1                        TO >=     1 AT   13, BND=  0.3767E+06 TWIN= 0.3157E+06   7906
+ SET bin_pack_store_q3                        TO >=     1 AT   14, BND=  0.3673E+06 TWIN= 0.3216E+06   7916
+ SET bin_pack_store_q4                        TO >=     1 AT   15, BND=  0.3545E+06 TWIN= 0.3338E+06   7928
+ SET bin_grind_a_q3                           TO >=     1 AT   16, BND=  0.3545E+06 TWIN= 0.3176E+06   7966
+ SET bin_grind_a_q2                           TO >=     1 AT   17, BND=  0.3542E+06 TWIN= 0.3148E+06   8003
+ SET bin_grind_a_q1                           TO >=     1 AT   18, BND=  0.3535E+06 TWIN= 0.2886E+06   8031
+ SET bin_mix_b_q4                             TO >=     1 AT   19, BND=  0.3413E+06 TWIN= 0.3075E+06   8095
+ SET bin_mix_b_q2                             TO >=     1 AT   20, BND=  0.3317E+06 TWIN= 0.1216E+06   8151
+ SET bin_mix_b_q3                             TO >=     1 AT   21, BND=  0.3118E+06 TWIN= 0.2216E+06   8178
+ DELETE bin_mix_b_q3                             AT LEVEL    21
+ DELETE bin_mix_b_q2                             AT LEVEL    20
+ DELETE bin_mix_b_q4                             AT LEVEL    19
+ DELETE bin_grind_a_q1                           AT LEVEL    18
+ DELETE bin_grind_a_q2                           AT LEVEL    17
+ DELETE bin_grind_a_q3                           AT LEVEL    16
+ FLIP bin_pack_store_q4                        TO <=         0 AT   15 WITH BND=    333753.94
+ SET bin_pack_super_q4                        TO >=     1 AT   16, BND=  0.3338E+06 TWIN=-0.1000E+31   8236
+ SET bin_grind_a_q2                           TO >=     1 AT   17, BND=  0.3338E+06 TWIN= 0.2941E+06   8268
+ SET bin_grind_a_q3                           TO >=     1 AT   18, BND=  0.3318E+06 TWIN= 0.3006E+06   8293
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3310E+06 TWIN= 0.2662E+06   8318
+ SET bin_mix_b_q2                             TO >=     1 AT   20, BND=  0.3214E+06 TWIN= 0.1113E+06   8363
+ DELETE bin_mix_b_q2                             AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ DELETE bin_grind_a_q3                           AT LEVEL    18
+ DELETE bin_grind_a_q2                           AT LEVEL    17
+ DELETE bin_pack_super_q4                        AT LEVEL    16
+ DELETE bin_pack_store_q4                        AT LEVEL    15
+ DELETE bin_pack_store_q3                        AT LEVEL    14
+ DELETE bin_pack_store_q1                        AT LEVEL    13
+ DELETE bin_grind_b_q1                           AT LEVEL    12
+ DELETE bin_pack_super_q2                        AT LEVEL    11
+ DELETE bin_pack_store_q2                        AT LEVEL    10
+ FLIP bin_grind_b_q2                           TO <=         0 AT    9 WITH BND=    389772.59
+ SET bin_grind_a_q1                           TO >=     1 AT   10, BND=  0.3898E+06 TWIN=-0.1000E+31   8430
+ SET bin_grind_a_q2                           TO >=     1 AT   11, BND=  0.3898E+06 TWIN=-0.1000E+31   8430
+ SET bin_grind_b_q1                           TO >=     1 AT   12, BND=  0.3898E+06 TWIN=-0.1000E+31   8430
+ DELETE bin_clean_q1                             AT LEVEL    13
+ DELETE bin_grind_b_q1                           AT LEVEL    12
+ DELETE bin_grind_a_q2                           AT LEVEL    11
+ DELETE bin_grind_a_q1                           AT LEVEL    10
+ DELETE bin_grind_b_q2                           AT LEVEL     9
+ DELETE bin_grind_b_q3                           AT LEVEL     8
+ DELETE bin_mix_a_q4                             AT LEVEL     7
+ FLIP bin_mix_a_q3                             TO >=         1 AT    6 WITH BND=    496853.69
+ DELETE bin_clean_q1                             AT LEVEL     7
+ DELETE bin_mix_a_q3                             AT LEVEL     6
+ DELETE bin_mix_a_q1                             AT LEVEL     5
+ FLIP bin_mix_a_q2                             TO <=         0 AT    4 WITH BND=    532191.94
+ SET bin_grind_b_q2                           TO >=     1 AT    5, BND=  0.5322E+06 TWIN= 0.4525E+06   8514
+ SET bin_grind_b_q3                           TO >=     1 AT    6, BND=  0.5315E+06 TWIN= 0.4525E+06   8543
+ SET bin_mix_a_q1                             TO >=     1 AT    7, BND=  0.5032E+06 TWIN=-0.1093E+07   8625
+ SET bin_mix_a_q3                             TO >=     1 AT    8, BND=  0.5032E+06 TWIN= 0.4788E+06   8658
+ SET bin_mix_a_q4                             TO >=     1 AT    9, BND=  0.4943E+06 TWIN= 0.4788E+06   8692
+ DELETE bin_clean_q1                             AT LEVEL    10
+ FLIP bin_mix_a_q4                             TO <=         0 AT    9 WITH BND=    478800.91
+ SET bin_pack_store_q2                        TO >=     1 AT   10, BND=  0.4733E+06 TWIN= 0.3825E+06   8729
+ SET bin_pack_store_q1                        TO >=     1 AT   11, BND=  0.4676E+06 TWIN= 0.4140E+06   8740
+ SET bin_pack_store_q3                        TO >=     1 AT   12, BND=  0.4582E+06 TWIN= 0.4176E+06   8751
+ SET bin_pack_store_q4                        TO >=     1 AT   13, BND=  0.4454E+06 TWIN= 0.4278E+06   8763
+ SET bin_mix_b_q4                             TO >=     1 AT   14, BND=  0.4332E+06 TWIN= 0.3750E+06   8778
+ SET bin_mix_b_q3                             TO >=     1 AT   15, BND=  0.4223E+06 TWIN= 0.2413E+06   8830
+ SET bin_mix_b_q1                             TO >=     1 AT   16, BND=  0.4120E+06 TWIN= 0.1201E+06   8884
+ SET bin_mix_b_q2                             TO >=     1 AT   17, BND=  0.4042E+06 TWIN= 0.1203E+06   8921
+ SET bin_pack_super_q2                        TO <=     0 AT   18, BND=  0.3759E+06 TWIN= 0.3348E+06   8924
+ SET bin_pack_super_q1                        TO <=     0 AT   19, BND=  0.3731E+06 TWIN= 0.3028E+06   8927
+ SET bin_grind_b_q1                           TO >=     1 AT   20, BND=  0.3731E+06 TWIN=-0.1000E+31   8927
+ SET bin_cook_q3                              TO >=     1 AT   21, BND=  0.3731E+06 TWIN= 0.3200E+06   8940
+ SET bin_cook_q4                              TO <=     0 AT   22, BND=  0.3723E+06 TWIN= 0.2987E+06   8948
+ SET bin_cook_q1                              TO >=     1 AT   23, BND=  0.3686E+06 TWIN=-0.5064E+06   9041
+ SET bin_cook_q2                              TO >=     1 AT   24, BND=  0.3505E+06 TWIN= -396.0       9080
+ SET bin_grind_a_q1                           TO >=     1 AT   25, BND=  0.3505E+06 TWIN=-0.1000E+31   9080
+ SET bin_grind_a_q2                           TO >=     1 AT   26, BND=  0.3505E+06 TWIN=-0.1000E+31   9080
+ SET bin_grind_a_q3                           TO >=     1 AT   27, BND=  0.3505E+06 TWIN=-0.1000E+31   9080
+ SET bin_clean_q1                             TO >=     1 AT   28, BND=  0.3351E+06 TWIN=-0.1853E+07   9170
+
+ NEW INTEGER SOLUTION OF    335117.406     AT BRANCH    227 PIVOT    9170
+ BOUND ON OPTIMUM:  656340.6
+ DELETE bin_clean_q1                             AT LEVEL    28
+ DELETE bin_grind_a_q3                           AT LEVEL    27
+ DELETE bin_grind_a_q2                           AT LEVEL    26
+ DELETE bin_grind_a_q1                           AT LEVEL    25
+ DELETE bin_cook_q2                              AT LEVEL    24
+ DELETE bin_cook_q1                              AT LEVEL    23
+ DELETE bin_cook_q4                              AT LEVEL    22
+ DELETE bin_cook_q3                              AT LEVEL    21
+ DELETE bin_grind_b_q1                           AT LEVEL    20
+ DELETE bin_pack_super_q1                        AT LEVEL    19
+ DELETE bin_pack_super_q2                        AT LEVEL    18
+ DELETE bin_mix_b_q2                             AT LEVEL    17
+ DELETE bin_mix_b_q1                             AT LEVEL    16
+ DELETE bin_mix_b_q3                             AT LEVEL    15
+ FLIP bin_mix_b_q4                             TO <=         0 AT   14 WITH BND=    375021.88
+ SET bin_grind_b_q1                           TO >=     1 AT   15, BND=  0.3750E+06 TWIN=-0.1000E+31   9257
+ SET bin_mix_b_q1                             TO >=     1 AT   16, BND=  0.3750E+06 TWIN=-0.1000E+31   9257
+ SET bin_mix_b_q2                             TO >=     1 AT   17, BND=  0.3750E+06 TWIN=-0.1000E+31   9257
+ SET bin_mix_b_q3                             TO >=     1 AT   18, BND=  0.3750E+06 TWIN=-0.1000E+31   9257
+ SET bin_grind_a_q3                           TO >=     1 AT   19, BND=  0.3750E+06 TWIN= 0.3481E+06   9314
+ SET bin_grind_a_q2                           TO >=     1 AT   20, BND=  0.3694E+06 TWIN= 0.3481E+06   9389
+ SET bin_grind_a_q1                           TO >=     1 AT   21, BND=  0.3694E+06 TWIN=-0.1000E+31   9389
+ SET bin_pack_super_q2                        TO <=     0 AT   22, BND=  0.3649E+06 TWIN= 0.3000E+06   9395
+ SET bin_pack_super_q1                        TO <=     0 AT   23, BND=  0.3644E+06 TWIN= 0.2919E+06   9398
+ SET bin_cook_q4                              TO <=     0 AT   24, BND=  0.3630E+06 TWIN= 0.3303E+06   9423
+ SET bin_cook_q2                              TO >=     1 AT   25, BND=  0.3630E+06 TWIN=-0.1000E+31   9423
+ SET bin_cook_q3                              TO >=     1 AT   26, BND=  0.3630E+06 TWIN=-0.1000E+31   9423
+ SET bin_cook_q1                              TO >=     1 AT   27, BND=  0.3413E+06 TWIN=-0.4830E+06   9496
+ DELETE bin_clean_q1                             AT LEVEL    28
+ DELETE bin_cook_q1                              AT LEVEL    27
+ DELETE bin_cook_q3                              AT LEVEL    26
+ DELETE bin_cook_q2                              AT LEVEL    25
+ DELETE bin_cook_q4                              AT LEVEL    24
+ DELETE bin_pack_super_q1                        AT LEVEL    23
+ DELETE bin_pack_super_q2                        AT LEVEL    22
+ DELETE bin_grind_a_q1                           AT LEVEL    21
+ FLIP bin_grind_a_q2                           TO <=         0 AT   20 WITH BND=    348120.91
+ SET bin_grind_a_q1                           TO >=     1 AT   21, BND=  0.3481E+06 TWIN=-0.1000E+31   9545
+ SET bin_pack_super_q2                        TO <=     0 AT   22, BND=  0.3437E+06 TWIN= 0.2787E+06   9548
+ SET bin_pack_super_q1                        TO <=     0 AT   23, BND=  0.3431E+06 TWIN= 0.2706E+06   9551
+ SET bin_cook_q4                              TO <=     0 AT   24, BND=  0.3424E+06 TWIN= 0.3044E+06   9566
+ SET bin_cook_q2                              TO >=     1 AT   25, BND=  0.3424E+06 TWIN=-0.1000E+31   9566
+ SET bin_cook_q3                              TO >=     1 AT   26, BND=  0.3424E+06 TWIN=-0.1000E+31   9566
+ SET bin_cook_q1                              TO >=     1 AT   27, BND=  0.3206E+06 TWIN=-0.4630E+06   9663
+ DELETE bin_cook_q1                              AT LEVEL    27
+ DELETE bin_cook_q3                              AT LEVEL    26
+ DELETE bin_cook_q2                              AT LEVEL    25
+ DELETE bin_cook_q4                              AT LEVEL    24
+ DELETE bin_pack_super_q1                        AT LEVEL    23
+ DELETE bin_pack_super_q2                        AT LEVEL    22
+ DELETE bin_grind_a_q1                           AT LEVEL    21
+ DELETE bin_grind_a_q2                           AT LEVEL    20
+ FLIP bin_grind_a_q3                           TO <=         0 AT   19 WITH BND=    348120.91
+ SET bin_grind_a_q1                           TO >=     1 AT   20, BND=  0.3481E+06 TWIN=-0.1000E+31   9715
+ SET bin_grind_a_q2                           TO >=     1 AT   21, BND=  0.3481E+06 TWIN=-0.1000E+31   9715
+ SET bin_pack_super_q2                        TO <=     0 AT   22, BND=  0.3437E+06 TWIN= 0.2787E+06   9718
+ SET bin_pack_super_q1                        TO <=     0 AT   23, BND=  0.3431E+06 TWIN= 0.2706E+06   9721
+ SET bin_cook_q1                              TO >=     1 AT   24, BND=  0.3387E+06 TWIN=-0.4569E+06   9844
+ SET bin_cook_q2                              TO >=     1 AT   25, BND=  0.3387E+06 TWIN= 0.1221E+06   9867
+ SET bin_cook_q3                              TO >=     1 AT   26, BND=  0.3206E+06 TWIN= 0.2739E+06   9965
+ DELETE bin_cook_q3                              AT LEVEL    26
+ DELETE bin_cook_q2                              AT LEVEL    25
+ DELETE bin_cook_q1                              AT LEVEL    24
+ DELETE bin_pack_super_q1                        AT LEVEL    23
+ DELETE bin_pack_super_q2                        AT LEVEL    22
+ DELETE bin_grind_a_q2                           AT LEVEL    21
+ DELETE bin_grind_a_q1                           AT LEVEL    20
+ DELETE bin_grind_a_q3                           AT LEVEL    19
+ DELETE bin_mix_b_q3                             AT LEVEL    18
+ DELETE bin_mix_b_q2                             AT LEVEL    17
+ DELETE bin_mix_b_q1                             AT LEVEL    16
+ DELETE bin_grind_b_q1                           AT LEVEL    15
+ DELETE bin_mix_b_q4                             AT LEVEL    14
+ FLIP bin_pack_store_q4                        TO <=         0 AT   13 WITH BND=    427768.12
+ SET bin_pack_super_q4                        TO >=     1 AT   14, BND=  0.4278E+06 TWIN=-0.1000E+31  10008
+ SET bin_mix_b_q4                             TO <=     0 AT   15, BND=  0.3825E+06 TWIN= 0.4121E+06  10030
+ SET bin_mix_b_q2                             TO >=     1 AT   16, BND=  0.3825E+06 TWIN=-0.1000E+31  10030
+ SET bin_mix_b_q3                             TO >=     1 AT   17, BND=  0.3825E+06 TWIN=-0.1000E+31  10030
+ SET bin_grind_a_q3                           TO >=     1 AT   18, BND=  0.3825E+06 TWIN= 0.3556E+06  10102
+ SET bin_grind_a_q2                           TO >=     1 AT   19, BND=  0.3768E+06 TWIN= 0.3556E+06  10160
+ SET bin_grind_b_q1                           TO >=     1 AT   20, BND=  0.3768E+06 TWIN=-0.1000E+31  10160
+ SET bin_mix_b_q1                             TO >=     1 AT   21, BND=  0.3768E+06 TWIN=-0.1000E+31  10160
+ SET bin_pack_super_q2                        TO <=     0 AT   22, BND=  0.3583E+06 TWIN= 0.3074E+06  10163
+ SET bin_grind_a_q1                           TO >=     1 AT   23, BND=  0.3583E+06 TWIN=-0.1000E+31  10163
+ SET bin_pack_super_q1                        TO <=     0 AT   24, BND=  0.3561E+06 TWIN= 0.2853E+06  10166
+ SET bin_cook_q3                              TO >=     1 AT   25, BND=  0.3561E+06 TWIN= 0.2892E+06  10179
+ SET bin_cook_q4                              TO <=     0 AT   26, BND=  0.3547E+06 TWIN= 0.2856E+06  10191
+ SET bin_cook_q2                              TO >=     1 AT   27, BND=  0.3547E+06 TWIN=-0.1000E+31  10191
+ SET bin_cook_q1                              TO >=     1 AT   28, BND=  0.3329E+06 TWIN=-0.5090E+06  10289
+ DELETE bin_cook_q1                              AT LEVEL    28
+ DELETE bin_cook_q2                              AT LEVEL    27
+ DELETE bin_cook_q4                              AT LEVEL    26
+ DELETE bin_cook_q3                              AT LEVEL    25
+ DELETE bin_pack_super_q1                        AT LEVEL    24
+ DELETE bin_grind_a_q1                           AT LEVEL    23
+ DELETE bin_pack_super_q2                        AT LEVEL    22
+ DELETE bin_mix_b_q1                             AT LEVEL    21
+ DELETE bin_grind_b_q1                           AT LEVEL    20
+ FLIP bin_grind_a_q2                           TO <=         0 AT   19 WITH BND=    355564.12
+ SET bin_grind_a_q1                           TO >=     1 AT   20, BND=  0.3556E+06 TWIN=-0.1000E+31  10338
+ SET bin_grind_b_q1                           TO >=     1 AT   21, BND=  0.3556E+06 TWIN=-0.1000E+31  10338
+ SET bin_mix_b_q1                             TO >=     1 AT   22, BND=  0.3556E+06 TWIN=-0.1000E+31  10338
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3370E+06 TWIN= 0.2862E+06  10341
+ SET bin_pack_super_q1                        TO <=     0 AT   24, BND=  0.3349E+06 TWIN= 0.2640E+06  10344
+ DELETE bin_pack_super_q1                        AT LEVEL    24
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_mix_b_q1                             AT LEVEL    22
+ DELETE bin_grind_b_q1                           AT LEVEL    21
+ DELETE bin_grind_a_q1                           AT LEVEL    20
+ DELETE bin_grind_a_q2                           AT LEVEL    19
+ FLIP bin_grind_a_q3                           TO <=         0 AT   18 WITH BND=    355564.12
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3556E+06 TWIN=-0.1000E+31  10406
+ SET bin_grind_a_q2                           TO >=     1 AT   20, BND=  0.3556E+06 TWIN=-0.1000E+31  10406
+ SET bin_grind_b_q1                           TO >=     1 AT   21, BND=  0.3556E+06 TWIN=-0.1000E+31  10406
+ SET bin_mix_b_q1                             TO >=     1 AT   22, BND=  0.3556E+06 TWIN=-0.1000E+31  10406
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3370E+06 TWIN= 0.2862E+06  10409
+ SET bin_pack_super_q1                        TO <=     0 AT   24, BND=  0.3349E+06 TWIN= 0.2640E+06  10412
+ DELETE bin_pack_super_q1                        AT LEVEL    24
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_mix_b_q1                             AT LEVEL    22
+ DELETE bin_grind_b_q1                           AT LEVEL    21
+ DELETE bin_grind_a_q2                           AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ DELETE bin_grind_a_q3                           AT LEVEL    18
+ DELETE bin_mix_b_q3                             AT LEVEL    17
+ DELETE bin_mix_b_q2                             AT LEVEL    16
+ FLIP bin_mix_b_q4                             TO >=         1 AT   15 WITH BND=    412130.50
+ SET bin_mix_b_q3                             TO >=     1 AT   16, BND=  0.4012E+06 TWIN= 0.2171E+06  10512
+ SET bin_mix_b_q1                             TO >=     1 AT   17, BND=  0.3909E+06 TWIN= 0.9587E+05  10553
+ SET bin_mix_b_q2                             TO >=     1 AT   18, BND=  0.3832E+06 TWIN= 0.9605E+05  10629
+ SET bin_pack_super_q2                        TO <=     0 AT   19, BND=  0.3548E+06 TWIN= 0.3137E+06  10632
+ SET bin_grind_a_q1                           TO >=     1 AT   20, BND=  0.3548E+06 TWIN=-0.1000E+31  10632
+ SET bin_grind_a_q2                           TO >=     1 AT   21, BND=  0.3548E+06 TWIN=-0.1000E+31  10632
+ SET bin_grind_a_q3                           TO >=     1 AT   22, BND=  0.3548E+06 TWIN=-0.1000E+31  10632
+ SET bin_grind_b_q1                           TO >=     1 AT   23, BND=  0.3548E+06 TWIN=-0.1000E+31  10632
+ SET bin_pack_super_q1                        TO <=     0 AT   24, BND=  0.3520E+06 TWIN= 0.2817E+06  10635
+ SET bin_cook_q4                              TO <=     0 AT   25, BND=  0.3512E+06 TWIN= 0.3126E+06  10644
+ SET bin_cook_q2                              TO >=     1 AT   26, BND=  0.3512E+06 TWIN=-0.1000E+31  10644
+ SET bin_cook_q3                              TO >=     1 AT   27, BND=  0.3512E+06 TWIN=-0.1000E+31  10644
+ SET bin_cook_q1                              TO >=     1 AT   28, BND=  0.3294E+06 TWIN=-0.5615E+06  10741
+ DELETE bin_cook_q1                              AT LEVEL    28
+ DELETE bin_cook_q3                              AT LEVEL    27
+ DELETE bin_cook_q2                              AT LEVEL    26
+ DELETE bin_cook_q4                              AT LEVEL    25
+ DELETE bin_pack_super_q1                        AT LEVEL    24
+ DELETE bin_grind_b_q1                           AT LEVEL    23
+ DELETE bin_grind_a_q3                           AT LEVEL    22
+ DELETE bin_grind_a_q2                           AT LEVEL    21
+ DELETE bin_grind_a_q1                           AT LEVEL    20
+ DELETE bin_pack_super_q2                        AT LEVEL    19
+ DELETE bin_mix_b_q2                             AT LEVEL    18
+ DELETE bin_mix_b_q1                             AT LEVEL    17
+ DELETE bin_mix_b_q3                             AT LEVEL    16
+ DELETE bin_mix_b_q4                             AT LEVEL    15
+ DELETE bin_pack_super_q4                        AT LEVEL    14
+ DELETE bin_pack_store_q4                        AT LEVEL    13
+ FLIP bin_pack_store_q3                        TO <=         0 AT   12 WITH BND=    417566.53
+ SET bin_pack_super_q3                        TO >=     1 AT   13, BND=  0.4176E+06 TWIN=-0.1000E+31  10823
+ SET bin_pack_store_q4                        TO >=     1 AT   14, BND=  0.4047E+06 TWIN= 0.3868E+06  10848
+ SET bin_mix_b_q3                             TO >=     1 AT   15, BND=  0.4047E+06 TWIN= 0.2610E+06  10895
+ SET bin_mix_b_q4                             TO >=     1 AT   16, BND=  0.3759E+06 TWIN= 0.3648E+06  10911
+ SET bin_grind_b_q1                           TO >=     1 AT   17, BND=  0.3759E+06 TWIN=-0.1000E+31  10911
+ SET bin_mix_b_q1                             TO >=     1 AT   18, BND=  0.3656E+06 TWIN= 0.6257E+05  10985
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3656E+06 TWIN=-0.1000E+31  10985
+ SET bin_grind_a_q2                           TO >=     1 AT   20, BND=  0.3656E+06 TWIN=-0.1000E+31  10985
+ SET bin_grind_a_q3                           TO >=     1 AT   21, BND=  0.3656E+06 TWIN=-0.1000E+31  10985
+ SET bin_mix_b_q2                             TO >=     1 AT   22, BND=  0.3578E+06 TWIN= 0.4869E+05  11016
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3295E+06 TWIN= 0.2884E+06  11019
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_mix_b_q2                             AT LEVEL    22
+ DELETE bin_grind_a_q3                           AT LEVEL    21
+ DELETE bin_grind_a_q2                           AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ DELETE bin_mix_b_q1                             AT LEVEL    18
+ DELETE bin_grind_b_q1                           AT LEVEL    17
+ FLIP bin_mix_b_q4                             TO <=         0 AT   16 WITH BND=    364802.56
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND=  0.3648E+06 TWIN=-0.1000E+31  11047
+ SET bin_grind_b_q1                           TO >=     1 AT   18, BND=  0.3648E+06 TWIN=-0.1000E+31  11047
+ SET bin_mix_b_q1                             TO >=     1 AT   19, BND=  0.3648E+06 TWIN=-0.1000E+31  11047
+ SET bin_mix_b_q2                             TO >=     1 AT   20, BND=  0.3648E+06 TWIN=-0.1000E+31  11047
+ SET bin_grind_a_q2                           TO >=     1 AT   21, BND=  0.3648E+06 TWIN= 0.3379E+06  11090
+ SET bin_grind_a_q3                           TO >=     1 AT   22, BND=  0.3592E+06 TWIN= 0.3379E+06  11137
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3406E+06 TWIN= 0.2898E+06  11140
+ SET bin_pack_super_q1                        TO <=     0 AT   24, BND=  0.3385E+06 TWIN= 0.2676E+06  11143
+ SET bin_cook_q4                              TO <=     0 AT   25, BND=  0.3371E+06 TWIN= 0.3034E+06  11162
+ SET bin_cook_q2                              TO >=     1 AT   26, BND=  0.3371E+06 TWIN=-0.1000E+31  11162
+ SET bin_cook_q3                              TO >=     1 AT   27, BND=  0.3371E+06 TWIN=-0.1000E+31  11162
+ SET bin_cook_q1                              TO >=     1 AT   28, BND=  0.3152E+06 TWIN=-0.5374E+06  11229
+ DELETE bin_cook_q1                              AT LEVEL    28
+ DELETE bin_cook_q3                              AT LEVEL    27
+ DELETE bin_cook_q2                              AT LEVEL    26
+ DELETE bin_cook_q4                              AT LEVEL    25
+ DELETE bin_pack_super_q1                        AT LEVEL    24
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ FLIP bin_grind_a_q3                           TO <=         0 AT   22 WITH BND=    337901.62
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3194E+06 TWIN= 0.2685E+06  11269
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_grind_a_q3                           AT LEVEL    22
+ FLIP bin_grind_a_q2                           TO <=         0 AT   21 WITH BND=    337901.62
+ SET bin_grind_a_q3                           TO >=     1 AT   22, BND=  0.3379E+06 TWIN=-0.1000E+31  11271
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3194E+06 TWIN= 0.2685E+06  11278
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_grind_a_q3                           AT LEVEL    22
+ DELETE bin_grind_a_q2                           AT LEVEL    21
+ DELETE bin_mix_b_q2                             AT LEVEL    20
+ DELETE bin_mix_b_q1                             AT LEVEL    19
+ DELETE bin_grind_b_q1                           AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ DELETE bin_mix_b_q4                             AT LEVEL    16
+ DELETE bin_mix_b_q3                             AT LEVEL    15
+ FLIP bin_pack_store_q4                        TO <=         0 AT   14 WITH BND=    386814.78
+ SET bin_pack_super_q4                        TO >=     1 AT   15, BND=  0.3868E+06 TWIN=-0.1000E+31  11370
+ SET bin_grind_b_q1                           TO >=     1 AT   16, BND=  0.3868E+06 TWIN= 0.1392E+06  11436
+ SET bin_grind_a_q3                           TO >=     1 AT   17, BND=  0.3868E+06 TWIN= 0.3482E+06  11465
+ SET bin_grind_a_q2                           TO <=     0 AT   18, BND=  0.3482E+06 TWIN= 0.3868E+06  11491
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3482E+06 TWIN=-0.1000E+31  11491
+ SET bin_mix_b_q4                             TO <=     0 AT   20, BND=  0.3287E+06 TWIN= 0.3325E+06  11507
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ FLIP bin_grind_a_q2                           TO >=         1 AT   18 WITH BND=    386788.31
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3866E+06 TWIN= 0.3192E+06  11562
+ SET bin_mix_b_q4                             TO <=     0 AT   20, BND=  0.3500E+06 TWIN= 0.3710E+06  11581
+ SET bin_mix_b_q1                             TO >=     1 AT   21, BND=  0.3500E+06 TWIN=-0.1000E+31  11581
+ SET bin_mix_b_q2                             TO >=     1 AT   22, BND=  0.3500E+06 TWIN=-0.1000E+31  11581
+ SET bin_mix_b_q3                             TO >=     1 AT   23, BND=  0.3500E+06 TWIN=-0.1000E+31  11581
+ SET bin_pack_super_q2                        TO <=     0 AT   24, BND=  0.3301E+06 TWIN= 0.2806E+06  11588
+ DELETE bin_pack_super_q2                        AT LEVEL    24
+ DELETE bin_mix_b_q3                             AT LEVEL    23
+ DELETE bin_mix_b_q2                             AT LEVEL    22
+ DELETE bin_mix_b_q1                             AT LEVEL    21
+ FLIP bin_mix_b_q4                             TO >=         1 AT   20 WITH BND=    370975.66
+ SET bin_mix_b_q3                             TO >=     1 AT   21, BND=  0.3543E+06 TWIN= 0.2112E+06  11668
+ SET bin_mix_b_q1                             TO >=     1 AT   22, BND=  0.3440E+06 TWIN= 0.1004E+05  11733
+ SET bin_mix_b_q2                             TO >=     1 AT   23, BND=  0.3363E+06 TWIN= 0.2273E+05  11787
+ SET bin_pack_super_q2                        TO <=     0 AT   24, BND=  0.3038E+06 TWIN= 0.2669E+06  11793
+ DELETE bin_pack_super_q2                        AT LEVEL    24
+ DELETE bin_mix_b_q2                             AT LEVEL    23
+ DELETE bin_mix_b_q1                             AT LEVEL    22
+ DELETE bin_mix_b_q3                             AT LEVEL    21
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ DELETE bin_grind_a_q2                           AT LEVEL    18
+ FLIP bin_grind_a_q3                           TO <=         0 AT   17 WITH BND=    348160.66
+ SET bin_grind_a_q1                           TO >=     1 AT   18, BND=  0.3482E+06 TWIN=-0.1000E+31  11852
+ SET bin_grind_a_q2                           TO >=     1 AT   19, BND=  0.3482E+06 TWIN=-0.1000E+31  11852
+ SET bin_mix_b_q4                             TO <=     0 AT   20, BND=  0.3287E+06 TWIN= 0.3325E+06  11895
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_grind_a_q2                           AT LEVEL    19
+ DELETE bin_grind_a_q1                           AT LEVEL    18
+ DELETE bin_grind_a_q3                           AT LEVEL    17
+ DELETE bin_grind_b_q1                           AT LEVEL    16
+ DELETE bin_pack_super_q4                        AT LEVEL    15
+ DELETE bin_pack_store_q4                        AT LEVEL    14
+ DELETE bin_pack_super_q3                        AT LEVEL    13
+ DELETE bin_pack_store_q3                        AT LEVEL    12
+ FLIP bin_pack_store_q1                        TO <=         0 AT   11 WITH BND=    413995.81
+ SET bin_pack_super_q1                        TO >=     1 AT   12, BND=  0.4140E+06 TWIN=-0.1000E+31  11970
+ SET bin_pack_store_q3                        TO >=     1 AT   13, BND=  0.4047E+06 TWIN= 0.3598E+06  11985
+ SET bin_pack_store_q4                        TO >=     1 AT   14, BND=  0.3918E+06 TWIN= 0.3718E+06  11999
+ SET bin_mix_b_q4                             TO >=     1 AT   15, BND=  0.3797E+06 TWIN= 0.3450E+06  12026
+ SET bin_grind_b_q1                           TO >=     1 AT   16, BND=  0.3797E+06 TWIN=-0.1000E+31  12026
+ SET bin_mix_b_q3                             TO >=     1 AT   17, BND=  0.3688E+06 TWIN= 0.2489E+06  12059
+ SET bin_grind_a_q1                           TO >=     1 AT   18, BND=  0.3688E+06 TWIN=-0.1000E+31  12059
+ SET bin_grind_a_q2                           TO >=     1 AT   19, BND=  0.3688E+06 TWIN=-0.1000E+31  12059
+ SET bin_grind_a_q3                           TO >=     1 AT   20, BND=  0.3688E+06 TWIN=-0.1000E+31  12059
+ SET bin_mix_b_q1                             TO >=     1 AT   21, BND=  0.3501E+06 TWIN= 0.9813E+05  12088
+ SET bin_mix_b_q2                             TO >=     1 AT   22, BND=  0.3424E+06 TWIN= 0.1107E+06  12110
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3108E+06 TWIN= 0.2730E+06  12116
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_mix_b_q2                             AT LEVEL    22
+ DELETE bin_mix_b_q1                             AT LEVEL    21
+ DELETE bin_grind_a_q3                           AT LEVEL    20
+ DELETE bin_grind_a_q2                           AT LEVEL    19
+ DELETE bin_grind_a_q1                           AT LEVEL    18
+ DELETE bin_mix_b_q3                             AT LEVEL    17
+ DELETE bin_grind_b_q1                           AT LEVEL    16
+ FLIP bin_mix_b_q4                             TO <=         0 AT   15 WITH BND=    345047.16
+ SET bin_grind_a_q1                           TO >=     1 AT   16, BND=  0.3450E+06 TWIN=-0.1000E+31  12145
+ SET bin_grind_b_q1                           TO >=     1 AT   17, BND=  0.3450E+06 TWIN=-0.1000E+31  12145
+ SET bin_mix_b_q1                             TO >=     1 AT   18, BND=  0.3450E+06 TWIN=-0.1000E+31  12145
+ SET bin_mix_b_q2                             TO >=     1 AT   19, BND=  0.3450E+06 TWIN=-0.1000E+31  12145
+ SET bin_mix_b_q3                             TO >=     1 AT   20, BND=  0.3450E+06 TWIN=-0.1000E+31  12145
+ SET bin_grind_a_q3                           TO >=     1 AT   21, BND=  0.3450E+06 TWIN= 0.3181E+06  12168
+ SET bin_grind_a_q2                           TO >=     1 AT   22, BND=  0.3394E+06 TWIN= 0.3181E+06  12195
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3209E+06 TWIN= 0.2700E+06  12198
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_grind_a_q2                           AT LEVEL    22
+ DELETE bin_grind_a_q3                           AT LEVEL    21
+ DELETE bin_mix_b_q3                             AT LEVEL    20
+ DELETE bin_mix_b_q2                             AT LEVEL    19
+ DELETE bin_mix_b_q1                             AT LEVEL    18
+ DELETE bin_grind_b_q1                           AT LEVEL    17
+ DELETE bin_grind_a_q1                           AT LEVEL    16
+ DELETE bin_mix_b_q4                             AT LEVEL    15
+ FLIP bin_pack_store_q4                        TO <=         0 AT   14 WITH BND=    371817.25
+ SET bin_pack_super_q4                        TO >=     1 AT   15, BND=  0.3718E+06 TWIN=-0.1000E+31  12284
+ SET bin_grind_b_q1                           TO >=     1 AT   16, BND=  0.3716E+06 TWIN= 0.2038E+06  12322
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND=  0.3716E+06 TWIN= 0.3217E+06  12355
+ SET bin_grind_a_q3                           TO >=     1 AT   18, BND=  0.3716E+06 TWIN= 0.3343E+06  12375
+ SET bin_grind_a_q2                           TO >=     1 AT   19, BND=  0.3701E+06 TWIN= 0.3343E+06  12397
+ SET bin_mix_b_q4                             TO >=     1 AT   20, BND=  0.3545E+06 TWIN= 0.3299E+06  12422
+ SET bin_mix_b_q1                             TO >=     1 AT   21, BND=  0.3359E+06 TWIN= 0.8307E+05  12468
+ SET bin_mix_b_q3                             TO >=     1 AT   22, BND=  0.3250E+06 TWIN= 0.2112E+06  12533
+ DELETE bin_mix_b_q3                             AT LEVEL    22
+ DELETE bin_mix_b_q1                             AT LEVEL    21
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_grind_a_q2                           AT LEVEL    19
+ DELETE bin_grind_a_q3                           AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ DELETE bin_grind_b_q1                           AT LEVEL    16
+ DELETE bin_pack_super_q4                        AT LEVEL    15
+ DELETE bin_pack_store_q4                        AT LEVEL    14
+ FLIP bin_pack_store_q3                        TO <=         0 AT   13 WITH BND=    359785.31
+ SET bin_pack_super_q3                        TO >=     1 AT   14, BND=  0.3598E+06 TWIN=-0.1000E+31  12602
+ SET bin_grind_b_q1                           TO >=     1 AT   15, BND=  0.3594E+06 TWIN= 0.1916E+06  12656
+ SET bin_grind_a_q1                           TO >=     1 AT   16, BND=  0.3594E+06 TWIN= 0.3095E+06  12674
+ SET bin_grind_a_q3                           TO >=     1 AT   17, BND=  0.3594E+06 TWIN= 0.3244E+06  12712
+ SET bin_grind_a_q2                           TO >=     1 AT   18, BND=  0.3568E+06 TWIN= 0.3244E+06  12746
+ SET bin_pack_store_q4                        TO >=     1 AT   19, BND=  0.3439E+06 TWIN= 0.3215E+06  12766
+ SET bin_mix_b_q1                             TO >=     1 AT   20, BND=  0.3253E+06 TWIN= 0.7251E+05  12807
+ DELETE bin_mix_b_q1                             AT LEVEL    20
+ DELETE bin_pack_store_q4                        AT LEVEL    19
+ DELETE bin_grind_a_q2                           AT LEVEL    18
+ DELETE bin_grind_a_q3                           AT LEVEL    17
+ DELETE bin_grind_a_q1                           AT LEVEL    16
+ DELETE bin_grind_b_q1                           AT LEVEL    15
+ DELETE bin_pack_super_q3                        AT LEVEL    14
+ DELETE bin_pack_store_q3                        AT LEVEL    13
+ DELETE bin_pack_super_q1                        AT LEVEL    12
+ DELETE bin_pack_store_q1                        AT LEVEL    11
+ FLIP bin_pack_store_q2                        TO <=         0 AT   10 WITH BND=    382546.34
+ SET bin_pack_super_q2                        TO >=     1 AT   11, BND=  0.3825E+06 TWIN=-0.1000E+31  12877
+ SET bin_grind_b_q1                           TO >=     1 AT   12, BND=  0.3824E+06 TWIN= 0.1605E+06  12929
+ SET bin_pack_store_q1                        TO >=     1 AT   13, BND=  0.3767E+06 TWIN= 0.3157E+06  12944
+ SET bin_pack_store_q3                        TO >=     1 AT   14, BND=  0.3673E+06 TWIN= 0.3216E+06  12954
+ SET bin_pack_store_q4                        TO >=     1 AT   15, BND=  0.3545E+06 TWIN= 0.3338E+06  12966
+ SET bin_grind_a_q3                           TO >=     1 AT   16, BND=  0.3545E+06 TWIN= 0.3176E+06  12989
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND=  0.3545E+06 TWIN= 0.2946E+06  13047
+ SET bin_grind_a_q2                           TO >=     1 AT   18, BND=  0.3535E+06 TWIN= 0.3176E+06  13068
+ SET bin_mix_b_q4                             TO >=     1 AT   19, BND=  0.3413E+06 TWIN= 0.3231E+06  13093
+ SET bin_mix_b_q2                             TO >=     1 AT   20, BND=  0.3413E+06 TWIN= 0.1216E+06  13142
+ SET bin_mix_b_q3                             TO <=     0 AT   21, BND=  0.2372E+06 TWIN= 0.3118E+06  13161
+ DELETE bin_mix_b_q3                             AT LEVEL    21
+ DELETE bin_mix_b_q2                             AT LEVEL    20
+ DELETE bin_mix_b_q4                             AT LEVEL    19
+ DELETE bin_grind_a_q2                           AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ DELETE bin_grind_a_q3                           AT LEVEL    16
+ DELETE bin_pack_store_q4                        AT LEVEL    15
+ DELETE bin_pack_store_q3                        AT LEVEL    14
+ DELETE bin_pack_store_q1                        AT LEVEL    13
+ DELETE bin_grind_b_q1                           AT LEVEL    12
+ DELETE bin_pack_super_q2                        AT LEVEL    11
+ DELETE bin_pack_store_q2                        AT LEVEL    10
+ DELETE bin_mix_a_q4                             AT LEVEL     9
+ FLIP bin_mix_a_q3                             TO <=         0 AT    8 WITH BND=    478800.91
+ SET bin_pack_store_q2                        TO >=     1 AT    9, BND=  0.4733E+06 TWIN= 0.3825E+06  13280
+ SET bin_pack_store_q1                        TO >=     1 AT   10, BND=  0.4676E+06 TWIN= 0.4140E+06  13296
+ SET bin_pack_store_q3                        TO >=     1 AT   11, BND=  0.4582E+06 TWIN= 0.4176E+06  13306
+ SET bin_pack_store_q4                        TO >=     1 AT   12, BND=  0.4454E+06 TWIN= 0.4278E+06  13318
+ SET bin_mix_b_q4                             TO >=     1 AT   13, BND=  0.4332E+06 TWIN= 0.3750E+06  13354
+ SET bin_mix_b_q3                             TO >=     1 AT   14, BND=  0.4223E+06 TWIN= 0.2413E+06  13407
+ SET bin_mix_b_q1                             TO >=     1 AT   15, BND=  0.4120E+06 TWIN= 0.1071E+06  13445
+ SET bin_mix_b_q2                             TO >=     1 AT   16, BND=  0.4042E+06 TWIN= 0.1099E+06  13483
+ SET bin_pack_super_q2                        TO <=     0 AT   17, BND=  0.3759E+06 TWIN= 0.3348E+06  13486
+ SET bin_grind_b_q1                           TO >=     1 AT   18, BND=  0.3759E+06 TWIN=-0.1000E+31  13486
+ SET bin_mix_a_q4                             TO >=     1 AT   19, BND=  0.3759E+06 TWIN=-0.1000E+31  13486
+ SET bin_pack_super_q1                        TO <=     0 AT   20, BND=  0.3731E+06 TWIN= 0.3028E+06  13489
+ SET bin_cook_q4                              TO <=     0 AT   21, BND=  0.3723E+06 TWIN= 0.3337E+06  13498
+ SET bin_cook_q1                              TO >=     1 AT   22, BND=  0.3686E+06 TWIN=-0.5064E+06  13572
+ SET bin_grind_a_q1                           TO >=     1 AT   23, BND=  0.3686E+06 TWIN=-0.1000E+31  13572
+ SET bin_grind_a_q2                           TO >=     1 AT   24, BND=  0.3686E+06 TWIN=-0.1000E+31  13572
+ SET bin_grind_a_q3                           TO >=     1 AT   25, BND=  0.3686E+06 TWIN=-0.1000E+31  13572
+ SET bin_cook_q2                              TO >=     1 AT   26, BND=  0.3686E+06 TWIN= -3154.      13610
+ SET bin_cook_q3                              TO >=     1 AT   27, BND=  0.3505E+06 TWIN= -3154.      13647
+ SET bin_clean_q1                             TO <=     0 AT   28, BND= -0.2848E+07 TWIN= 0.3351E+06  13756
+ DELETE bin_clean_q1                             AT LEVEL    28
+ DELETE bin_cook_q3                              AT LEVEL    27
+ DELETE bin_cook_q2                              AT LEVEL    26
+ DELETE bin_grind_a_q3                           AT LEVEL    25
+ DELETE bin_grind_a_q2                           AT LEVEL    24
+ DELETE bin_grind_a_q1                           AT LEVEL    23
+ DELETE bin_cook_q1                              AT LEVEL    22
+ DELETE bin_cook_q4                              AT LEVEL    21
+ DELETE bin_pack_super_q1                        AT LEVEL    20
+ DELETE bin_mix_a_q4                             AT LEVEL    19
+ DELETE bin_grind_b_q1                           AT LEVEL    18
+ DELETE bin_pack_super_q2                        AT LEVEL    17
+ DELETE bin_mix_b_q2                             AT LEVEL    16
+ DELETE bin_mix_b_q1                             AT LEVEL    15
+ DELETE bin_mix_b_q3                             AT LEVEL    14
+ FLIP bin_mix_b_q4                             TO <=         0 AT   13 WITH BND=    375021.88
+ SET bin_grind_b_q1                           TO >=     1 AT   14, BND=  0.3750E+06 TWIN=-0.1000E+31  13865
+ SET bin_mix_a_q4                             TO >=     1 AT   15, BND=  0.3750E+06 TWIN=-0.1000E+31  13865
+ SET bin_mix_b_q1                             TO >=     1 AT   16, BND=  0.3750E+06 TWIN=-0.1000E+31  13865
+ SET bin_mix_b_q2                             TO >=     1 AT   17, BND=  0.3750E+06 TWIN=-0.1000E+31  13865
+ SET bin_mix_b_q3                             TO >=     1 AT   18, BND=  0.3750E+06 TWIN=-0.1000E+31  13865
+ SET bin_grind_a_q2                           TO >=     1 AT   19, BND=  0.3750E+06 TWIN= 0.3445E+06  13883
+ SET bin_grind_a_q3                           TO >=     1 AT   20, BND=  0.3694E+06 TWIN= 0.3445E+06  13937
+ SET bin_grind_a_q1                           TO >=     1 AT   21, BND=  0.3694E+06 TWIN=-0.1000E+31  13937
+ SET bin_pack_super_q2                        TO <=     0 AT   22, BND=  0.3649E+06 TWIN= 0.3000E+06  13940
+ SET bin_pack_super_q1                        TO <=     0 AT   23, BND=  0.3644E+06 TWIN= 0.2919E+06  13943
+ SET bin_cook_q1                              TO >=     1 AT   24, BND=  0.3561E+06 TWIN=-0.4769E+06  14054
+ SET bin_cook_q2                              TO >=     1 AT   25, BND=  0.3561E+06 TWIN= 0.1304E+06  14070
+ SET bin_cook_q3                              TO >=     1 AT   26, BND=  0.3413E+06 TWIN= 0.2874E+06  14107
+ DELETE bin_clean_q1                             AT LEVEL    27
+ DELETE bin_cook_q3                              AT LEVEL    26
+ DELETE bin_cook_q2                              AT LEVEL    25
+ DELETE bin_cook_q1                              AT LEVEL    24
+ DELETE bin_pack_super_q1                        AT LEVEL    23
+ DELETE bin_pack_super_q2                        AT LEVEL    22
+ DELETE bin_grind_a_q1                           AT LEVEL    21
+ FLIP bin_grind_a_q3                           TO <=         0 AT   20 WITH BND=    344494.53
+ SET bin_grind_a_q1                           TO >=     1 AT   21, BND=  0.3445E+06 TWIN=-0.1000E+31  14166
+ SET bin_pack_super_q2                        TO <=     0 AT   22, BND=  0.3400E+06 TWIN= 0.2751E+06  14169
+ SET bin_pack_super_q1                        TO <=     0 AT   23, BND=  0.3395E+06 TWIN= 0.2670E+06  14172
+ SET bin_cook_q1                              TO >=     1 AT   24, BND=  0.3351E+06 TWIN=-0.4569E+06  14273
+ DELETE bin_cook_q1                              AT LEVEL    24
+ DELETE bin_pack_super_q1                        AT LEVEL    23
+ DELETE bin_pack_super_q2                        AT LEVEL    22
+ DELETE bin_grind_a_q1                           AT LEVEL    21
+ DELETE bin_grind_a_q3                           AT LEVEL    20
+ FLIP bin_grind_a_q2                           TO <=         0 AT   19 WITH BND=    344494.53
+ SET bin_grind_a_q1                           TO >=     1 AT   20, BND=  0.3445E+06 TWIN=-0.1000E+31  14297
+ SET bin_grind_a_q3                           TO >=     1 AT   21, BND=  0.3445E+06 TWIN=-0.1000E+31  14297
+ SET bin_pack_super_q2                        TO <=     0 AT   22, BND=  0.3400E+06 TWIN= 0.2751E+06  14300
+ SET bin_pack_super_q1                        TO <=     0 AT   23, BND=  0.3395E+06 TWIN= 0.2670E+06  14303
+ SET bin_cook_q1                              TO >=     1 AT   24, BND=  0.3351E+06 TWIN=-0.4569E+06  14362
+ DELETE bin_cook_q1                              AT LEVEL    24
+ DELETE bin_pack_super_q1                        AT LEVEL    23
+ DELETE bin_pack_super_q2                        AT LEVEL    22
+ DELETE bin_grind_a_q3                           AT LEVEL    21
+ DELETE bin_grind_a_q1                           AT LEVEL    20
+ DELETE bin_grind_a_q2                           AT LEVEL    19
+ DELETE bin_mix_b_q3                             AT LEVEL    18
+ DELETE bin_mix_b_q2                             AT LEVEL    17
+ DELETE bin_mix_b_q1                             AT LEVEL    16
+ DELETE bin_mix_a_q4                             AT LEVEL    15
+ DELETE bin_grind_b_q1                           AT LEVEL    14
+ DELETE bin_mix_b_q4                             AT LEVEL    13
+ FLIP bin_pack_store_q4                        TO <=         0 AT   12 WITH BND=    427768.12
+ SET bin_pack_super_q4                        TO >=     1 AT   13, BND=  0.4278E+06 TWIN=-0.1000E+31  14454
+ SET bin_mix_b_q4                             TO >=     1 AT   14, BND=  0.4121E+06 TWIN= 0.3825E+06  14487
+ SET bin_mix_b_q3                             TO >=     1 AT   15, BND=  0.4012E+06 TWIN= 0.2171E+06  14558
+ SET bin_mix_b_q1                             TO >=     1 AT   16, BND=  0.3909E+06 TWIN= 0.8291E+05  14611
+ SET bin_mix_b_q2                             TO >=     1 AT   17, BND=  0.3832E+06 TWIN= 0.8570E+05  14667
+ SET bin_pack_super_q2                        TO <=     0 AT   18, BND=  0.3548E+06 TWIN= 0.3137E+06  14670
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3548E+06 TWIN=-0.1000E+31  14670
+ SET bin_grind_a_q2                           TO >=     1 AT   20, BND=  0.3548E+06 TWIN=-0.1000E+31  14670
+ SET bin_grind_a_q3                           TO >=     1 AT   21, BND=  0.3548E+06 TWIN=-0.1000E+31  14670
+ SET bin_grind_b_q1                           TO >=     1 AT   22, BND=  0.3548E+06 TWIN=-0.1000E+31  14670
+ SET bin_mix_a_q4                             TO >=     1 AT   23, BND=  0.3548E+06 TWIN=-0.1000E+31  14670
+ SET bin_pack_super_q1                        TO <=     0 AT   24, BND=  0.3520E+06 TWIN= 0.2817E+06  14673
+ SET bin_cook_q4                              TO <=     0 AT   25, BND=  0.3512E+06 TWIN= 0.3126E+06  14682
+ SET bin_cook_q2                              TO >=     1 AT   26, BND=  0.3512E+06 TWIN=-0.1000E+31  14682
+ SET bin_cook_q3                              TO >=     1 AT   27, BND=  0.3512E+06 TWIN=-0.1000E+31  14682
+ SET bin_cook_q1                              TO >=     1 AT   28, BND=  0.3294E+06 TWIN=-0.5615E+06  14738
+ DELETE bin_cook_q1                              AT LEVEL    28
+ DELETE bin_cook_q3                              AT LEVEL    27
+ DELETE bin_cook_q2                              AT LEVEL    26
+ DELETE bin_cook_q4                              AT LEVEL    25
+ DELETE bin_pack_super_q1                        AT LEVEL    24
+ DELETE bin_mix_a_q4                             AT LEVEL    23
+ DELETE bin_grind_b_q1                           AT LEVEL    22
+ DELETE bin_grind_a_q3                           AT LEVEL    21
+ DELETE bin_grind_a_q2                           AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ DELETE bin_pack_super_q2                        AT LEVEL    18
+ DELETE bin_mix_b_q2                             AT LEVEL    17
+ DELETE bin_mix_b_q1                             AT LEVEL    16
+ DELETE bin_mix_b_q3                             AT LEVEL    15
+ FLIP bin_mix_b_q4                             TO <=         0 AT   14 WITH BND=    382465.06
+ SET bin_mix_a_q4                             TO >=     1 AT   15, BND=  0.3825E+06 TWIN=-0.1000E+31  14780
+ SET bin_mix_b_q2                             TO >=     1 AT   16, BND=  0.3825E+06 TWIN=-0.1000E+31  14780
+ SET bin_mix_b_q3                             TO >=     1 AT   17, BND=  0.3825E+06 TWIN=-0.1000E+31  14780
+ SET bin_grind_a_q3                           TO >=     1 AT   18, BND=  0.3825E+06 TWIN= 0.3519E+06  14836
+ SET bin_grind_a_q2                           TO >=     1 AT   19, BND=  0.3768E+06 TWIN= 0.3519E+06  14888
+ SET bin_grind_b_q1                           TO >=     1 AT   20, BND=  0.3768E+06 TWIN=-0.1000E+31  14888
+ SET bin_mix_b_q1                             TO >=     1 AT   21, BND=  0.3768E+06 TWIN=-0.1000E+31  14888
+ SET bin_pack_super_q2                        TO <=     0 AT   22, BND=  0.3583E+06 TWIN= 0.3074E+06  14891
+ SET bin_grind_a_q1                           TO >=     1 AT   23, BND=  0.3583E+06 TWIN=-0.1000E+31  14891
+ SET bin_pack_super_q1                        TO <=     0 AT   24, BND=  0.3561E+06 TWIN= 0.2853E+06  14894
+ SET bin_cook_q3                              TO >=     1 AT   25, BND=  0.3561E+06 TWIN= 0.2892E+06  14913
+ SET bin_cook_q4                              TO <=     0 AT   26, BND=  0.3547E+06 TWIN= 0.2856E+06  14922
+ SET bin_cook_q2                              TO >=     1 AT   27, BND=  0.3547E+06 TWIN=-0.1000E+31  14922
+ SET bin_cook_q1                              TO >=     1 AT   28, BND=  0.3329E+06 TWIN=-0.5090E+06  15009
+ DELETE bin_cook_q1                              AT LEVEL    28
+ DELETE bin_cook_q2                              AT LEVEL    27
+ DELETE bin_cook_q4                              AT LEVEL    26
+ DELETE bin_cook_q3                              AT LEVEL    25
+ DELETE bin_pack_super_q1                        AT LEVEL    24
+ DELETE bin_grind_a_q1                           AT LEVEL    23
+ DELETE bin_pack_super_q2                        AT LEVEL    22
+ DELETE bin_mix_b_q1                             AT LEVEL    21
+ DELETE bin_grind_b_q1                           AT LEVEL    20
+ FLIP bin_grind_a_q2                           TO <=         0 AT   19 WITH BND=    351937.75
+ SET bin_grind_a_q1                           TO >=     1 AT   20, BND=  0.3519E+06 TWIN=-0.1000E+31  15057
+ SET bin_grind_b_q1                           TO >=     1 AT   21, BND=  0.3519E+06 TWIN=-0.1000E+31  15057
+ SET bin_mix_b_q1                             TO >=     1 AT   22, BND=  0.3519E+06 TWIN=-0.1000E+31  15057
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3334E+06 TWIN= 0.2825E+06  15060
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_mix_b_q1                             AT LEVEL    22
+ DELETE bin_grind_b_q1                           AT LEVEL    21
+ DELETE bin_grind_a_q1                           AT LEVEL    20
+ DELETE bin_grind_a_q2                           AT LEVEL    19
+ FLIP bin_grind_a_q3                           TO <=         0 AT   18 WITH BND=    351937.75
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3519E+06 TWIN=-0.1000E+31  15099
+ SET bin_grind_a_q2                           TO >=     1 AT   20, BND=  0.3519E+06 TWIN=-0.1000E+31  15099
+ SET bin_grind_b_q1                           TO >=     1 AT   21, BND=  0.3519E+06 TWIN=-0.1000E+31  15099
+ SET bin_mix_b_q1                             TO >=     1 AT   22, BND=  0.3519E+06 TWIN=-0.1000E+31  15099
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3334E+06 TWIN= 0.2825E+06  15102
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_mix_b_q1                             AT LEVEL    22
+ DELETE bin_grind_b_q1                           AT LEVEL    21
+ DELETE bin_grind_a_q2                           AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ DELETE bin_grind_a_q3                           AT LEVEL    18
+ DELETE bin_mix_b_q3                             AT LEVEL    17
+ DELETE bin_mix_b_q2                             AT LEVEL    16
+ DELETE bin_mix_a_q4                             AT LEVEL    15
+ DELETE bin_mix_b_q4                             AT LEVEL    14
+ DELETE bin_pack_super_q4                        AT LEVEL    13
+ DELETE bin_pack_store_q4                        AT LEVEL    12
+ FLIP bin_pack_store_q3                        TO <=         0 AT   11 WITH BND=    417566.53
+ SET bin_pack_super_q3                        TO >=     1 AT   12, BND=  0.4176E+06 TWIN=-0.1000E+31  15223
+ SET bin_pack_store_q4                        TO >=     1 AT   13, BND=  0.4047E+06 TWIN= 0.3868E+06  15243
+ SET bin_mix_b_q4                             TO >=     1 AT   14, BND=  0.3926E+06 TWIN= 0.3648E+06  15276
+ SET bin_mix_b_q3                             TO >=     1 AT   15, BND=  0.3759E+06 TWIN= 0.2489E+06  15326
+ SET bin_grind_b_q1                           TO >=     1 AT   16, BND=  0.3759E+06 TWIN=-0.1000E+31  15326
+ SET bin_mix_a_q4                             TO >=     1 AT   17, BND=  0.3759E+06 TWIN=-0.1000E+31  15326
+ SET bin_mix_b_q1                             TO >=     1 AT   18, BND=  0.3656E+06 TWIN= 0.4961E+05  15380
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3656E+06 TWIN=-0.1000E+31  15380
+ SET bin_grind_a_q2                           TO >=     1 AT   20, BND=  0.3656E+06 TWIN=-0.1000E+31  15380
+ SET bin_grind_a_q3                           TO >=     1 AT   21, BND=  0.3656E+06 TWIN=-0.1000E+31  15380
+ SET bin_mix_b_q2                             TO >=     1 AT   22, BND=  0.3578E+06 TWIN= 0.3834E+05  15439
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3295E+06 TWIN= 0.2884E+06  15443
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_mix_b_q2                             AT LEVEL    22
+ DELETE bin_grind_a_q3                           AT LEVEL    21
+ DELETE bin_grind_a_q2                           AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ DELETE bin_mix_b_q1                             AT LEVEL    18
+ DELETE bin_mix_a_q4                             AT LEVEL    17
+ DELETE bin_grind_b_q1                           AT LEVEL    16
+ DELETE bin_mix_b_q3                             AT LEVEL    15
+ FLIP bin_mix_b_q4                             TO <=         0 AT   14 WITH BND=    364802.56
+ SET bin_grind_a_q1                           TO >=     1 AT   15, BND=  0.3648E+06 TWIN=-0.1000E+31  15497
+ SET bin_grind_b_q1                           TO >=     1 AT   16, BND=  0.3648E+06 TWIN=-0.1000E+31  15497
+ SET bin_mix_a_q4                             TO >=     1 AT   17, BND=  0.3648E+06 TWIN=-0.1000E+31  15497
+ SET bin_mix_b_q1                             TO >=     1 AT   18, BND=  0.3648E+06 TWIN=-0.1000E+31  15497
+ SET bin_mix_b_q2                             TO >=     1 AT   19, BND=  0.3648E+06 TWIN=-0.1000E+31  15497
+ SET bin_mix_b_q3                             TO >=     1 AT   20, BND=  0.3648E+06 TWIN=-0.1000E+31  15497
+ SET bin_grind_a_q2                           TO >=     1 AT   21, BND=  0.3648E+06 TWIN= 0.3343E+06  15538
+ SET bin_grind_a_q3                           TO >=     1 AT   22, BND=  0.3592E+06 TWIN= 0.3343E+06  15589
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3406E+06 TWIN= 0.2898E+06  15592
+ SET bin_pack_super_q1                        TO <=     0 AT   24, BND=  0.3385E+06 TWIN= 0.2676E+06  15595
+ SET bin_cook_q4                              TO <=     0 AT   25, BND=  0.3371E+06 TWIN= 0.3034E+06  15620
+ SET bin_cook_q2                              TO >=     1 AT   26, BND=  0.3371E+06 TWIN=-0.1000E+31  15620
+ SET bin_cook_q3                              TO >=     1 AT   27, BND=  0.3371E+06 TWIN=-0.1000E+31  15620
+ SET bin_cook_q1                              TO >=     1 AT   28, BND=  0.3152E+06 TWIN=-0.5374E+06  15682
+ DELETE bin_cook_q1                              AT LEVEL    28
+ DELETE bin_cook_q3                              AT LEVEL    27
+ DELETE bin_cook_q2                              AT LEVEL    26
+ DELETE bin_cook_q4                              AT LEVEL    25
+ DELETE bin_pack_super_q1                        AT LEVEL    24
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_grind_a_q3                           AT LEVEL    22
+ DELETE bin_grind_a_q2                           AT LEVEL    21
+ DELETE bin_mix_b_q3                             AT LEVEL    20
+ DELETE bin_mix_b_q2                             AT LEVEL    19
+ DELETE bin_mix_b_q1                             AT LEVEL    18
+ DELETE bin_mix_a_q4                             AT LEVEL    17
+ DELETE bin_grind_b_q1                           AT LEVEL    16
+ DELETE bin_grind_a_q1                           AT LEVEL    15
+ DELETE bin_mix_b_q4                             AT LEVEL    14
+ FLIP bin_pack_store_q4                        TO <=         0 AT   13 WITH BND=    386814.78
+ SET bin_mix_a_q4                             TO >=     1 AT   14, BND=  0.3868E+06 TWIN=-0.1000E+31  15749
+ SET bin_pack_super_q4                        TO >=     1 AT   15, BND=  0.3868E+06 TWIN=-0.1000E+31  15749
+ SET bin_grind_b_q1                           TO >=     1 AT   16, BND=  0.3868E+06 TWIN= 0.4529E+05  15833
+ SET bin_grind_a_q2                           TO >=     1 AT   17, BND=  0.3868E+06 TWIN= 0.3452E+06  15856
+ SET bin_grind_a_q3                           TO >=     1 AT   18, BND=  0.3868E+06 TWIN= 0.3452E+06  15883
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3866E+06 TWIN= 0.2456E+06  15935
+ SET bin_mix_b_q3                             TO >=     1 AT   20, BND=  0.3866E+06 TWIN= 0.2268E+06  15988
+ SET bin_mix_b_q4                             TO <=     0 AT   21, BND=  0.3500E+06 TWIN= 0.3543E+06  16004
+ SET bin_mix_b_q1                             TO >=     1 AT   22, BND=  0.3500E+06 TWIN=-0.1000E+31  16004
+ SET bin_mix_b_q2                             TO >=     1 AT   23, BND=  0.3500E+06 TWIN=-0.1000E+31  16004
+ SET bin_pack_super_q2                        TO <=     0 AT   24, BND=  0.3301E+06 TWIN= 0.2806E+06  16009
+ DELETE bin_pack_super_q2                        AT LEVEL    24
+ DELETE bin_mix_b_q2                             AT LEVEL    23
+ DELETE bin_mix_b_q1                             AT LEVEL    22
+ FLIP bin_mix_b_q4                             TO >=         1 AT   21 WITH BND=    354341.75
+ SET bin_mix_b_q1                             TO >=     1 AT   22, BND=  0.3440E+06 TWIN= -2921.      16121
+ SET bin_mix_b_q2                             TO >=     1 AT   23, BND=  0.3363E+06 TWIN= 0.1238E+05  16177
+ SET bin_pack_super_q2                        TO <=     0 AT   24, BND=  0.3038E+06 TWIN= 0.2669E+06  16180
+ DELETE bin_pack_super_q2                        AT LEVEL    24
+ DELETE bin_mix_b_q2                             AT LEVEL    23
+ DELETE bin_mix_b_q1                             AT LEVEL    22
+ DELETE bin_mix_b_q4                             AT LEVEL    21
+ DELETE bin_mix_b_q3                             AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ FLIP bin_grind_a_q3                           TO <=         0 AT   18 WITH BND=    345225.03
+ SET bin_grind_a_q1                           TO >=     1 AT   19, BND=  0.3452E+06 TWIN=-0.1000E+31  16218
+ SET bin_mix_b_q4                             TO >=     1 AT   20, BND=  0.3296E+06 TWIN= 0.3251E+06  16287
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_grind_a_q1                           AT LEVEL    19
+ DELETE bin_grind_a_q3                           AT LEVEL    18
+ FLIP bin_grind_a_q2                           TO <=         0 AT   17 WITH BND=    345225.03
+ SET bin_grind_a_q1                           TO >=     1 AT   18, BND=  0.3452E+06 TWIN=-0.1000E+31  16316
+ SET bin_grind_a_q3                           TO >=     1 AT   19, BND=  0.3452E+06 TWIN=-0.1000E+31  16316
+ SET bin_mix_b_q4                             TO >=     1 AT   20, BND=  0.3296E+06 TWIN= 0.3251E+06  16363
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_grind_a_q3                           AT LEVEL    19
+ DELETE bin_grind_a_q1                           AT LEVEL    18
+ DELETE bin_grind_a_q2                           AT LEVEL    17
+ DELETE bin_grind_b_q1                           AT LEVEL    16
+ DELETE bin_pack_super_q4                        AT LEVEL    15
+ DELETE bin_mix_a_q4                             AT LEVEL    14
+ DELETE bin_pack_store_q4                        AT LEVEL    13
+ DELETE bin_pack_super_q3                        AT LEVEL    12
+ DELETE bin_pack_store_q3                        AT LEVEL    11
+ FLIP bin_pack_store_q1                        TO <=         0 AT   10 WITH BND=    413995.81
+ SET bin_pack_super_q1                        TO >=     1 AT   11, BND=  0.4140E+06 TWIN=-0.1000E+31  16420
+ SET bin_pack_store_q3                        TO >=     1 AT   12, BND=  0.4047E+06 TWIN= 0.3598E+06  16438
+ SET bin_pack_store_q4                        TO >=     1 AT   13, BND=  0.3918E+06 TWIN= 0.3718E+06  16456
+ SET bin_mix_b_q4                             TO <=     0 AT   14, BND=  0.3450E+06 TWIN= 0.3797E+06  16487
+ SET bin_grind_a_q1                           TO >=     1 AT   15, BND=  0.3450E+06 TWIN=-0.1000E+31  16487
+ SET bin_grind_b_q1                           TO >=     1 AT   16, BND=  0.3450E+06 TWIN=-0.1000E+31  16487
+ SET bin_mix_a_q4                             TO >=     1 AT   17, BND=  0.3450E+06 TWIN=-0.1000E+31  16487
+ SET bin_mix_b_q1                             TO >=     1 AT   18, BND=  0.3450E+06 TWIN=-0.1000E+31  16487
+ SET bin_mix_b_q2                             TO >=     1 AT   19, BND=  0.3450E+06 TWIN=-0.1000E+31  16487
+ SET bin_mix_b_q3                             TO >=     1 AT   20, BND=  0.3450E+06 TWIN=-0.1000E+31  16487
+ SET bin_grind_a_q3                           TO >=     1 AT   21, BND=  0.3450E+06 TWIN= 0.3145E+06  16538
+ SET bin_grind_a_q2                           TO >=     1 AT   22, BND=  0.3394E+06 TWIN= 0.3145E+06  16585
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3209E+06 TWIN= 0.2700E+06  16588
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_grind_a_q2                           AT LEVEL    22
+ DELETE bin_grind_a_q3                           AT LEVEL    21
+ DELETE bin_mix_b_q3                             AT LEVEL    20
+ DELETE bin_mix_b_q2                             AT LEVEL    19
+ DELETE bin_mix_b_q1                             AT LEVEL    18
+ DELETE bin_mix_a_q4                             AT LEVEL    17
+ DELETE bin_grind_b_q1                           AT LEVEL    16
+ DELETE bin_grind_a_q1                           AT LEVEL    15
+ FLIP bin_mix_b_q4                             TO >=         1 AT   14 WITH BND=    379655.38
+ SET bin_grind_b_q1                           TO >=     1 AT   15, BND=  0.3797E+06 TWIN=-0.1000E+31  16657
+ SET bin_mix_b_q1                             TO >=     1 AT   16, BND=  0.3610E+06 TWIN= 0.1305E+06  16700
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND=  0.3610E+06 TWIN=-0.1000E+31  16700
+ SET bin_grind_a_q2                           TO >=     1 AT   18, BND=  0.3610E+06 TWIN=-0.1000E+31  16700
+ SET bin_grind_a_q3                           TO >=     1 AT   19, BND=  0.3610E+06 TWIN=-0.1000E+31  16700
+ SET bin_mix_a_q4                             TO >=     1 AT   20, BND=  0.3610E+06 TWIN=-0.1000E+31  16700
+ SET bin_mix_b_q3                             TO >=     1 AT   21, BND=  0.3501E+06 TWIN= 0.2372E+06  16755
+ SET bin_mix_b_q2                             TO >=     1 AT   22, BND=  0.3424E+06 TWIN= 0.1107E+06  16801
+ SET bin_pack_super_q2                        TO <=     0 AT   23, BND=  0.3108E+06 TWIN= 0.2730E+06  16807
+ DELETE bin_pack_super_q2                        AT LEVEL    23
+ DELETE bin_mix_b_q2                             AT LEVEL    22
+ DELETE bin_mix_b_q3                             AT LEVEL    21
+ DELETE bin_mix_a_q4                             AT LEVEL    20
+ DELETE bin_grind_a_q3                           AT LEVEL    19
+ DELETE bin_grind_a_q2                           AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ DELETE bin_mix_b_q1                             AT LEVEL    16
+ DELETE bin_grind_b_q1                           AT LEVEL    15
+ DELETE bin_mix_b_q4                             AT LEVEL    14
+ FLIP bin_pack_store_q4                        TO <=         0 AT   13 WITH BND=    371817.25
+ SET bin_mix_a_q4                             TO >=     1 AT   14, BND=  0.3718E+06 TWIN=-0.1000E+31  16875
+ SET bin_pack_super_q4                        TO >=     1 AT   15, BND=  0.3718E+06 TWIN=-0.1000E+31  16875
+ SET bin_grind_b_q1                           TO >=     1 AT   16, BND=  0.3716E+06 TWIN= 0.1038E+06  16913
+ SET bin_grind_a_q2                           TO >=     1 AT   17, BND=  0.3716E+06 TWIN= 0.3338E+06  16949
+ SET bin_grind_a_q1                           TO >=     1 AT   18, BND=  0.3716E+06 TWIN= 0.3175E+06  16993
+ SET bin_grind_a_q3                           TO >=     1 AT   19, BND=  0.3701E+06 TWIN= 0.3338E+06  17031
+ SET bin_mix_b_q4                             TO >=     1 AT   20, BND=  0.3545E+06 TWIN= 0.3299E+06  17065
+ SET bin_mix_b_q1                             TO >=     1 AT   21, BND=  0.3359E+06 TWIN= 0.8086E+05  17105
+ SET bin_mix_b_q3                             TO >=     1 AT   22, BND=  0.3250E+06 TWIN= 0.2112E+06  17175
+ DELETE bin_mix_b_q3                             AT LEVEL    22
+ DELETE bin_mix_b_q1                             AT LEVEL    21
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_grind_a_q3                           AT LEVEL    19
+ DELETE bin_grind_a_q1                           AT LEVEL    18
+ DELETE bin_grind_a_q2                           AT LEVEL    17
+ DELETE bin_grind_b_q1                           AT LEVEL    16
+ DELETE bin_pack_super_q4                        AT LEVEL    15
+ DELETE bin_mix_a_q4                             AT LEVEL    14
+ DELETE bin_pack_store_q4                        AT LEVEL    13
+ FLIP bin_pack_store_q3                        TO <=         0 AT   12 WITH BND=    359785.31
+ SET bin_mix_a_q4                             TO >=     1 AT   13, BND=  0.3598E+06 TWIN=-0.1000E+31  17269
+ SET bin_pack_super_q3                        TO >=     1 AT   14, BND=  0.3598E+06 TWIN=-0.1000E+31  17269
+ SET bin_grind_b_q1                           TO >=     1 AT   15, BND=  0.3594E+06 TWIN= 0.9808E+05  17358
+ SET bin_grind_a_q3                           TO >=     1 AT   16, BND=  0.3594E+06 TWIN= 0.3244E+06  17415
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND=  0.3594E+06 TWIN= 0.3053E+06  17457
+ SET bin_grind_a_q2                           TO >=     1 AT   18, BND=  0.3568E+06 TWIN= 0.3244E+06  17503
+ SET bin_pack_store_q4                        TO >=     1 AT   19, BND=  0.3439E+06 TWIN= 0.3215E+06  17517
+ SET bin_mix_b_q4                             TO >=     1 AT   20, BND=  0.3318E+06 TWIN= 0.3103E+06  17587
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_pack_store_q4                        AT LEVEL    19
+ DELETE bin_grind_a_q2                           AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ DELETE bin_grind_a_q3                           AT LEVEL    16
+ DELETE bin_grind_b_q1                           AT LEVEL    15
+ DELETE bin_pack_super_q3                        AT LEVEL    14
+ DELETE bin_mix_a_q4                             AT LEVEL    13
+ DELETE bin_pack_store_q3                        AT LEVEL    12
+ DELETE bin_pack_super_q1                        AT LEVEL    11
+ DELETE bin_pack_store_q1                        AT LEVEL    10
+ FLIP bin_pack_store_q2                        TO <=         0 AT    9 WITH BND=    382546.34
+ SET bin_mix_a_q4                             TO >=     1 AT   10, BND=  0.3825E+06 TWIN=-0.1000E+31  17656
+ SET bin_pack_super_q2                        TO >=     1 AT   11, BND=  0.3825E+06 TWIN=-0.1000E+31  17656
+ SET bin_grind_b_q1                           TO >=     1 AT   12, BND=  0.3824E+06 TWIN= 0.7696E+05  17740
+ SET bin_pack_store_q1                        TO >=     1 AT   13, BND=  0.3767E+06 TWIN= 0.3157E+06  17753
+ SET bin_pack_store_q3                        TO >=     1 AT   14, BND=  0.3673E+06 TWIN= 0.3216E+06  17766
+ SET bin_pack_store_q4                        TO >=     1 AT   15, BND=  0.3545E+06 TWIN= 0.3338E+06  17784
+ SET bin_grind_a_q3                           TO >=     1 AT   16, BND=  0.3545E+06 TWIN= 0.3155E+06  17840
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND=  0.3545E+06 TWIN= 0.2210E+06  17905
+ SET bin_grind_a_q2                           TO >=     1 AT   18, BND=  0.3535E+06 TWIN= 0.3155E+06  17948
+ SET bin_mix_b_q4                             TO >=     1 AT   19, BND=  0.3413E+06 TWIN= 0.3231E+06  17987
+ SET bin_mix_b_q3                             TO <=     0 AT   20, BND=  0.2372E+06 TWIN= 0.3304E+06  18001
+ DELETE bin_mix_b_q3                             AT LEVEL    20
+ DELETE bin_mix_b_q4                             AT LEVEL    19
+ DELETE bin_grind_a_q2                           AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ DELETE bin_grind_a_q3                           AT LEVEL    16
+ DELETE bin_pack_store_q4                        AT LEVEL    15
+ DELETE bin_pack_store_q3                        AT LEVEL    14
+ DELETE bin_pack_store_q1                        AT LEVEL    13
+ DELETE bin_grind_b_q1                           AT LEVEL    12
+ DELETE bin_pack_super_q2                        AT LEVEL    11
+ DELETE bin_mix_a_q4                             AT LEVEL    10
+ DELETE bin_pack_store_q2                        AT LEVEL     9
+ DELETE bin_mix_a_q3                             AT LEVEL     8
+ DELETE bin_mix_a_q1                             AT LEVEL     7
+ FLIP bin_grind_b_q3                           TO <=         0 AT    6 WITH BND=    452466.22
+ SET bin_mix_a_q4                             TO <=     0 AT    7, BND=  0.4525E+06 TWIN= 0.4334E+06  18123
+ SET bin_mix_a_q3                             TO >=     1 AT    8, BND=  0.4414E+06 TWIN= 0.4102E+06  18141
+ SET bin_grind_b_q1                           TO >=     1 AT    9, BND=  0.4414E+06 TWIN=-0.1000E+31  18141
+ DELETE bin_clean_q1                             AT LEVEL    10
+ DELETE bin_grind_b_q1                           AT LEVEL     9
+ FLIP bin_mix_a_q3                             TO <=         0 AT    8 WITH BND=    410161.94
+ SET bin_grind_b_q1                           TO >=     1 AT    9, BND=  0.4100E+06 TWIN=-0.1004E+05  18244
+ SET bin_pack_store_q2                        TO >=     1 AT   10, BND=  0.4045E+06 TWIN= 0.3057E+06  18257
+ SET bin_pack_store_q1                        TO >=     1 AT   11, BND=  0.3987E+06 TWIN= 0.3378E+06  18277
+ SET bin_pack_store_q3                        TO >=     1 AT   12, BND=  0.3894E+06 TWIN= 0.3436E+06  18298
+ SET bin_grind_a_q2                           TO >=     1 AT   13, BND=  0.3881E+06 TWIN= 0.2648E+06  18370
+ SET bin_grind_a_q3                           TO >=     1 AT   14, BND=  0.3876E+06 TWIN= 0.1780E+06  18423
+ SET bin_pack_store_q4                        TO >=     1 AT   15, BND=  0.3747E+06 TWIN= 0.3522E+06  18436
+ SET bin_grind_a_q1                           TO >=     1 AT   16, BND=  0.3739E+06 TWIN= 0.1661E+06  18500
+ SET bin_mix_b_q3                             TO >=     1 AT   17, BND=  0.3739E+06 TWIN= 0.1543E+06  18545
+ SET bin_mix_b_q4                             TO >=     1 AT   18, BND=  0.3509E+06 TWIN= 0.2921E+06  18597
+ SET bin_mix_a_q1                             TO >=     1 AT   19, BND=  0.3509E+06 TWIN=-0.1000E+31  18597
+ SET bin_mix_b_q1                             TO >=     1 AT   20, BND=  0.3406E+06 TWIN=-0.3851E+05  18664
+ SET bin_mix_b_q2                             TO >=     1 AT   21, BND=  0.3328E+06 TWIN= -4811.      18718
+ DELETE bin_mix_b_q2                             AT LEVEL    21
+ DELETE bin_mix_b_q1                             AT LEVEL    20
+ DELETE bin_mix_a_q1                             AT LEVEL    19
+ DELETE bin_mix_b_q4                             AT LEVEL    18
+ DELETE bin_mix_b_q3                             AT LEVEL    17
+ DELETE bin_grind_a_q1                           AT LEVEL    16
+ FLIP bin_pack_store_q4                        TO <=         0 AT   15 WITH BND=    352232.66
+ SET bin_pack_super_q4                        TO >=     1 AT   16, BND=  0.3522E+06 TWIN=-0.1000E+31  18748
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND=  0.3515E+06 TWIN= 0.1437E+06  18816
+ SET bin_mix_a_q1                             TO >=     1 AT   18, BND=  0.3515E+06 TWIN=-0.1000E+31  18816
+ SET bin_mix_b_q3                             TO >=     1 AT   19, BND=  0.3515E+06 TWIN= 0.1247E+06  18883
+ SET bin_mix_b_q4                             TO <=     0 AT   20, BND=  0.2930E+06 TWIN= 0.3249E+06  18898
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_mix_b_q3                             AT LEVEL    19
+ DELETE bin_mix_a_q1                             AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ DELETE bin_pack_super_q4                        AT LEVEL    16
+ DELETE bin_pack_store_q4                        AT LEVEL    15
+ DELETE bin_grind_a_q3                           AT LEVEL    14
+ DELETE bin_grind_a_q2                           AT LEVEL    13
+ FLIP bin_pack_store_q3                        TO <=         0 AT   12 WITH BND=    343616.97
+ SET bin_pack_super_q3                        TO >=     1 AT   13, BND=  0.3436E+06 TWIN=-0.1000E+31  18956
+ SET bin_grind_a_q2                           TO >=     1 AT   14, BND=  0.3404E+06 TWIN= 0.2748E+06  19002
+ SET bin_pack_super_q4                        TO >=     1 AT   15, BND=  0.3404E+06 TWIN=-0.1000E+31  19002
+ SET bin_grind_a_q3                           TO >=     1 AT   16, BND=  0.3389E+06 TWIN= 0.1811E+06  19047
+ SET bin_mix_a_q1                             TO >=     1 AT   17, BND=  0.3389E+06 TWIN=-0.1000E+31  19047
+ SET bin_pack_store_q4                        TO <=     0 AT   18, BND=  0.3036E+06 TWIN= 0.2525E+06  19064
+ DELETE bin_pack_store_q4                        AT LEVEL    18
+ DELETE bin_mix_a_q1                             AT LEVEL    17
+ DELETE bin_grind_a_q3                           AT LEVEL    16
+ DELETE bin_pack_super_q4                        AT LEVEL    15
+ DELETE bin_grind_a_q2                           AT LEVEL    14
+ DELETE bin_pack_super_q3                        AT LEVEL    13
+ DELETE bin_pack_store_q3                        AT LEVEL    12
+ FLIP bin_pack_store_q1                        TO <=         0 AT   11 WITH BND=    337753.03
+ SET bin_mix_a_q1                             TO >=     1 AT   12, BND=  0.3378E+06 TWIN=-0.1000E+31  19116
+ SET bin_pack_super_q1                        TO >=     1 AT   13, BND=  0.3378E+06 TWIN=-0.1000E+31  19116
+ SET bin_pack_super_q3                        TO >=     1 AT   14, BND=  0.3378E+06 TWIN=-0.1000E+31  19116
+ SET bin_pack_super_q4                        TO >=     1 AT   15, BND=  0.3378E+06 TWIN=-0.1000E+31  19116
+ SET bin_grind_a_q1                           TO >=     1 AT   16, BND=  0.3378E+06 TWIN= 0.1975E+06  19178
+ SET bin_grind_a_q2                           TO >=     1 AT   17, BND=  0.3331E+06 TWIN= 0.2701E+06  19237
+ DELETE bin_grind_a_q2                           AT LEVEL    17
+ DELETE bin_grind_a_q1                           AT LEVEL    16
+ DELETE bin_pack_super_q4                        AT LEVEL    15
+ DELETE bin_pack_super_q3                        AT LEVEL    14
+ DELETE bin_pack_super_q1                        AT LEVEL    13
+ DELETE bin_mix_a_q1                             AT LEVEL    12
+ DELETE bin_pack_store_q1                        AT LEVEL    11
+ DELETE bin_pack_store_q2                        AT LEVEL    10
+ DELETE bin_grind_b_q1                           AT LEVEL     9
+ DELETE bin_mix_a_q3                             AT LEVEL     8
+ FLIP bin_mix_a_q4                             TO >=         1 AT    7 WITH BND=    433381.88
+ SET bin_grind_a_q1                           TO >=     1 AT    8, BND=  0.4334E+06 TWIN=-0.1000E+31  19311
+ SET bin_grind_a_q2                           TO >=     1 AT    9, BND=  0.4334E+06 TWIN=-0.1000E+31  19311
+ SET bin_grind_a_q3                           TO >=     1 AT   10, BND=  0.4334E+06 TWIN=-0.1000E+31  19311
+ SET bin_grind_b_q1                           TO >=     1 AT   11, BND=  0.4334E+06 TWIN=-0.1000E+31  19311
+ DELETE bin_clean_q1                             AT LEVEL    12
+ DELETE bin_grind_b_q1                           AT LEVEL    11
+ DELETE bin_grind_a_q3                           AT LEVEL    10
+ DELETE bin_grind_a_q2                           AT LEVEL     9
+ DELETE bin_grind_a_q1                           AT LEVEL     8
+ DELETE bin_mix_a_q4                             AT LEVEL     7
+ DELETE bin_grind_b_q3                           AT LEVEL     6
+ FLIP bin_grind_b_q2                           TO <=         0 AT    5 WITH BND=    452466.22
+ SET bin_mix_a_q1                             TO >=     1 AT    6, BND=  0.4347E+06 TWIN=-0.1085E+07  19412
+ SET bin_mix_a_q3                             TO >=     1 AT    7, BND=  0.4132E+06 TWIN= 0.4347E+06  19436
+ SET bin_grind_a_q1                           TO >=     1 AT    8, BND=  0.4132E+06 TWIN=-0.1000E+31  19436
+ SET bin_grind_a_q2                           TO >=     1 AT    9, BND=  0.4132E+06 TWIN=-0.1000E+31  19436
+ SET bin_grind_a_q3                           TO >=     1 AT   10, BND=  0.4132E+06 TWIN=-0.1000E+31  19436
+ SET bin_grind_b_q1                           TO >=     1 AT   11, BND=  0.4132E+06 TWIN=-0.1000E+31  19436
+ SET bin_grind_b_q3                           TO >=     1 AT   12, BND=  0.4132E+06 TWIN=-0.1000E+31  19436
+ DELETE bin_clean_q1                             AT LEVEL    13
+ DELETE bin_grind_b_q3                           AT LEVEL    12
+ DELETE bin_grind_b_q1                           AT LEVEL    11
+ DELETE bin_grind_a_q3                           AT LEVEL    10
+ DELETE bin_grind_a_q2                           AT LEVEL     9
+ DELETE bin_grind_a_q1                           AT LEVEL     8
+ FLIP bin_mix_a_q3                             TO <=         0 AT    7 WITH BND=    434730.06
+ SET bin_mix_a_q4                             TO >=     1 AT    8, BND=  0.4132E+06 TWIN= 0.4076E+06  19488
+ SET bin_grind_a_q1                           TO >=     1 AT    9, BND=  0.4132E+06 TWIN=-0.1000E+31  19488
+ SET bin_grind_a_q2                           TO >=     1 AT   10, BND=  0.4132E+06 TWIN=-0.1000E+31  19488
+ SET bin_grind_a_q3                           TO >=     1 AT   11, BND=  0.4132E+06 TWIN=-0.1000E+31  19488
+ SET bin_grind_b_q1                           TO >=     1 AT   12, BND=  0.4132E+06 TWIN=-0.1000E+31  19488
+ SET bin_grind_b_q3                           TO >=     1 AT   13, BND=  0.4132E+06 TWIN=-0.1000E+31  19488
+ DELETE bin_clean_q1                             AT LEVEL    14
+ DELETE bin_grind_b_q3                           AT LEVEL    13
+ DELETE bin_grind_b_q1                           AT LEVEL    12
+ DELETE bin_grind_a_q3                           AT LEVEL    11
+ DELETE bin_grind_a_q2                           AT LEVEL    10
+ DELETE bin_grind_a_q1                           AT LEVEL     9
+ FLIP bin_mix_a_q4                             TO <=         0 AT    8 WITH BND=    407602.91
+ SET bin_grind_b_q3                           TO >=     1 AT    9, BND=  0.4061E+06 TWIN= 0.1003E+06  19594
+ SET bin_grind_a_q3                           TO >=     1 AT   10, BND=  0.4014E+06 TWIN= 0.2755E+06  19669
+ SET bin_pack_store_q2                        TO >=     1 AT   11, BND=  0.3959E+06 TWIN= 0.3007E+06  19684
+ SET bin_pack_store_q1                        TO >=     1 AT   12, BND=  0.3902E+06 TWIN= 0.3333E+06  19706
+ SET bin_pack_store_q3                        TO >=     1 AT   13, BND=  0.3808E+06 TWIN= 0.3322E+06  19719
+ SET bin_grind_a_q2                           TO >=     1 AT   14, BND=  0.3808E+06 TWIN=-0.1000E+31  19719
+ SET bin_grind_b_q1                           TO >=     1 AT   15, BND=  0.3808E+06 TWIN=-0.1000E+31  19719
+ SET bin_pack_store_q4                        TO >=     1 AT   16, BND=  0.3680E+06 TWIN= 0.3455E+06  19731
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND=  0.3680E+06 TWIN=-0.1000E+31  19731
+ SET bin_mix_b_q4                             TO >=     1 AT   18, BND=  0.3558E+06 TWIN= 0.2013E+06  19783
+ SET bin_mix_b_q3                             TO >=     1 AT   19, BND=  0.3449E+06 TWIN= 0.4499E+05  19835
+ SET bin_mix_b_q1                             TO >=     1 AT   20, BND=  0.3346E+06 TWIN=-0.3851E+05  19911
+ DELETE bin_mix_b_q1                             AT LEVEL    20
+ DELETE bin_mix_b_q3                             AT LEVEL    19
+ DELETE bin_mix_b_q4                             AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ FLIP bin_pack_store_q4                        TO <=         0 AT   16 WITH BND=    345496.25
+ SET bin_grind_a_q1                           TO >=     1 AT   17, BND=  0.3455E+06 TWIN=-0.1000E+31  19934
+ SET bin_pack_super_q4                        TO >=     1 AT   18, BND=  0.3455E+06 TWIN=-0.1000E+31  19934
+ SET bin_mix_b_q4                             TO >=     1 AT   19, BND=  0.3299E+06 TWIN= 0.2199E+06  19988
+ DELETE bin_mix_b_q4                             AT LEVEL    19
+ DELETE bin_pack_super_q4                        AT LEVEL    18
+ DELETE bin_grind_a_q1                           AT LEVEL    17
+ DELETE bin_pack_store_q4                        AT LEVEL    16
+ DELETE bin_grind_b_q1                           AT LEVEL    15
+ DELETE bin_grind_a_q2                           AT LEVEL    14
+ DELETE bin_pack_store_q3                        AT LEVEL    13
+ DELETE bin_pack_store_q1                        AT LEVEL    12
+ DELETE bin_pack_store_q2                        AT LEVEL    11
+ DELETE bin_grind_a_q3                           AT LEVEL    10
+ DELETE bin_grind_b_q3                           AT LEVEL     9
+ DELETE bin_mix_a_q4                             AT LEVEL     8
+ DELETE bin_mix_a_q3                             AT LEVEL     7
+ DELETE bin_mix_a_q1                             AT LEVEL     6
+ DELETE bin_grind_b_q2                           AT LEVEL     5
+ DELETE bin_mix_a_q2                             AT LEVEL     4
+ FLIP bin_clean_q2                             TO <=         0 AT    3 WITH BND=    454567.59
+ SET bin_grind_a_q1                           TO >=     1 AT    4, BND=  0.4546E+06 TWIN=-0.1000E+31  20074
+ SET bin_grind_b_q1                           TO >=     1 AT    5, BND=  0.4546E+06 TWIN=-0.1000E+31  20074
+ SET bin_grind_b_q2                           TO >=     1 AT    6, BND=  0.4546E+06 TWIN= 0.3918E+06  20097
+ SET bin_grind_b_q3                           TO >=     1 AT    7, BND=  0.4454E+06 TWIN= 0.3918E+06  20113
+ SET bin_mix_a_q1                             TO >=     1 AT    8, BND=  0.4172E+06 TWIN=-0.1599E+06  20149
+ SET bin_mix_a_q4                             TO >=     1 AT    9, BND=  0.4172E+06 TWIN= 0.3469E+06  20166
+ SET bin_mix_a_q3                             TO >=     1 AT   10, BND=  0.4088E+06 TWIN= 0.2775E+06  20218
+ SET bin_grind_a_q2                           TO >=     1 AT   11, BND=  0.4088E+06 TWIN=-0.1000E+31  20218
+ SET bin_grind_a_q3                           TO >=     1 AT   12, BND=  0.4088E+06 TWIN=-0.1000E+31  20218
+ SET bin_pack_store_q1                        TO <=     0 AT   13, BND=  0.4088E+06 TWIN= 0.4030E+06  20238
+ SET bin_pack_store_q2                        TO <=     0 AT   14, BND=  0.3592E+06 TWIN= 0.4030E+06  20251
+ SET bin_pack_super_q1                        TO >=     1 AT   15, BND=  0.3592E+06 TWIN=-0.1000E+31  20251
+ SET bin_pack_super_q2                        TO >=     1 AT   16, BND=  0.3592E+06 TWIN=-0.1000E+31  20251
+ SET bin_pack_store_q3                        TO >=     1 AT   17, BND=  0.3499E+06 TWIN= 0.3114E+06  20272
+ SET bin_pack_store_q4                        TO >=     1 AT   18, BND=  0.3370E+06 TWIN= 0.3208E+06  20298
+ SET bin_mix_b_q2                             TO <=     0 AT   19, BND=  0.2797E+06 TWIN= 0.3184E+06  20319
+ DELETE bin_mix_b_q2                             AT LEVEL    19
+ DELETE bin_pack_store_q4                        AT LEVEL    18
+ DELETE bin_pack_store_q3                        AT LEVEL    17
+ DELETE bin_pack_super_q2                        AT LEVEL    16
+ DELETE bin_pack_super_q1                        AT LEVEL    15
+ FLIP bin_pack_store_q2                        TO >=         1 AT   14 WITH BND=    403011.94
+ SET bin_pack_store_q3                        TO >=     1 AT   15, BND=  0.3937E+06 TWIN= 0.3610E+06  20368
+ SET bin_pack_store_q4                        TO >=     1 AT   16, BND=  0.3808E+06 TWIN= 0.3681E+06  20386
+ SET bin_mix_b_q4                             TO >=     1 AT   17, BND=  0.3687E+06 TWIN= 0.1250E+06  20445
+ SET bin_mix_b_q2                             TO >=     1 AT   18, BND=  0.3609E+06 TWIN= 0.2631E+06  20473
+ SET bin_mix_b_q1                             TO <=     0 AT   19, BND=  0.1923E+06 TWIN= 0.3313E+06  20504
+ DELETE bin_mix_b_q1                             AT LEVEL    19
+ DELETE bin_mix_b_q2                             AT LEVEL    18
+ DELETE bin_mix_b_q4                             AT LEVEL    17
+ FLIP bin_pack_store_q4                        TO <=         0 AT   16 WITH BND=    368059.56
+ SET bin_pack_super_q4                        TO >=     1 AT   17, BND=  0.3681E+06 TWIN=-0.1000E+31  20525
+ SET bin_mix_b_q1                             TO >=     1 AT   18, BND=  0.3681E+06 TWIN= 0.1959E+06  20540
+ SET bin_mix_b_q2                             TO <=     0 AT   19, BND=  0.2576E+06 TWIN= 0.3312E+06  20551
+ DELETE bin_mix_b_q2                             AT LEVEL    19
+ DELETE bin_mix_b_q1                             AT LEVEL    18
+ DELETE bin_pack_super_q4                        AT LEVEL    17
+ DELETE bin_pack_store_q4                        AT LEVEL    16
+ FLIP bin_pack_store_q3                        TO <=         0 AT   15 WITH BND=    360961.69
+ SET bin_pack_super_q3                        TO >=     1 AT   16, BND=  0.3610E+06 TWIN=-0.1000E+31  20615
+ SET bin_pack_store_q4                        TO >=     1 AT   17, BND=  0.3481E+06 TWIN= 0.3353E+06  20625
+ SET bin_mix_b_q3                             TO >=     1 AT   18, BND=  0.3481E+06 TWIN=  1159.      20652
+ SET bin_mix_b_q4                             TO <=     0 AT   19, BND=  0.1326E+06 TWIN= 0.3193E+06  20672
+ DELETE bin_mix_b_q4                             AT LEVEL    19
+ DELETE bin_mix_b_q3                             AT LEVEL    18
+ FLIP bin_pack_store_q4                        TO <=         0 AT   17 WITH BND=    335337.34
+ SET bin_pack_super_q4                        TO >=     1 AT   18, BND=  0.3353E+06 TWIN=-0.1000E+31  20711
+ SET bin_mix_b_q4                             TO <=     0 AT   19, BND=  0.1402E+06 TWIN= 0.3197E+06  20733
+ DELETE bin_mix_b_q4                             AT LEVEL    19
+ DELETE bin_pack_super_q4                        AT LEVEL    18
+ DELETE bin_pack_store_q4                        AT LEVEL    17
+ DELETE bin_pack_super_q3                        AT LEVEL    16
+ DELETE bin_pack_store_q3                        AT LEVEL    15
+ DELETE bin_pack_store_q2                        AT LEVEL    14
+ FLIP bin_pack_store_q1                        TO >=         1 AT   13 WITH BND=    403011.94
+ SET bin_pack_store_q3                        TO >=     1 AT   14, BND=  0.3937E+06 TWIN= 0.3609E+06  20821
+ SET bin_pack_store_q4                        TO >=     1 AT   15, BND=  0.3808E+06 TWIN= 0.3681E+06  20841
+ SET bin_mix_b_q4                             TO >=     1 AT   16, BND=  0.3687E+06 TWIN= 0.1248E+06  20893
+ SET bin_mix_b_q2                             TO >=     1 AT   17, BND=  0.3500E+06 TWIN= 0.2628E+06  20917
+ SET bin_mix_b_q1                             TO >=     1 AT   18, BND=  0.3313E+06 TWIN= 0.1742E+06  20935
+ DELETE bin_mix_b_q1                             AT LEVEL    18
+ DELETE bin_mix_b_q2                             AT LEVEL    17
+ DELETE bin_mix_b_q4                             AT LEVEL    16
+ FLIP bin_pack_store_q4                        TO <=         0 AT   15 WITH BND=    368050.25
+ SET bin_pack_super_q4                        TO >=     1 AT   16, BND=  0.3681E+06 TWIN=-0.1000E+31  20957
+ SET bin_pack_store_q2                        TO <=     0 AT   17, BND=  0.3675E+06 TWIN= 0.3506E+06  20979
+ SET bin_pack_super_q2                        TO >=     1 AT   18, BND=  0.3675E+06 TWIN=-0.1000E+31  20979
+ SET bin_mix_b_q2                             TO >=     1 AT   19, BND=  0.3489E+06 TWIN= 0.2527E+06  20992
+ SET bin_mix_b_q4                             TO <=     0 AT   20, BND=  0.1141E+06 TWIN= 0.3333E+06  21009
+ DELETE bin_mix_b_q4                             AT LEVEL    20
+ DELETE bin_mix_b_q2                             AT LEVEL    19
+ DELETE bin_pack_super_q2                        AT LEVEL    18
+ FLIP bin_pack_store_q2                        TO >=         1 AT   17 WITH BND=    350566.84
+ SET bin_mix_b_q4                             TO <=     0 AT   18, BND=  0.1150E+06 TWIN= 0.3349E+06  21036
+ DELETE bin_mix_b_q4                             AT LEVEL    18
+ DELETE bin_pack_store_q2                        AT LEVEL    17
+ DELETE bin_pack_super_q4                        AT LEVEL    16
+ DELETE bin_pack_store_q4                        AT LEVEL    15
+ FLIP bin_pack_store_q3                        TO <=         0 AT   14 WITH BND=    360915.47
+ SET bin_pack_super_q3                        TO >=     1 AT   15, BND=  0.3609E+06 TWIN=-0.1000E+31  21076
+ SET bin_pack_store_q4                        TO >=     1 AT   16, BND=  0.3480E+06 TWIN= 0.3352E+06  21087
+ SET bin_pack_store_q2                        TO <=     0 AT   17, BND=  0.3454E+06 TWIN= 0.3310E+06  21109
+ SET bin_pack_super_q2                        TO >=     1 AT   18, BND=  0.3454E+06 TWIN=-0.1000E+31  21109
+ SET bin_mix_b_q4                             TO <=     0 AT   19, BND=  0.1308E+06 TWIN= 0.3333E+06  21127
+ DELETE bin_mix_b_q4                             AT LEVEL    19
+ DELETE bin_pack_super_q2                        AT LEVEL    18
+ DELETE bin_pack_store_q2                        AT LEVEL    17
+ FLIP bin_pack_store_q4                        TO <=         0 AT   16 WITH BND=    335233.50
+ SET bin_pack_super_q2                        TO >=     1 AT   17, BND=  0.3352E+06 TWIN=-0.1000E+31  21188
+ SET bin_pack_super_q4                        TO >=     1 AT   18, BND=  0.3352E+06 TWIN=-0.1000E+31  21188
+ SET bin_pack_store_q2                        TO <=     0 AT   19, BND=  0.3294E+06 TWIN= 0.2454E+06  21208
+ DELETE bin_pack_store_q2                        AT LEVEL    19
+ DELETE bin_pack_super_q4                        AT LEVEL    18
+ DELETE bin_pack_super_q2                        AT LEVEL    17
+ DELETE bin_pack_store_q4                        AT LEVEL    16
+ DELETE bin_pack_super_q3                        AT LEVEL    15
+ DELETE bin_pack_store_q3                        AT LEVEL    14
+ DELETE bin_pack_store_q1                        AT LEVEL    13
+ DELETE bin_grind_a_q3                           AT LEVEL    12
+ DELETE bin_grind_a_q2                           AT LEVEL    11
+ DELETE bin_mix_a_q3                             AT LEVEL    10
+ FLIP bin_mix_a_q4                             TO <=         0 AT    9 WITH BND=    346937.66
+ SET bin_mix_a_q3                             TO >=     1 AT   10, BND=  0.3469E+06 TWIN=-0.1000E+31  21298
+ SET bin_pack_store_q2                        TO >=     1 AT   11, BND=  0.3413E+06 TWIN= 0.3371E+06  21315
+ SET bin_pack_store_q3                        TO <=     0 AT   12, BND=  0.2862E+06 TWIN= 0.3320E+06  21325
+ DELETE bin_pack_store_q3                        AT LEVEL    12
+ FLIP bin_pack_store_q2                        TO <=         0 AT   11 WITH BND=    337142.94
+ SET bin_pack_super_q1                        TO >=     1 AT   12, BND=  0.3371E+06 TWIN=-0.1000E+31  21337
+ SET bin_pack_super_q2                        TO >=     1 AT   13, BND=  0.3371E+06 TWIN=-0.1000E+31  21337
+ SET bin_pack_super_q3                        TO >=     1 AT   14, BND=  0.3371E+06 TWIN=-0.1000E+31  21337
+ SET bin_pack_super_q4                        TO >=     1 AT   15, BND=  0.3371E+06 TWIN=-0.1000E+31  21337
+ SET bin_pack_store_q1                        TO <=     0 AT   16, BND=  0.2832E+06 TWIN= 0.2584E+06  21348
+ DELETE bin_pack_store_q1                        AT LEVEL    16
+ DELETE bin_pack_super_q4                        AT LEVEL    15
+ DELETE bin_pack_super_q3                        AT LEVEL    14
+ DELETE bin_pack_super_q2                        AT LEVEL    13
+ DELETE bin_pack_super_q1                        AT LEVEL    12
+ DELETE bin_pack_store_q2                        AT LEVEL    11
+ DELETE bin_mix_a_q3                             AT LEVEL    10
+ DELETE bin_mix_a_q4                             AT LEVEL     9
+ DELETE bin_mix_a_q1                             AT LEVEL     8
+ FLIP bin_grind_b_q3                           TO <=         0 AT    7 WITH BND=    391770.25
+ SET bin_grind_a_q2                           TO >=     1 AT    8, BND=  0.3918E+06 TWIN=-0.1000E+31  21383
+ SET bin_grind_a_q3                           TO >=     1 AT    9, BND=  0.3918E+06 TWIN=-0.1000E+31  21383
+ SET bin_mix_a_q1                             TO >=     1 AT   10, BND=  0.3636E+06 TWIN=-0.1983E+06  21446
+ SET bin_pack_store_q1                        TO <=     0 AT   11, BND=  0.3636E+06 TWIN= 0.3578E+06  21467
+ SET bin_pack_store_q2                        TO >=     1 AT   12, BND=  0.3580E+06 TWIN= 0.3012E+06  21479
+ SET bin_pack_store_q3                        TO >=     1 AT   13, BND=  0.3486E+06 TWIN= 0.3123E+06  21494
+ SET bin_pack_store_q4                        TO >=     1 AT   14, BND=  0.3358E+06 TWIN= 0.3208E+06  21513
+ SET bin_mix_a_q4                             TO <=     0 AT   15, BND=  0.3345E+06 TWIN= 0.3283E+06  21526
+ DELETE bin_mix_a_q4                             AT LEVEL    15
+ DELETE bin_pack_store_q4                        AT LEVEL    14
+ DELETE bin_pack_store_q3                        AT LEVEL    13
+ DELETE bin_pack_store_q2                        AT LEVEL    12
+ FLIP bin_pack_store_q1                        TO >=         1 AT   11 WITH BND=    357788.72
+ SET bin_pack_store_q3                        TO >=     1 AT   12, BND=  0.3485E+06 TWIN= 0.3121E+06  21582
+ SET bin_pack_store_q4                        TO >=     1 AT   13, BND=  0.3356E+06 TWIN= 0.3206E+06  21593
+ SET bin_pack_super_q2                        TO >=     1 AT   14, BND=  0.3356E+06 TWIN=-0.1000E+31  21593
+ SET bin_pack_store_q2                        TO <=     0 AT   15, BND=  0.3258E+06 TWIN= 0.2466E+06  21613
+ DELETE bin_pack_store_q2                        AT LEVEL    15
+ DELETE bin_pack_super_q2                        AT LEVEL    14
+ DELETE bin_pack_store_q4                        AT LEVEL    13
+ DELETE bin_pack_store_q3                        AT LEVEL    12
+ DELETE bin_pack_store_q1                        AT LEVEL    11
+ DELETE bin_mix_a_q1                             AT LEVEL    10
+ DELETE bin_grind_a_q3                           AT LEVEL     9
+ DELETE bin_grind_a_q2                           AT LEVEL     8
+ DELETE bin_grind_b_q3                           AT LEVEL     7
+ FLIP bin_grind_b_q2                           TO <=         0 AT    6 WITH BND=    391770.25
+ SET bin_grind_a_q2                           TO >=     1 AT    7, BND=  0.3918E+06 TWIN=-0.1000E+31  21694
+ SET bin_grind_a_q3                           TO >=     1 AT    8, BND=  0.3918E+06 TWIN=-0.1000E+31  21694
+ SET bin_grind_b_q3                           TO >=     1 AT    9, BND=  0.3918E+06 TWIN=-0.1000E+31  21694
+ SET bin_mix_a_q3                             TO >=     1 AT   10, BND=  0.3918E+06 TWIN= 0.3130E+06  21703
+ SET bin_mix_a_q1                             TO >=     1 AT   11, BND=  0.3636E+06 TWIN=-0.1983E+06  21748
+ SET bin_pack_store_q2                        TO >=     1 AT   12, BND=  0.3580E+06 TWIN= 0.3538E+06  21760
+ SET bin_pack_store_q3                        TO >=     1 AT   13, BND=  0.3486E+06 TWIN= 0.3123E+06  21773
+ SET bin_pack_store_q4                        TO >=     1 AT   14, BND=  0.3358E+06 TWIN= 0.3208E+06  21782
+ SET bin_mix_a_q4                             TO <=     0 AT   15, BND=  0.3345E+06 TWIN= 0.2900E+06  21788
+ DELETE bin_mix_a_q4                             AT LEVEL    15
+ DELETE bin_pack_store_q4                        AT LEVEL    14
+ DELETE bin_pack_store_q3                        AT LEVEL    13
+ FLIP bin_pack_store_q2                        TO <=         0 AT   12 WITH BND=    353756.06
+ SET bin_pack_super_q2                        TO >=     1 AT   13, BND=  0.3538E+06 TWIN=-0.1000E+31  21808
+ SET bin_pack_store_q1                        TO >=     1 AT   14, BND=  0.3480E+06 TWIN= 0.3012E+06  21818
+ SET bin_pack_store_q3                        TO >=     1 AT   15, BND=  0.3387E+06 TWIN= 0.3023E+06  21833
+ SET bin_pack_super_q4                        TO >=     1 AT   16, BND=  0.3387E+06 TWIN=-0.1000E+31  21833
+ SET bin_pack_store_q4                        TO <=     0 AT   17, BND=  0.3108E+06 TWIN= 0.2523E+06  21844
+ DELETE bin_pack_store_q4                        AT LEVEL    17
+ DELETE bin_pack_super_q4                        AT LEVEL    16
+ DELETE bin_pack_store_q3                        AT LEVEL    15
+ DELETE bin_pack_store_q1                        AT LEVEL    14
+ DELETE bin_pack_super_q2                        AT LEVEL    13
+ DELETE bin_pack_store_q2                        AT LEVEL    12
+ DELETE bin_mix_a_q1                             AT LEVEL    11
+ DELETE bin_mix_a_q3                             AT LEVEL    10
+ DELETE bin_grind_b_q3                           AT LEVEL     9
+ DELETE bin_grind_a_q3                           AT LEVEL     8
+ DELETE bin_grind_a_q2                           AT LEVEL     7
+ DELETE bin_grind_b_q2                           AT LEVEL     6
+ DELETE bin_grind_b_q1                           AT LEVEL     5
+ DELETE bin_grind_a_q1                           AT LEVEL     4
+ DELETE bin_clean_q2                             AT LEVEL     3
+ FLIP bin_clean_q4                             TO >=         1 AT    2 WITH BND=    656340.56
+ DELETE bin_clean_q2                             AT LEVEL     3
+ DELETE bin_clean_q4                             AT LEVEL     2
+ DELETE bin_clean_q3                             AT LEVEL     1
+ ENUMERATION COMPLETE. BRANCHES=   518 PIVOTS=   21933
+
+ LAST INTEGER SOLUTION IS THE BEST FOUND
+ RE-INSTALLING BEST SOLUTION...
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      335117.4
+
+  VARIABLE        VALUE          REDUCED COST
+  bin_clean_q1                                     1.000000      63000.000000
+  bin_clean_q2                                     1.000000      63000.000000
+  bin_clean_q3                                     1.000000      63000.000000
+  bin_clean_q4                                     0.000000      63000.000000
+  bin_cook_q1                                      1.000000     105000.000000
+  bin_cook_q2                                      1.000000     105000.000000
+  bin_cook_q3                                      1.000000     105000.000000
+  bin_cook_q4                                      0.000000     105000.000000
+  bin_grind_a_q1                                   1.000000      20060.373047
+  bin_grind_a_q2                                   1.000000      20060.373047
+  bin_grind_a_q3                                   1.000000      20060.373047
+  bin_grind_a_q4                                   0.000000       7501.500000
+  bin_grind_b_q1                                   1.000000      36750.000000
+  bin_grind_b_q2                                   1.000000      36750.000000
+  bin_grind_b_q3                                   1.000000      36750.000000
+  bin_grind_b_q4                                   0.000000      20004.835938
+  bin_mix_a_q1                                     1.000000    -120560.179688
+  bin_mix_a_q2                                     0.000000    -120560.179688
+  bin_mix_a_q3                                     1.000000    -120560.179688
+  bin_mix_a_q4                                     0.000000    -120560.179688
+  bin_mix_b_q1                                     1.000000      52500.000000
+  bin_mix_b_q2                                     1.000000      52500.000000
+  bin_mix_b_q3                                     1.000000      52500.000000
+  bin_mix_b_q4                                     1.000000      52500.000000
+  bin_pack_store_q1                                1.000000    -663816.875000
+  bin_pack_store_q2                                1.000000    -663816.875000
+  bin_pack_store_q3                                1.000000      94500.000000
+  bin_pack_store_q4                                1.000000      94500.000000
+  bin_pack_super_q1                                0.000000    -581107.937500
+  bin_pack_super_q2                                0.000000    -581107.937500
+  bin_pack_super_q3                                0.000000      73500.000000
+  bin_pack_super_q4                                0.000000      73500.000000
+  total_chook                                  33500.000000          0.000000
+  total_chim                                   28934.210938          0.000000
+  total_afia                                   23000.000000          0.000000
+        XX         1.000000          0.000000
+  used_sugar_raw_grind_a_q_1                   12904.509766          0.000000
+  used_coco_raw_grind_a_q_1                     2095.490234          0.000000
+  used_sugar_raw_grind_a_q_2                   14108.500977          0.000000
+  used_coco_raw_grind_a_q_2                      891.499207          0.000000
+  used_sugar_raw_grind_a_q_3                   15000.000000          0.000000
+  used_coco_raw_grind_a_q_3                        0.000000          0.000000
+  used_sugar_raw_grind_a_q_4                       0.000000          0.837258
+  used_coco_raw_grind_a_q_4                        0.000000          0.000000
+  used_coco_raw_grind_b_q_1                    20000.000000          0.000000
+  used_coco_raw_grind_b_q_2                    20000.000000          0.000000
+  used_coco_raw_grind_b_q_3                    17013.009766          0.000000
+  used_coco_raw_grind_b_q_4                        0.000000          0.000000
+  used_coco_grind_a_clean_q_1                      0.000000          0.179480
+  used_sugar_grind_a_clean_q_1                 12259.284180          0.000000
+  used_coco_grind_b_clean_q_1                  20906.896484          0.000000
+  used_coco_grind_a_clean_q_2                      0.000000          0.179480
+  used_sugar_grind_a_clean_q_2                     0.000000          0.000000
+  used_coco_grind_b_clean_q_2                  19811.263672          0.000000
+  used_coco_grind_a_clean_q_3                      0.000000          0.179480
+  used_sugar_grind_a_clean_q_3                 27653.076172          0.000000
+  used_coco_grind_b_clean_q_3                  16162.360352          0.000000
+  used_coco_grind_a_clean_q_4                      0.000000          0.179480
+  used_sugar_grind_a_clean_q_4                     0.000000          0.000000
+  used_coco_grind_b_clean_q_4                      0.000000          0.000000
+  used_sugar_clean_mix_a_q_1                    7194.521484          0.000000
+  used_coco_clean_mix_a_q_1                     7805.478516          0.000000
+  used_sugar_clean_mix_a_q_2                       0.000000          0.000000
+  used_coco_clean_mix_a_q_2                        0.000000          0.000000
+  used_sugar_clean_mix_a_q_3                    1724.397095          0.000000
+  used_coco_clean_mix_a_q_3                    13275.602539          0.000000
+  used_sugar_clean_mix_a_q_4                       0.000000          0.000000
+  used_coco_clean_mix_a_q_4                        0.000000          0.000000
+  used_sugar_clean_mix_b_q_1                    1999.941528          0.000000
+  used_coco_clean_mix_b_q_1                     9158.400391          0.000000
+  used_sugar_clean_mix_b_q_2                       0.000000          0.000000
+  used_coco_clean_mix_b_q_2                    14000.000000          0.000000
+  used_sugar_clean_mix_b_q_3                   14000.000000          0.000000
+  used_coco_clean_mix_b_q_3                        0.000000          0.000000
+  used_sugar_clean_mix_b_q_4                    5015.409668          0.000000
+  used_coco_clean_mix_b_q_4                        0.000000          0.000000
+  used_coco_clean_cook_q_1                      2375.000000          0.000000
+  used_coco_mix_a_cook_q_1                         0.000000         14.017344
+  used_coco_clean_cook_q_2                      3000.000000          0.000000
+  used_coco_mix_a_cook_q_2                         0.000000         14.017344
+  used_coco_clean_cook_q_3                      3000.000000          0.000000
+  used_coco_mix_a_cook_q_3                         0.000000         14.017344
+  used_coco_clean_cook_q_4                         0.000000          0.000000
+  used_coco_mix_a_cook_q_4                         0.000000         14.017344
+  used_sugar_mix_a_pack_super_q_1                  0.000000          0.000001
+  used_coco_mix_a_pack_super_q_1                   0.000000          0.000000
+  used_sugar_mix_b_pack_super_q_1                  0.000000          0.000000
+  used_coco_mix_b_pack_super_q_1                   0.000000          0.000000
+  used_coco_cook_pack_super_q_1                    0.000000         -0.000001
+  used_sugar_mix_a_pack_super_q_2                  0.000000          0.000001
+  used_coco_mix_a_pack_super_q_2                   0.000000          0.000000
+  used_sugar_mix_b_pack_super_q_2                  0.000000          0.000000
+  used_coco_mix_b_pack_super_q_2                   0.000000          0.000000
+  used_coco_cook_pack_super_q_2                    0.000000         -0.000001
+  used_sugar_mix_a_pack_super_q_3                  0.000000          0.200000
+  used_coco_mix_a_pack_super_q_3                   0.000000          0.200000
+  used_sugar_mix_b_pack_super_q_3                  0.000000          0.200000
+  used_coco_mix_b_pack_super_q_3                   0.000000          0.200000
+  used_coco_cook_pack_super_q_3                    0.000000          0.200000
+  used_sugar_mix_a_pack_super_q_4                  0.000000          0.200000
+  used_coco_mix_a_pack_super_q_4                   0.000000          0.200000
+  used_sugar_mix_b_pack_super_q_4                  0.000000          0.200000
+  used_coco_mix_b_pack_super_q_4                   0.000000          0.200000
+  used_coco_cook_pack_super_q_4                    0.000000          0.200000
+  used_sugar_mix_a_pack_store_q_1               2700.000000          0.000000
+  used_coco_mix_a_pack_store_q_1                   0.000000          0.000001
+  used_sugar_mix_b_pack_store_q_1               1881.944946          0.000000
+  used_coco_mix_b_pack_store_q_1                8618.054688          0.000000
+  used_coco_cook_pack_store_q_1                 1800.000000          0.000000
+  used_sugar_mix_a_pack_store_q_2                900.000000          0.000000
+  used_coco_mix_a_pack_store_q_2                1800.000000          0.000000
+  used_sugar_mix_b_pack_store_q_2                  0.000000          0.000000
+  used_coco_mix_b_pack_store_q_2               10500.000000          0.000000
+  used_coco_cook_pack_store_q_2                 1800.000000          0.000000
+  used_sugar_mix_a_pack_store_q_3               2400.000000          0.000000
+  used_coco_mix_a_pack_store_q_3                   0.000000          0.000000
+  used_sugar_mix_b_pack_store_q_3               7766.000000          0.000000
+  used_coco_mix_b_pack_store_q_3                2673.999756          0.000000
+  used_coco_cook_pack_store_q_3                 1600.000000          0.000000
+  used_sugar_mix_a_pack_store_q_4               2250.000000          0.000000
+  used_coco_mix_a_pack_store_q_4                   0.000000          0.000000
+  used_sugar_mix_b_pack_store_q_4              10127.500000          0.000000
+  used_coco_mix_b_pack_store_q_4                   0.000000          0.000000
+  used_coco_cook_pack_store_q_4                 1500.000000          0.000000
+  sold_coco_mix_a_total                        17700.000000          0.000000
+  bought_sugar_mix_b_total                         0.000000         19.154457
+  final_chook_q_1                               9000.000000          0.000000
+  final_chim_q_1                                7888.157715          0.000000
+  final_afia_q_1                                5000.000000          0.000000
+  final_chook_q_2                               9000.000000          0.000000
+  final_chim_q_2                                7046.052734          0.000000
+  final_afia_q_2                                6000.000000          0.000000
+  final_chook_q_3                               8000.000000          0.000000
+  final_chim_q_3                                8000.000000          0.000000
+  final_afia_q_3                                5000.000000          0.000000
+  final_chook_q_4                               7500.000000          0.000000
+  final_chim_q_4                                6000.000000          0.000000
+  final_afia_q_4                                7000.000000          0.000000
+  bought_sugar_mix_b_q_1                           0.000000          0.000000
+  bought_sugar_mix_b_q_2                           0.000000          0.000000
+  bought_sugar_mix_b_q_3                           0.000000          0.000000
+  bought_sugar_mix_b_q_4                           0.000000          0.000000
+  sold_coco_mix_a_q_1                              0.000000          0.000000
+  sold_coco_mix_a_q_2                           5420.067383          0.000000
+  sold_coco_mix_a_q_3                              0.000000          0.000000
+  sold_coco_mix_a_q_4                          12279.932617          0.000000
+  stored_coco_raw_q_1                           2904.509766          0.000000
+  stored_sugar_raw_q_1                         27095.490234          0.000000
+  stored_coco_grind_a_q_1                          0.000000          0.000000
+  stored_coco_grind_b_q_1                          0.000000          0.000000
+  stored_sugar_grind_a_q_1                         0.000000          0.000000
+  stored_coco_clean_q_1                            0.000000          0.000000
+  stored_sugar_clean_q_1                           0.000000          0.000000
+  stored_coco_mix_a_q_1                         7220.067383          0.000000
+  stored_sugar_mix_a_q_1                        3954.932617          0.000000
+  stored_coco_mix_b_q_1                            0.000000          0.000000
+  stored_sugar_mix_b_q_1                           0.000000          0.000000
+  stored_coco_cook_q_1                           100.000000          0.000000
+  stored_coco_raw_q_2                           2013.010498          0.000000
+  stored_sugar_raw_q_2                         47986.988281          0.000000
+  stored_coco_grind_a_q_2                          0.000000          0.000000
+  stored_coco_grind_b_q_2                          0.000000          0.000000
+  stored_sugar_grind_a_q_2                     13403.076172          0.000000
+  stored_coco_clean_q_2                         1325.419678          0.000000
+  stored_sugar_clean_q_2                           0.000000          0.000000
+  stored_coco_mix_a_q_2                            0.000000          0.000000
+  stored_sugar_mix_a_q_2                        3054.932617          0.000000
+  stored_coco_mix_b_q_2                         2673.999756          0.000000
+  stored_sugar_mix_b_q_2                           0.000000          0.000000
+  stored_coco_cook_q_2                           700.000000          0.000000
+  stored_coco_raw_q_3                              0.000000          0.837258
+  stored_sugar_raw_q_3                         62986.988281          0.000000
+  stored_coco_grind_a_q_3                          0.000000          0.000000
+  stored_coco_grind_b_q_3                          0.000000          0.000000
+  stored_sugar_grind_a_q_3                         0.000000          0.000000
+  stored_coco_clean_q_3                            0.000000          0.000000
+  stored_sugar_clean_q_3                        5015.409668          0.000000
+  stored_coco_mix_a_q_3                        12279.932617          0.000000
+  stored_sugar_mix_a_q_3                        2250.000000          0.000000
+  stored_coco_mix_b_q_3                            0.000000          0.000000
+  stored_sugar_mix_b_q_3                        5407.999512          0.000000
+  stored_coco_cook_q_3                          1500.000000          0.000000
+  stored_coco_raw_q_4                          18000.000000          0.000000
+  stored_sugar_raw_q_4                         94986.992188          0.000000
+  stored_coco_grind_a_q_4                          0.000000          3.933956
+  stored_coco_grind_b_q_4                          0.000000          3.933956
+  stored_sugar_grind_a_q_4                         0.000000          2.886991
+  stored_coco_clean_q_4                            0.000000          5.982655
+  stored_sugar_clean_q_4                           0.000000          5.982655
+  stored_coco_mix_a_q_4                            0.000000         20.000000
+  stored_sugar_mix_a_q_4                           0.000000         20.000000
+  stored_coco_mix_b_q_4                            0.000000          7.845542
+  stored_sugar_mix_b_q_4                           0.000000          7.845542
+  stored_coco_cook_q_4                             0.000000         10.728319
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        2)         0.000000         20.917107
+        3)       111.842102          0.000000
+        4)         0.000000         16.320000
+        5)         0.000000         20.917107
+        6)       953.947388          0.000000
+        7)         0.000000         16.320000
+        8)         0.000000         53.524734
+        9)         0.000000         38.421387
+       10)         0.000000         48.674854
+       11)         0.000000         53.524734
+       12)         0.000000         38.421387
+       13)         0.000000         48.674854
+       14)         0.000000   -2718100.000000
+       15)         0.000000         -7.845542
+       16)      2000.000000          0.000000
+       17)         0.000000         20.000000
+       18)  99982296.000000          0.000000
+       19)         0.000000          0.342642
+       20)         0.000000          0.342642
+       21)         0.000000          0.342642
+       22)         0.000000          1.179900
+       23)         0.000000          0.000000
+       24)         0.000000          0.000000
+       25)      2986.989502          0.000000
+       26)         0.000000          0.837258
+       27)  99979096.000000          0.000000
+       28)  99980192.000000          0.000000
+       29)  99983840.000000          0.000000
+       30)         0.000000          0.000000
+       31)     27740.714844          0.000000
+       32)     40000.000000          0.000000
+       33)     12346.923828          0.000000
+       34)         0.000000          0.000000
+       35)         0.000000         11.117345
+       36)         0.000000         11.117345
+       37)         0.000000         11.117345
+       38)         0.000000         11.117345
+       39)      2841.657715          0.000000
+       40)         0.000000          0.000000
+       41)         0.000000          0.000000
+       42)      8984.589844          0.000000
+       43)       625.000000          0.000000
+       44)         0.000000          0.000000
+       45)         0.000000          0.000000
+       46)         0.000000          0.000000
+       47)         0.000000         50.354458
+       48)         0.000000         50.354458
+       49)         0.000000          0.000000
+       50)         0.000000          0.000000
+       51)         0.000000         50.554459
+       52)         0.000000         50.554459
+       53)       560.000000          0.000000
+       54)      1122.500000          0.000000
+       55)         0.000000         45.154457
+       56)         0.000000         45.154457
+       57)         0.000000         17.349506
+       58)         0.000000         17.349506
+       59)      1911.184204          0.000000
+       60)      1995.394775          0.000000
+       61)      1600.000000          0.000000
+       62)      1650.000000          0.000000
+       63)      1950.000000          0.000000
+       64)      1800.000000          0.000000
+       65)      1650.000000          0.000000
+       66)      1200.000000          0.000000
+       67)         0.000000         26.882776
+       68)         0.000000         26.882776
+       69)         0.000000          6.660994
+       70)         0.000000          6.660994
+       71)      1168.947388          0.000000
+       72)      1236.315796          0.000000
+       73)       960.000000          0.000000
+       74)      1020.000000          0.000000
+       75)      1200.000000          0.000000
+       76)      1080.000000          0.000000
+       77)      1000.000000          0.000000
+       78)       660.000000          0.000000
+       79)      3681.944824          0.000000
+       80)         0.000000          0.000000
+       81)      9366.000000          0.000000
+       82)     11627.500000          0.000000
+       83)      4108.655273          0.000000
+       84)       477.236847          0.000000
+       85)      9686.000000          0.000000
+       86)     12017.500000          0.000000
+       87)      4131.944824          0.000000
+       88)       360.000000          0.000000
+       89)      9716.000000          0.000000
+       90)     11747.500000          0.000000
+       91)         0.000000         60.000000
+       92)         0.000000         60.000000
+       93)         0.000000          9.445542
+       94)         0.000000          9.445542
+       95)         0.000000          0.837258
+       96)         0.000000          0.000000
+       97)         0.000000         -3.933956
+       98)         0.000000         -2.886991
+       99)         0.000000         -5.982655
+      100)         0.000000         -5.982655
+      101)         0.000000        -20.000000
+      102)         0.000000        -20.000000
+      103)         0.000000         -7.845542
+      104)         0.000000         -7.845542
+      105)         0.000000        -10.728319
+      106)         0.000000          0.837258
+      107)         0.000000          0.000000
+      108)         0.000000         -3.933956
+      109)         0.000000         -2.886991
+      110)         0.000000         -5.982655
+      111)         0.000000         -5.982655
+      112)         0.000000        -20.000000
+      113)         0.000000        -20.000000
+      114)         0.000000         -7.845542
+      115)         0.000000         -7.845542
+      116)         0.000000        -10.728319
+      117)         0.000000          0.837258
+      118)         0.000000          0.000000
+      119)         0.000000         -3.933956
+      120)         0.000000         -2.886991
+      121)         0.000000         -5.982655
+      122)         0.000000         -5.982655
+      123)         0.000000        -20.000000
+      124)         0.000000        -20.000000
+      125)         0.000000         -7.845542
+      126)         0.000000         -7.845542
+      127)         0.000000        -10.728319
+      128)         0.000000          0.000000
+      129)         0.000000          0.000000
+      130)         0.000000         -3.933956
+      131)         0.000000         -2.886991
+      132)         0.000000         -5.982655
+      133)         0.000000         -5.982655
+      134)         0.000000        -20.000000
+      135)         0.000000        -20.000000
+      136)         0.000000         -7.845542
+      137)         0.000000         -7.845542
+      138)         0.000000        -10.728319
+      139)         0.000000         63.840000
+      140)         0.000000         45.599998
+      141)         0.000000         54.720001
+
+ NO. ITERATIONS=   22073
+ BRANCHES=  518 DETERM.=  1.000E    0
