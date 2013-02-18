@@ -22,26 +22,30 @@ print max
 f_in.close()
 f_out.close()
 
+a = open('./gin.txt').readlines()
+for i in a:
+    print "GIN " + dic[str(i).strip()]
+
+
 with open("./final_code.lindo","w+") as out:
     for line in open("./full_code.lindo","r"):
         for key in dic.keys():
             if key in line:
                 line = line.replace(key,dic[key])
-        print line,
+        #print line,
         out.write(line)
 
 with open("./solve.txt","w+") as out:
     for line in open("./Solve_Lindo.txt","r"):
         for key in dic.keys():
             line = line.replace(dic[key].upper(),'{:<40}'.format(key))
-        print line,
+        #print line,
         out.write(line)
         
 with open("./sense.txt","w+") as out:
     for line in open("./Solve_Lindo_Sense.txt","r"):
         for key in dic.keys():
             line = line.replace(dic[key].upper(),'{:<40}'.format(key))
-        print line,
+        #print line,
         out.write(line)
-
 
