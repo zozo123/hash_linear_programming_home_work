@@ -20,20 +20,13 @@ for line in lines:
 f_in.close()
 f_out.close()
 
-out = open("./final_code.lindo","w+")
-for line in open("./full_code.lindo","r").readlines():
-    for key in dic.keys():
-        if line.count(key) > 0:
-            line = re.sub(key,dic[key],line)
-    print line
-    out.write(line)
-    #print line.replace(str(dic[key]).strip() , key.strip())    
-
-# replace the file
-#with open("out.txt", "wt") as out:
-#    for line in open("Stud.txt"):
-#        out.write(line.replace('A', 'Orange'))
-
+with open("./final_code.lindo","w+") as out:
+    for line in open("./full_code.lindo","r"):
+        for key in dic.keys():
+            if key in line:
+                line = line.replace(key,dic[key])
+        print line,
+        out.write(line)
 
 
 
